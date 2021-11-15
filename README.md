@@ -11,3 +11,12 @@ eureka.client.fetch-registry=false
 # 向注册中心注册自己（因为自身是注册中心，所以不需要进行注册）
 eureka.client.register-with-eureka=false
 ```
+
+```
+# 获取注册信息（默认为true）
+eureka.client.fetch-registry=true
+# 向注册中心注册自己（默认为true）
+eureka.client.register-with-eureka=true
+# 注册中心地址
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+```
