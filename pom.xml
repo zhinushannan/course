@@ -8,6 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>eureka</module>
+        <module>system</module>
     </modules>
     <name>course</name>
     <description>course</description>
