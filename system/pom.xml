@@ -43,6 +43,11 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>club.kwcoder</groupId>
+            <artifactId>server</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

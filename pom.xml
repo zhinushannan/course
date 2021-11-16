@@ -8,9 +8,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>eureka</module>
-        <module>system</module>
         <module>gateway</module>
         <module>server</module>
+        <module>system</module>
     </modules>
     <name>course</name>
     <description>course</description>
@@ -78,6 +78,12 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.20</version>
+            </dependency>
+
+            <dependency>
+                <groupId>club.kwcoder</groupId>
+                <artifactId>server</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
         </dependencies>
