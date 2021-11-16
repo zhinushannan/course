@@ -2,6 +2,7 @@ package club.kwcoder.business.controller.admin;
 
 
 import club.kwcoder.server.dataobject.ChapterDO;
+import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.service.ChapterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,7 +23,7 @@ public class ChapterController {
     private ChapterService chapterService;
 
     @RequestMapping(value = "/chapter")
-    public List<ChapterDO> test() {
+    public List<ChapterDTO> test() {
         return chapterService.list();
     }
 

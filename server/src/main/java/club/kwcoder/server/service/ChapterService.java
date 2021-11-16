@@ -7,10 +7,13 @@ package club.kwcoder.server.service;/**
 import club.kwcoder.server.dataobject.ChapterDO;
 import club.kwcoder.server.dataobject.ChapterDOExample;
 import club.kwcoder.server.dataobject.TestDO;
+import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.mapper.ChapterMapper;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -24,8 +27,19 @@ public class ChapterService {
     @Autowired
     private ChapterMapper chapterMapper;
 
-    public List<ChapterDO> list() {
-        return chapterMapper.selectByExample(new ChapterDOExample());
+    public List<ChapterDTO> list() {
+        ChapterDOExample example = new ChapterDOExample();
+        example.setOrderByClause("id asc");
+        List<ChapterDO> chapterDOS = chapterMapper.selectByExample(example);
+
+        List<ChapterDTO> chapterDTOS = new ArrayList<>();
+        for (ChapterDO chapterDO : chapterDOS) {
+            ChapterDTO chapterDTO = new ChapterDTO();
+            BeanUtils.copyProperties(chapterDO, chapterDTO);
+            chapterDTOS.add(chapterDTO);
+        }
+
+        return chapterDTOS;
     }
 
 }
