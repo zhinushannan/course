@@ -11,6 +11,7 @@
         <module>gateway</module>
         <module>server</module>
         <module>system</module>
+        <module>business</module>
     </modules>
     <name>course</name>
     <description>course</description>
