@@ -1,7 +1,8 @@
-package kwcoder.club.system.dataobject;
+package club.kwcoder.server.dataobject;
+
+import lombok.Data;
 
 import java.io.Serializable;
-import lombok.Data;
 
 /**
  * test

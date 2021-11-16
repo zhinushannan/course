@@ -8,7 +8,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field testMapper in kwcoder.club.system.service.TestService required a bean of type 'kwcoder.club.system.mapper.TestMapper' that could not be found.
+Field testMapper in TestService required a bean of type 'TestMapper' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -16,10 +16,10 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'kwcoder.club.system.mapper.TestMapper' in your configuration.
+Consider defining a bean of type 'TestMapper' in your configuration.
 
-2021-11-16 08:06:03.589 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kwcoder.club.system.mapper.TestMapper.selectByExample] with root cause
-org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kwcoder.club.system.mapper.TestMapper.selectByExample
+2021-11-16 08:06:03.589 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): TestMapper.selectByExample] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): TestMapper.selectByExample
 	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
 	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
 	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
@@ -28,8 +28,8 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
-	at kwcoder.club.system.service.TestService.list(TestService.java:28)
-	at kwcoder.club.system.controller.TestController.test(TestController.java:26)
+	at TestService.list(TestService.java:28)
+	at TestController.test(TestController.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

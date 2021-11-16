@@ -1,4 +1,4 @@
-package kwcoder.club.system.dataobject;
+package club.kwcoder.system.dataobject;
 
 import java.util.ArrayList;
 import java.util.List;

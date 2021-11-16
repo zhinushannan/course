@@ -1,8 +1,8 @@
-package kwcoder.club.system.controller;
+package club.kwcoder.system.controller;
 
 
-import kwcoder.club.system.dataobject.TestDO;
-import kwcoder.club.system.service.TestService;
+import club.kwcoder.system.dataobject.TestDO;
+import club.kwcoder.system.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

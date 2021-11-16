@@ -10,6 +10,7 @@
         <module>eureka</module>
         <module>system</module>
         <module>gateway</module>
+        <module>server</module>
     </modules>
     <name>course</name>
     <description>course</description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="club.kwcoder.system.mapper.TestMapper">
-  <resultMap id="BaseResultMap" type="club.kwcoder.system.dataobject.TestDO">
+<mapper namespace="club.kwcoder.server.mapper.TestMapper">
+  <resultMap id="BaseResultMap" type="club.kwcoder.server.dataobject.TestDO">
     <id column="id" jdbcType="VARCHAR" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
   </resultMap>
@@ -66,7 +66,7 @@
   <sql id="Base_Column_List">
     id, `name`
   </sql>
-  <select id="selectByExample" parameterType="club.kwcoder.system.dataobject.TestDOExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="club.kwcoder.server.dataobject.TestDOExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -81,7 +81,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
-    select 
+    select
     <include refid="Base_Column_List" />
     from test
     where id = #{id,jdbcType=VARCHAR}
@@ -90,17 +90,17 @@
     delete from test
     where id = #{id,jdbcType=VARCHAR}
   </delete>
-  <delete id="deleteByExample" parameterType="club.kwcoder.system.dataobject.TestDOExample">
+  <delete id="deleteByExample" parameterType="club.kwcoder.server.dataobject.TestDOExample">
     delete from test
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.system.dataobject.TestDO" useGeneratedKeys="true">
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.TestDO" useGeneratedKeys="true">
     insert into test (`name`)
     values (#{name,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.system.dataobject.TestDO" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.TestDO" useGeneratedKeys="true">
     insert into test
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="name != null">
@@ -113,7 +113,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="club.kwcoder.system.dataobject.TestDOExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="club.kwcoder.server.dataobject.TestDOExample" resultType="java.lang.Long">
     select count(*) from test
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -136,12 +136,12 @@
   <update id="updateByExample" parameterType="map">
     update test
     set id = #{record.id,jdbcType=VARCHAR},
-      `name` = #{record.name,jdbcType=VARCHAR}
+    `name` = #{record.name,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="club.kwcoder.system.dataobject.TestDO">
+  <update id="updateByPrimaryKeySelective" parameterType="club.kwcoder.server.dataobject.TestDO">
     update test
     <set>
       <if test="name != null">
@@ -150,7 +150,7 @@
     </set>
     where id = #{id,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="club.kwcoder.system.dataobject.TestDO">
+  <update id="updateByPrimaryKey" parameterType="club.kwcoder.server.dataobject.TestDO">
     update test
     set `name` = #{name,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}

@@ -1,10 +1,11 @@
-package kwcoder.club.system.mapper;
+package club.kwcoder.server.mapper;
 
-import java.util.List;
-import kwcoder.club.system.dataobject.TestDO;
-import kwcoder.club.system.dataobject.TestDOExample;
+import club.kwcoder.server.dataobject.TestDO;
+import club.kwcoder.server.dataobject.TestDOExample;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 @Mapper
 public interface TestMapper {
