@@ -97,6 +97,10 @@ export default {
     login() {
       this.$router.push("/admin")
     }
+  },
+  mounted() {
+    $('body').remove('class', 'no-skin');
+    $('body').attr('class', 'login-layout light-login');
   }
 }
 </script>

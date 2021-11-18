@@ -983,12 +983,12 @@
 </template>
 
 <script>
-$('body').remove('class', 'login-layout light-login');
-$('body').attr('class', 'no-skin');
-
-
 export default {
-  name: "admin"
+  name: "admin",
+  mounted() {
+    $('body').remove('class', 'login-layout light-login');
+    $('body').attr('class', 'no-skin');
+  }
 }
 </script>
 
