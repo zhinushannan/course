@@ -503,6 +503,16 @@ export default {
   mounted() {
     $('body').remove('class', 'login-layout light-login');
     $('body').attr('class', 'no-skin');
+  },
+  watch: {
+    $route: {
+      handler(val, oldVal) {
+        let _this = this
+        _this.$nextTick(function () {
+          _this.activeSideBar(_this.$route.name.replace("/", "-") + "-sidebar")
+        })
+      }
+    }
   }
 }
 </script>

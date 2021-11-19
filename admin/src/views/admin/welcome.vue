@@ -13,7 +13,6 @@
 export default {
   name: "welcome",
   mounted() {
-    this.$parent.activeSideBar("welcome-sidebar")
   }
 }
 </script>
