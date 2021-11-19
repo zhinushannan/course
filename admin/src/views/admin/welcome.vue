@@ -2,7 +2,8 @@
 
   <div>
 
-    welcome
+    <h1>welcome</h1>
+
 
   </div>
 
@@ -10,7 +11,10 @@
 
 <script>
 export default {
-  name: "welcome"
+  name: "welcome",
+  mounted() {
+    this.$parent.activeSideBar("welcome-sidebar")
+  }
 }
 </script>
 

@@ -358,7 +358,7 @@
         </div><!-- /.sidebar-shortcuts -->
 
         <ul class="nav nav-list">
-          <li class="">
+          <li class="" id="welcome-sidebar">
             <router-link to="/admin/welcome">
               <i class="menu-icon fa fa-tachometer"></i>
               <span class="menu-text"> 欢迎 </span>
@@ -368,7 +368,7 @@
           </li>
 
 
-          <li class="active open">
+          <li class="">
             <a href="#" class="dropdown-toggle">
               <i class="menu-icon fa fa-list"></i>
               <span class="menu-text"> 系统管理 </span>
@@ -396,6 +396,29 @@
 
                 <b class="arrow"></b>
               </li>
+            </ul>
+          </li>
+
+          <li class="active open">
+            <a href="#" class="dropdown-toggle">
+              <i class="menu-icon fa fa-list"></i>
+              <span class="menu-text"> 业务管理 </span>
+
+              <b class="arrow fa fa-angle-down"></b>
+            </a>
+
+            <b class="arrow"></b>
+
+            <ul class="submenu">
+              <li class="active" id="business-chapter-sidebar">
+                <router-link to="/admin/business/chapter">
+                  <i class="menu-icon fa fa-caret-right"></i>
+                  大章管理
+                </router-link>
+
+                <b class="arrow"></b>
+              </li>
+
             </ul>
           </li>
 
@@ -462,6 +485,21 @@
 <script>
 export default {
   name: "admin",
+  methods: {
+    activeSideBar(id) {
+      // 兄弟菜单去掉active样式，自身增加active样式
+      $("#" + id).siblings().removeClass("active")
+      $("#" + id).siblings().find("li").removeClass("active")
+      $("#" + id).addClass("active")
+
+      // 如果有父级菜单，父级菜单的兄弟菜单要去掉open active，父级菜单增加open active
+      let parentLi = $("#" + id).parents("li")
+      if (parentLi) {
+        parentLi.siblings().removeClass("open active")
+        parentLi.addClass("open active")
+      }
+    }
+  },
   mounted() {
     $('body').remove('class', 'login-layout light-login');
     $('body').attr('class', 'no-skin');
