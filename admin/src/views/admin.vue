@@ -15,12 +15,12 @@
         </button>
 
         <div class="navbar-header pull-left">
-          <a href="index.html" class="navbar-brand">
+          <router-link to="/welcome" class="navbar-brand">
             <small>
               <i class="fa fa-leaf"></i>
               在线视频课程
             </small>
-          </a>
+          </router-link>
         </div>
 
         <div class="navbar-buttons navbar-header pull-right" role="navigation">
