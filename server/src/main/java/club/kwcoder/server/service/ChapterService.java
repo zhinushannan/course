@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * @author: zhinushannan
@@ -47,6 +48,13 @@ public class ChapterService {
         }
 
         pageDTO.setData(chapterDTOS);
+    }
+
+    public void save(ChapterDTO chapterDTO) {
+        ChapterDO chapterDO = new ChapterDO();
+        BeanUtils.copyProperties(chapterDTO, chapterDO);
+        chapterDO.setId(UUID.randomUUID().toString().split("-")[0]);
+        chapterMapper.insert(chapterDO);
     }
 
 }

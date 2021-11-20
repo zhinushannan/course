@@ -137,3 +137,5 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
 2021-11-20 14:29:07.398 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637389747398, current=DOWN, previous=UP]
 2021-11-20 14:30:29.285 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637389829285, current=DOWN, previous=UP]
+2021-11-20 16:49:50.828 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637398190828, current=DOWN, previous=UP]
+2021-11-20 16:50:44.958 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637398244958, current=DOWN, previous=UP]

@@ -104,20 +104,20 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label">名称</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" placeholder="名称">
+                  <input type="text" class="form-control" placeholder="名称" v-model="chapter.name">
                 </div>
               </div>
               <div class="form-group">
                 <label class="col-sm-2 control-label">课程ID</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" placeholder="课程ID">
+                  <input type="text" class="form-control" placeholder="课程ID" v-model="chapter.courseId">
                 </div>
               </div>
             </form>
           </div>
           <div class="modal-footer">
             <button class="btn btn-default" data-dismiss="modal" type="button">取消</button>
-            <button class="btn btn-primary" type="button">保存</button>
+            <button class="btn btn-primary" type="button" @click="save()">保存</button>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -135,7 +135,8 @@ export default {
   name: "chapter",
   data() {
     return {
-      chapters: []
+      chapters: [],
+      chapter: {}
     }
   },
   mounted() {
@@ -158,6 +159,12 @@ export default {
         _this.chapters = response.data.data
         _this.$refs.pagination.render(page, response.data.total)
         console.log(_this.chapters)
+      })
+    },
+    save() {
+      let _this = this
+      _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/save', _this.chapter).then((response) => {
+        console.log(response)
       })
     }
   }
