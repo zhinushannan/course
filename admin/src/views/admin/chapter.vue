@@ -1,6 +1,13 @@
 <template>
 
-  <table id="simple-table" class="table  table-bordered table-hover">
+  <div>
+    <p>
+      <button class="btn btn-white btn-default btn-round" @click="list()">
+        <i class="ace-icon fa fa-refresh"></i>
+        刷新
+      </button>
+    </p>
+    <table id="simple-table" class="table  table-bordered table-hover">
     <thead>
     <tr>
       <th>ID</th>
@@ -75,7 +82,7 @@
 
     </tbody>
   </table>
-
+  </div>
 </template>
 
 <script>
