@@ -9,6 +9,7 @@ import club.kwcoder.server.dataobject.ChapterDOExample;
 import club.kwcoder.server.dataobject.TestDO;
 import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.mapper.ChapterMapper;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,6 +29,7 @@ public class ChapterService {
     private ChapterMapper chapterMapper;
 
     public List<ChapterDTO> list() {
+        PageHelper.startPage(1, 1);
         ChapterDOExample example = new ChapterDOExample();
         example.setOrderByClause("id asc");
         List<ChapterDO> chapterDOS = chapterMapper.selectByExample(example);
