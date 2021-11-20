@@ -2,6 +2,11 @@
 
   <div>
     <p>
+      <button class="btn btn-white btn-default btn-round" @click="add()">
+        <i class="ace-icon fa fa-edit"></i>
+        新增
+      </button>
+      &nbsp;
       <button class="btn btn-white btn-default btn-round" @click="list(1)">
         <i class="ace-icon fa fa-refresh"></i>
         刷新
@@ -84,7 +89,40 @@
     </tr>
 
     </tbody>
-  </table>
+    </table>
+
+    <div class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span
+                aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">表单</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 control-label">名称</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="名称">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">课程ID</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="课程ID">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" type="button">取消</button>
+            <button class="btn btn-primary" type="button">保存</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
   </div>
 </template>
 
@@ -106,6 +144,11 @@ export default {
     _this.list(1)
   },
   methods: {
+    add() {
+      let _this = this
+      $(".modal").modal("show")
+
+    },
     list(page) {
       let _this = this
       _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/list', {
