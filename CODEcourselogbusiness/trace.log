@@ -1954,3 +1954,8 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-11-20 14:35:17.300 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
 2021-11-20 14:35:17.320 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-5 - Starting...
 2021-11-20 14:35:17.342 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-5 - Start completed.
+2021-11-20 14:40:12.685 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-11-20 14:45:12.701 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-11-20 14:50:12.706 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-11-20 14:55:12.721 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-11-20 15:00:12.727 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

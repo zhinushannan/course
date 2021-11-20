@@ -2,11 +2,14 @@
 
   <div>
     <p>
-      <button class="btn btn-white btn-default btn-round" @click="list()">
+      <button class="btn btn-white btn-default btn-round" @click="list(1)">
         <i class="ace-icon fa fa-refresh"></i>
         刷新
       </button>
     </p>
+
+    <Pagination ref="pagination" v-bind:list="list" v-bind:itemCount="8"/>
+
     <table id="simple-table" class="table  table-bordered table-hover">
     <thead>
     <tr>
@@ -86,7 +89,11 @@
 </template>
 
 <script>
+import Pagination from "@/components/pagination";
+
 export default {
+  components: {Pagination},
+  comments: { Pagination },
   name: "chapter",
   data() {
     return {
@@ -95,16 +102,18 @@ export default {
   },
   mounted() {
     let _this = this
-    _this.list()
+    _this.$refs.pagination.size = 5
+    _this.list(1)
   },
   methods: {
-    list() {
+    list(page) {
       let _this = this
       _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/list', {
-        page: 1,
-        size: 10
+        page: page,
+        size: _this.$refs.pagination.size
       }).then((response) => {
         _this.chapters = response.data.data
+        _this.$refs.pagination.render(page, response.data.total)
         console.log(_this.chapters)
       })
     }
