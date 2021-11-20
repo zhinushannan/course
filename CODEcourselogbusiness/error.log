@@ -219,3 +219,4 @@ java.sql.SQLException: Field 'id' doesn't have a default value
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2021-11-20 16:50:45.110 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637398245110, current=DOWN, previous=UP]
+2021-11-20 20:38:05.409 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637411885409, current=DOWN, previous=UP]

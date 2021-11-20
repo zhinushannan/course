@@ -3,6 +3,7 @@ package club.kwcoder.business.controller.admin;
 
 import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.dto.PageDTO;
+import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.service.ChapterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,15 +25,15 @@ public class ChapterController {
     private ChapterService chapterService;
 
     @RequestMapping(value = "/list", method = RequestMethod.POST)
-    public PageDTO<ChapterDTO> test(@RequestBody PageDTO<ChapterDTO> pageDTO) {
+    public ResultBean<PageDTO<ChapterDTO>> test(@RequestBody PageDTO<ChapterDTO> pageDTO) {
         chapterService.list(pageDTO);
-        return pageDTO;
+        return ResultBean.getSuccess("查询成功！", pageDTO);
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public ChapterDTO save(@RequestBody ChapterDTO chapterDTO) {
+    public ResultBean<ChapterDTO> save(@RequestBody ChapterDTO chapterDTO) {
         chapterService.save(chapterDTO);
-        return chapterDTO;
+        return ResultBean.getSuccess("新增成功！", chapterDTO);
     }
 
 }
