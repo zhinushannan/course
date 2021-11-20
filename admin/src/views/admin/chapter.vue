@@ -93,8 +93,11 @@ export default {
   methods: {
     list() {
       let _this = this
-      _this.$ajax.get('http://127.0.0.1:9000/business/admin/chapter/list').then((response) => {
-        _this.chapters = response.data
+      _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/list', {
+        page: 1,
+        size: 10
+      }).then((response) => {
+        _this.chapters = response.data.data
         console.log(_this.chapters)
       })
     }
