@@ -13,6 +13,10 @@
 export default {
   name: "welcome",
   mounted() {
+
+  },
+  methods: {
+
   }
 }
 </script>
