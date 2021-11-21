@@ -732,3 +732,4 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '00000002' fo
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2021-11-21 09:31:12.154 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637458272154, current=DOWN, previous=UP]
+2021-11-21 09:40:39.404 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637458839404, current=DOWN, previous=UP]
