@@ -24,8 +24,10 @@ public class ChapterController {
     @Autowired
     private ChapterService chapterService;
 
+    public static final String BUSINESS_NAME = "大章";
+
     @RequestMapping(value = "/list", method = RequestMethod.POST)
-    public ResultBean<PageDTO<ChapterDTO>> test(@RequestBody PageDTO<ChapterDTO> pageDTO) {
+    public ResultBean<PageDTO<ChapterDTO>> list(@RequestBody PageDTO<ChapterDTO> pageDTO) {
         chapterService.list(pageDTO);
         return ResultBean.getSuccess("查询成功！", pageDTO);
     }
