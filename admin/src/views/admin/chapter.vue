@@ -163,7 +163,6 @@ export default {
         let page = response.data
         _this.chapters = page.data.data
         _this.$refs.pagination.render(page, page.data.total)
-        console.log(_this.chapters)
       })
       Loading.hide()
     },
@@ -178,7 +177,6 @@ export default {
 
       Loading.show()
       _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/save', _this.chapter).then((response) => {
-        console.log(response)
         let resp = response.data
         if (resp.success) {
           $("#form-modal").modal("hide")
