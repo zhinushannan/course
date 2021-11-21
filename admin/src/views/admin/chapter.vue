@@ -151,6 +151,7 @@ export default {
         confirmButtonText: '确认！'
       }).then((result) => {
         if (result.isConfirmed) {
+          Loading.show()
           _this.$ajax.delete('http://127.0.0.1:9000/business/admin/chapter/delete/' + id).then((response) => {
             let resp = response.data
             if (resp.success) {
@@ -159,10 +160,11 @@ export default {
             }
           })
         }})
-
+      Loading.hide()
     },
     list(page) {
       let _this = this
+      Loading.show()
       _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/list', {
         page: page,
         size: _this.$refs.pagination.size
@@ -172,9 +174,11 @@ export default {
         _this.$refs.pagination.render(page, page.data.total)
         console.log(_this.chapters)
       })
+      Loading.hide()
     },
     save() {
       let _this = this
+      Loading.show()
       _this.$ajax.post('http://127.0.0.1:9000/business/admin/chapter/save', _this.chapter).then((response) => {
         console.log(response)
         let resp = response.data
@@ -184,6 +188,7 @@ export default {
           toast.success("保存成功！")
         }
       })
+      Loading.hide()
     }
   }
 }
