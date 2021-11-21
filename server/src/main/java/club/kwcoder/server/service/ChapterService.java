@@ -10,8 +10,10 @@ import club.kwcoder.server.dataobject.TestDO;
 import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.mapper.ChapterMapper;
+import club.kwcoder.server.utils.CopyUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -51,10 +53,21 @@ public class ChapterService {
     }
 
     public void save(ChapterDTO chapterDTO) {
-        ChapterDO chapterDO = new ChapterDO();
-        BeanUtils.copyProperties(chapterDTO, chapterDO);
+        ChapterDO chapterDO = CopyUtil.copy(chapterDTO, ChapterDO.class);
+        if (StringUtils.isBlank(chapterDTO.getId())) {
+            this.insert(chapterDO);
+        } else {
+            this.update(chapterDO);
+        }
+    }
+
+    private void insert(ChapterDO chapterDO) {
         chapterDO.setId(UUID.randomUUID().toString().split("-")[0]);
         chapterMapper.insert(chapterDO);
+    }
+
+    private void update(ChapterDO chapterDO) {
+        chapterMapper.updateByPrimaryKey(chapterDO);
     }
 
 }
