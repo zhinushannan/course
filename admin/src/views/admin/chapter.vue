@@ -39,7 +39,7 @@
           </button>
 
           <button class="btn btn-xs btn-danger">
-            <i class="ace-icon fa fa-trash-o bigger-120"></i>
+            <i class="ace-icon fa fa-trash-o bigger-120" @click="del(chapter.id)"></i>
           </button>
 
         </div>
@@ -60,7 +60,7 @@
               </li>
 
               <li>
-                <a class="tooltip-error" data-rel="tooltip" href="#" title="Delete">
+                <a class="tooltip-error" data-rel="tooltip" href="#" title="Delete" @click="del(chapter.id)">
 																			<span class="red">
 																				<i class="ace-icon fa fa-trash-o bigger-120"></i>
 																			</span>
@@ -133,13 +133,20 @@ export default {
       let _this = this
       _this.chapter = {}
       $("#form-modal").modal("show")
-
     },
     edit(chapter) {
       let _this = this
       _this.chapter = $.extend({}, chapter)
       $("#form-modal").modal("show")
-
+    },
+    del(id) {
+      let _this = this
+      _this.$ajax.delete('http://127.0.0.1:9000/business/admin/chapter/delete/' + id).then((response) => {
+        let resp = response.data
+        if (resp.success) {
+          _this.list(1)
+        }
+      })
     },
     list(page) {
       let _this = this

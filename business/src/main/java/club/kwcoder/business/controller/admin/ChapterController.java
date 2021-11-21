@@ -5,11 +5,9 @@ import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.service.ChapterService;
+import org.checkerframework.checker.units.qual.C;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 /**
@@ -34,6 +32,12 @@ public class ChapterController {
     public ResultBean<ChapterDTO> save(@RequestBody ChapterDTO chapterDTO) {
         chapterService.save(chapterDTO);
         return ResultBean.getSuccess("新增成功！", chapterDTO);
+    }
+
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+    public ResultBean<String> delete(@PathVariable String id) {
+        chapterService.delete(id);
+        return ResultBean.getSuccess("删除成功！", "删除成功！");
     }
 
 }
