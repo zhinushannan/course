@@ -1,4 +1,4 @@
-package club.kwcoder.server.utils;
+package club.kwcoder.server.util;
 
 import club.kwcoder.server.exception.ValidatorException;
 import org.springframework.util.StringUtils;

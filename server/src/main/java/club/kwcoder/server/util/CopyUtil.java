@@ -1,4 +1,4 @@
-package club.kwcoder.server.utils;
+package club.kwcoder.server.util;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.util.CollectionUtils;

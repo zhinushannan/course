@@ -4,10 +4,8 @@ package club.kwcoder.business.controller.admin;
 import club.kwcoder.server.dto.ChapterDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.dto.ResultBean;
-import club.kwcoder.server.exception.ValidatorException;
 import club.kwcoder.server.service.ChapterService;
-import club.kwcoder.server.utils.ValidatorUtil;
-import org.checkerframework.checker.units.qual.C;
+import club.kwcoder.server.util.ValidatorUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
