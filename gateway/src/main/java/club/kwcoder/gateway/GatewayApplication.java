@@ -26,7 +26,7 @@ public class GatewayApplication {
         Environment env = app.run(args).getEnvironment();
 
         LOG.info("启动成功！！！");
-        LOG.info("System地址：\thttp://127.0.0.1:{}", env.getProperty("server.port"));
+        LOG.info("Gateway地址：\thttp://127.0.0.1:{}", env.getProperty("server.port"));
 
     }
 
