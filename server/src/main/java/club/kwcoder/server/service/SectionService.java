@@ -25,7 +25,7 @@ public class SectionService {
     /**
      * 列表查询
      */
-    public void list(PageDTO pageDto) {
+    public void list(PageDTO<SectionDTO> pageDto) {
         PageHelper.startPage(pageDto.getPage(), pageDto.getSize());
         SectionDOExample sectionExample = new SectionDOExample();
         sectionExample.setOrderByClause("sort asc");

@@ -25,36 +25,31 @@ public class SectionController {
      * 列表查询
      */
     @PostMapping("/list")
-    public ResultBean list(@RequestBody PageDTO pageDto) {
-        ResultBean resultBean = new ResultBean();
+    public ResultBean<PageDTO<SectionDTO>> list(@RequestBody PageDTO<SectionDTO> pageDto) {
         sectionService.list(pageDto);
-        resultBean.setData(pageDto);
-        return resultBean;
+        return ResultBean.getSuccess("查询成功", pageDto);
     }
 
     /**
      * 保存，id有值时更新，无值时新增
      */
     @PostMapping("/save")
-    public ResultBean save(@RequestBody SectionDTO sectionDto) {
+    public ResultBean<SectionDTO> save(@RequestBody SectionDTO sectionDto) {
         // 保存校验
         ValidatorUtil.require(sectionDto.getTitle(), "标题");
         ValidatorUtil.length(sectionDto.getTitle(), "标题", 1, 50);
         ValidatorUtil.length(sectionDto.getVideo(), "视频", 1, 200);
 
-        ResultBean resultBean = new ResultBean();
         sectionService.save(sectionDto);
-        resultBean.setData(sectionDto);
-        return resultBean;
+        return ResultBean.getSuccess("保存成功", sectionDto);
     }
 
     /**
      * 删除
      */
     @DeleteMapping("/delete/{id}")
-    public ResultBean delete(@PathVariable String id) {
-        ResultBean resultBean = new ResultBean();
+    public ResultBean<String> delete(@PathVariable String id) {
         sectionService.delete(id);
-        return resultBean;
+        return ResultBean.getSuccess("删除成功", null);
     }
 }
