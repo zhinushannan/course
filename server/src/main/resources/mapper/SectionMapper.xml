@@ -106,12 +106,12 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.SectionDO" useGeneratedKeys="true">
-    insert into section (title, course_id, chapter_id, 
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.SectionDO">
+    insert into section (id, title, course_id, chapter_id,
       video, `time`, charge, sort, 
       created_at, updated_at, vod
       )
-    values (#{title,jdbcType=VARCHAR}, #{courseId,jdbcType=CHAR}, #{chapterId,jdbcType=CHAR}, 
+    values (#{id,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, #{courseId,jdbcType=CHAR}, #{chapterId,jdbcType=CHAR},
       #{video,jdbcType=VARCHAR}, #{time,jdbcType=INTEGER}, #{charge,jdbcType=CHAR}, #{sort,jdbcType=INTEGER}, 
       #{createdAt,jdbcType=TIMESTAMP}, #{updatedAt,jdbcType=TIMESTAMP}, #{vod,jdbcType=CHAR}
       )
