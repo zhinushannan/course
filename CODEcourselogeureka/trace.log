@@ -158,3 +158,6 @@
 2021-12-13 11:42:22.902 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
 2021-12-13 11:43:22.912 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 10ms
 2021-12-13 11:44:22.918 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-12-13 11:45:22.397 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2021-12-13 11:45:22.928 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 10ms
+2021-12-13 11:46:22.937 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 8ms
