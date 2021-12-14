@@ -609,3 +609,6 @@ java.lang.RuntimeException: 实物测试
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2021-12-14 19:32:31.650 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639481551650, current=DOWN, previous=UP]
+2021-12-14 19:44:07.508 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639482247508, current=DOWN, previous=UP]
+2021-12-14 22:12:45.111 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639491165111, current=DOWN, previous=UP]
+2021-12-14 22:14:01.240 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639491241240, current=DOWN, previous=UP]
