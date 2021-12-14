@@ -2,26 +2,22 @@ package club.kwcoder.server.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 /**
  * @author: zhinushannan
- * @create: 2021/11/20  14:17
+ * @create: 2021/12/14  14:16
  * @description:
  */
+@EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PageDTO<T> {
+public class ChapterPageDTO extends PageDTO<ChapterDTO> {
 
-    protected int page;
-
-    protected int size;
-
-    protected long total;
-
-    protected List<T> data;
+    private String courseId;
 
 }

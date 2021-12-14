@@ -7,6 +7,7 @@ package club.kwcoder.server.service;/**
 import club.kwcoder.server.dataobject.ChapterDO;
 import club.kwcoder.server.dataobject.ChapterDOExample;
 import club.kwcoder.server.dto.ChapterDTO;
+import club.kwcoder.server.dto.ChapterPageDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.mapper.ChapterMapper;
 import club.kwcoder.server.util.CopyUtil;
@@ -32,9 +33,15 @@ public class ChapterService {
     @Autowired
     private ChapterMapper chapterMapper;
 
-    public void list(PageDTO<ChapterDTO> pageDTO) {
+    public void list(ChapterPageDTO pageDTO) {
         PageHelper.startPage(pageDTO.getPage(), pageDTO.getSize());
         ChapterDOExample example = new ChapterDOExample();
+        ChapterDOExample.Criteria criteria = example.createCriteria();
+
+        if (StringUtils.isNotBlank(pageDTO.getCourseId())) {
+            criteria.andCourseIdEqualTo(pageDTO.getCourseId());
+        }
+
         example.setOrderByClause("id asc");
         List<ChapterDO> chapterDOS = chapterMapper.selectByExample(example);
 

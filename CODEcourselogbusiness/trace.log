@@ -2708,3 +2708,350 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 's
 2021-12-14 14:11:25.774 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4f9bdd39[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
 2021-12-14 14:11:25.777 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4f9bdd39[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
 2021-12-14 14:11:25.777 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4f9bdd39[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-14 14:12:16.058 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 14:14:38.211 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcfe387be[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:14:38.211 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcfe387be[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:14:38.212 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcfe387be[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:14:38.212 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcfe387be[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:14:38.212 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcfe387be[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:14:38.220 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcfe387be[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 14:14:38.221 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcfe387be[0;39m ------------- 结束 耗时：10 ms -------------
+2021-12-14 14:14:58.961 INFO  club.kwcoder.server.config.LogAspect              :85   [32m32b68166[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:14:58.961 INFO  club.kwcoder.server.config.LogAspect              :86   [32m32b68166[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:14:58.962 INFO  club.kwcoder.server.config.LogAspect              :87   [32m32b68166[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:14:58.962 INFO  club.kwcoder.server.config.LogAspect              :88   [32m32b68166[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:14:58.962 INFO  club.kwcoder.server.config.LogAspect              :106  [32m32b68166[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:14:58.965 INFO  club.kwcoder.server.config.LogAspect              :118  [32m32b68166[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 14:14:58.965 INFO  club.kwcoder.server.config.LogAspect              :119  [32m32b68166[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-14 14:15:00.429 INFO  club.kwcoder.server.config.LogAspect              :85   [32m4eb5809a[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:15:00.429 INFO  club.kwcoder.server.config.LogAspect              :86   [32m4eb5809a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:15:00.430 INFO  club.kwcoder.server.config.LogAspect              :87   [32m4eb5809a[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:15:00.430 INFO  club.kwcoder.server.config.LogAspect              :88   [32m4eb5809a[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:15:00.430 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4eb5809a[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:15:00.432 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4eb5809a[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 14:15:00.432 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4eb5809a[0;39m ------------- 结束 耗时：3 ms -------------
+2021-12-14 14:15:01.789 INFO  club.kwcoder.server.config.LogAspect              :85   [32m06c0f96d[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:15:01.790 INFO  club.kwcoder.server.config.LogAspect              :86   [32m06c0f96d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:15:01.790 INFO  club.kwcoder.server.config.LogAspect              :87   [32m06c0f96d[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:15:01.790 INFO  club.kwcoder.server.config.LogAspect              :88   [32m06c0f96d[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:15:01.790 INFO  club.kwcoder.server.config.LogAspect              :106  [32m06c0f96d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:15:01.793 INFO  club.kwcoder.server.config.LogAspect              :118  [32m06c0f96d[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 14:15:01.793 INFO  club.kwcoder.server.config.LogAspect              :119  [32m06c0f96d[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-14 14:15:21.175 INFO  club.kwcoder.server.config.LogAspect              :85   [32m877e4f96[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:15:21.175 INFO  club.kwcoder.server.config.LogAspect              :86   [32m877e4f96[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:15:21.175 INFO  club.kwcoder.server.config.LogAspect              :87   [32m877e4f96[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:15:21.175 INFO  club.kwcoder.server.config.LogAspect              :88   [32m877e4f96[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:15:21.176 INFO  club.kwcoder.server.config.LogAspect              :106  [32m877e4f96[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:15:21.178 INFO  club.kwcoder.server.config.LogAspect              :118  [32m877e4f96[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 14:15:21.179 INFO  club.kwcoder.server.config.LogAspect              :119  [32m877e4f96[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-14 14:15:31.310 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8b09e00c[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:15:31.310 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8b09e00c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:15:31.310 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8b09e00c[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:15:31.311 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8b09e00c[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:15:31.311 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8b09e00c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:15:31.314 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8b09e00c[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 14:15:31.314 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8b09e00c[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-14 14:17:16.068 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 14:22:01.522 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-14 14:22:01.523 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639462921523, current=DOWN, previous=UP]
+2021-12-14 14:22:01.524 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 14:22:01.533 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 14:22:01.950 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-14 14:22:01.953 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-12-14 14:22:01.962 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-12-14 14:22:01.963 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-14 14:22:04.971 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-14 14:22:04.989 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-14 14:22:04.999 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-14 14:22:06.193 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-14 14:22:06.425 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f1bbd9ec-5c94-32ff-8e1f-2dde2ffd4ff1
+2021-12-14 14:22:06.545 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-14 14:22:06.546 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-14 14:22:06.546 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-14 14:22:06.546 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-14 14:22:06.560 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-14 14:22:06.561 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 366 ms
+2021-12-14 14:22:06.663 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-14 14:22:06.664 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-14 14:22:06.754 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-14 14:22:06.914 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-14 14:22:07.377 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-14 14:22:07.812 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-14 14:22:07.852 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-14 14:22:07.853 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-14 14:22:07.856 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-14 14:22:07.856 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-14 14:22:07.856 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-14 14:22:07.857 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-14 14:22:07.903 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-14 14:22:07.904 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-14 14:22:07.907 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-14 14:22:07.908 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-14 14:22:07.908 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-14 14:22:07.909 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639462927909 with initial instances count: 2
+2021-12-14 14:22:07.913 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-14 14:22:07.913 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639462927913, current=UP, previous=STARTING]
+2021-12-14 14:22:07.914 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 14:22:07.915 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-14 14:22:07.920 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-14 14:22:07.920 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 14:22:07.921 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-14 14:22:08.333 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 3.045 seconds (JVM running for 2405.094)
+2021-12-14 14:22:08.334 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-14 14:22:08.335 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-14 14:22:08.335 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-14 14:22:08.503 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14 14:22:08.504 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-14 14:22:08.510 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 6 ms
+2021-12-14 14:22:08.520 INFO  club.kwcoder.server.config.LogAspect              :85   [32mec97a462[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:22:08.521 INFO  club.kwcoder.server.config.LogAspect              :86   [32mec97a462[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:22:08.521 INFO  club.kwcoder.server.config.LogAspect              :87   [32mec97a462[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:22:08.521 INFO  club.kwcoder.server.config.LogAspect              :88   [32mec97a462[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:22:08.524 INFO  club.kwcoder.server.config.LogAspect              :106  [32mec97a462[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:22:08.534 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mec97a462[0;39m HikariPool-2 - Starting...
+2021-12-14 14:22:08.554 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mec97a462[0;39m HikariPool-2 - Start completed.
+2021-12-14 14:22:08.565 INFO  club.kwcoder.server.config.LogAspect              :118  [32mec97a462[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:22:08.566 INFO  club.kwcoder.server.config.LogAspect              :119  [32mec97a462[0;39m ------------- 结束 耗时：47 ms -------------
+2021-12-14 14:22:10.005 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m        [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]]
+2021-12-14 14:22:12.928 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m        [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]]
+2021-12-14 14:22:31.685 INFO  club.kwcoder.server.config.LogAspect              :85   [32m39cef321[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:22:31.686 INFO  club.kwcoder.server.config.LogAspect              :86   [32m39cef321[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:22:31.686 INFO  club.kwcoder.server.config.LogAspect              :87   [32m39cef321[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:22:31.686 INFO  club.kwcoder.server.config.LogAspect              :88   [32m39cef321[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:22:31.686 INFO  club.kwcoder.server.config.LogAspect              :106  [32m39cef321[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:22:31.691 INFO  club.kwcoder.server.config.LogAspect              :118  [32m39cef321[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:22:31.691 INFO  club.kwcoder.server.config.LogAspect              :119  [32m39cef321[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-14 14:22:33.203 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m        [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]]
+2021-12-14 14:22:37.381 INFO  club.kwcoder.server.config.LogAspect              :85   [32m327185b2[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:22:37.381 INFO  club.kwcoder.server.config.LogAspect              :86   [32m327185b2[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:22:37.381 INFO  club.kwcoder.server.config.LogAspect              :87   [32m327185b2[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:22:37.382 INFO  club.kwcoder.server.config.LogAspect              :88   [32m327185b2[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:22:37.382 INFO  club.kwcoder.server.config.LogAspect              :106  [32m327185b2[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:22:37.385 INFO  club.kwcoder.server.config.LogAspect              :118  [32m327185b2[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:22:37.385 INFO  club.kwcoder.server.config.LogAspect              :119  [32m327185b2[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-14 14:22:39.507 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m        [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]]
+2021-12-14 14:22:47.728 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m        [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]]
+2021-12-14 14:22:56.149 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1115cec4[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:22:56.149 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1115cec4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:22:56.149 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1115cec4[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:22:56.150 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1115cec4[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:22:56.150 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1115cec4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:22:56.152 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1115cec4[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:22:56.153 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1115cec4[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-14 14:22:59.749 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m        [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]]
+2021-12-14 14:24:57.330 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-14 14:24:57.331 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639463097331, current=DOWN, previous=UP]
+2021-12-14 14:24:57.333 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 14:24:57.342 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 14:24:57.869 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-14 14:24:57.870 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-2 - Shutdown initiated...
+2021-12-14 14:24:57.877 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-2 - Shutdown completed.
+2021-12-14 14:24:57.878 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-14 14:25:00.885 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-14 14:25:00.898 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-14 14:25:00.906 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-14 14:25:02.067 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-14 14:25:02.303 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f1bbd9ec-5c94-32ff-8e1f-2dde2ffd4ff1
+2021-12-14 14:25:02.435 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-14 14:25:02.435 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-14 14:25:02.435 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-14 14:25:02.436 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-14 14:25:02.453 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-14 14:25:02.453 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 384 ms
+2021-12-14 14:25:02.564 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-14 14:25:02.564 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-14 14:25:02.747 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-14 14:25:03.012 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-14 14:25:03.611 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-14 14:25:04.097 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-14 14:25:04.137 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-14 14:25:04.139 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-14 14:25:04.140 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-14 14:25:04.141 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-14 14:25:04.141 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-14 14:25:04.141 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-14 14:25:04.192 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 14:25:04.192 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-14 14:25:04.193 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-14 14:25:04.193 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-14 14:25:04.193 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-14 14:25:04.193 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-14 14:25:04.193 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-14 14:25:04.193 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-14 14:25:04.196 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-14 14:25:04.197 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-14 14:25:04.197 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-14 14:25:04.198 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639463104198 with initial instances count: 2
+2021-12-14 14:25:04.204 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-14 14:25:04.204 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639463104204, current=UP, previous=STARTING]
+2021-12-14 14:25:04.204 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 14:25:04.206 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-14 14:25:04.211 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-14 14:25:04.212 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-14 14:25:04.220 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 14:25:04.754 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 3.595 seconds (JVM running for 2581.515)
+2021-12-14 14:25:04.757 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-14 14:25:04.758 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-14 14:25:04.758 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-14 14:25:07.056 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14 14:25:07.057 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-14 14:25:07.062 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
+2021-12-14 14:25:07.067 INFO  club.kwcoder.server.config.LogAspect              :85   [32m315242a3[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:25:07.067 INFO  club.kwcoder.server.config.LogAspect              :86   [32m315242a3[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:25:07.067 INFO  club.kwcoder.server.config.LogAspect              :87   [32m315242a3[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:25:07.067 INFO  club.kwcoder.server.config.LogAspect              :88   [32m315242a3[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:25:07.069 INFO  club.kwcoder.server.config.LogAspect              :106  [32m315242a3[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:25:07.077 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m315242a3[0;39m HikariPool-3 - Starting...
+2021-12-14 14:25:07.096 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m315242a3[0;39m HikariPool-3 - Start completed.
+2021-12-14 14:25:07.106 INFO  club.kwcoder.server.config.LogAspect              :118  [32m315242a3[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:25:07.106 INFO  club.kwcoder.server.config.LogAspect              :119  [32m315242a3[0;39m ------------- 结束 耗时：40 ms -------------
+2021-12-14 14:25:11.179 ERROR o.a.c.c.C.[.[.[/business].[dispatcherServlet]     :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/business] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class club.kwcoder.server.dto.ChapterPageDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `club.kwcoder.server.dto.ChapterPageDTO` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1615)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1077)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1332)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:331)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:164)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4526)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3521)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:274)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:243)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:205)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:158)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:131)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-14 14:27:35.706 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-14 14:27:35.707 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639463255707, current=DOWN, previous=UP]
+2021-12-14 14:27:35.708 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 14:27:35.717 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 14:27:36.028 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-14 14:27:36.029 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-3 - Shutdown initiated...
+2021-12-14 14:27:36.036 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-3 - Shutdown completed.
+2021-12-14 14:27:36.036 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-14 14:27:39.039 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-14 14:27:39.054 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-14 14:27:39.066 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-14 14:27:40.502 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-14 14:27:40.827 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f1bbd9ec-5c94-32ff-8e1f-2dde2ffd4ff1
+2021-12-14 14:27:40.998 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-14 14:27:40.999 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-14 14:27:40.999 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-14 14:27:40.999 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-14 14:27:41.016 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-14 14:27:41.017 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 512 ms
+2021-12-14 14:27:41.140 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-14 14:27:41.140 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-14 14:27:41.252 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-14 14:27:41.437 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-14 14:27:41.954 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-14 14:27:42.573 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-14 14:27:42.611 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-14 14:27:42.613 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-14 14:27:42.615 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-14 14:27:42.615 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-14 14:27:42.615 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-14 14:27:42.615 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-14 14:27:42.665 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 14:27:42.666 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-14 14:27:42.666 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-14 14:27:42.666 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-14 14:27:42.666 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-14 14:27:42.667 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-14 14:27:42.667 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-14 14:27:42.667 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-14 14:27:42.670 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-14 14:27:42.670 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-14 14:27:42.671 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-14 14:27:42.671 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639463262671 with initial instances count: 2
+2021-12-14 14:27:42.677 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-14 14:27:42.677 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639463262677, current=UP, previous=STARTING]
+2021-12-14 14:27:42.678 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 14:27:42.679 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-14 14:27:42.685 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-14 14:27:42.685 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-14 14:27:42.690 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 14:27:43.282 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 3.965 seconds (JVM running for 2740.043)
+2021-12-14 14:27:43.283 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-14 14:27:43.284 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-14 14:27:43.284 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-14 14:27:43.489 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14 14:27:43.489 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-14 14:27:43.494 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
+2021-12-14 14:27:43.500 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf63881c5[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:27:43.501 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf63881c5[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:27:43.501 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf63881c5[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:27:43.501 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf63881c5[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:27:43.502 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf63881c5[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:27:43.509 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mf63881c5[0;39m HikariPool-4 - Starting...
+2021-12-14 14:27:43.525 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mf63881c5[0;39m HikariPool-4 - Start completed.
+2021-12-14 14:27:43.536 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf63881c5[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:27:43.536 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf63881c5[0;39m ------------- 结束 耗时：37 ms -------------
+2021-12-14 14:27:46.308 INFO  club.kwcoder.server.config.LogAspect              :85   [32meaf96c28[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 14:27:46.309 INFO  club.kwcoder.server.config.LogAspect              :86   [32meaf96c28[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 14:27:46.309 INFO  club.kwcoder.server.config.LogAspect              :87   [32meaf96c28[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 14:27:46.309 INFO  club.kwcoder.server.config.LogAspect              :88   [32meaf96c28[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:27:46.310 INFO  club.kwcoder.server.config.LogAspect              :106  [32meaf96c28[0;39m 请求参数: [{"courseId":"00000001","page":1,"size":5,"total":0}]
+2021-12-14 14:27:46.346 INFO  club.kwcoder.server.config.LogAspect              :118  [32meaf96c28[0;39m 返回结果: {"code":"200","data":{"courseId":"00000001","data":[{"courseId":"00000001","id":"00000001","name":"测试大章01"}],"page":1,"size":5,"total":1},"message":"查询成功！","success":true}
+2021-12-14 14:27:46.346 INFO  club.kwcoder.server.config.LogAspect              :119  [32meaf96c28[0;39m ------------- 结束 耗时：38 ms -------------

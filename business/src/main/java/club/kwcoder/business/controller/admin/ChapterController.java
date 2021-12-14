@@ -2,6 +2,7 @@ package club.kwcoder.business.controller.admin;
 
 
 import club.kwcoder.server.dto.ChapterDTO;
+import club.kwcoder.server.dto.ChapterPageDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.service.ChapterService;
@@ -25,7 +26,8 @@ public class ChapterController {
     public static final String BUSINESS_NAME = "大章";
 
     @RequestMapping(value = "/list", method = RequestMethod.POST)
-    public ResultBean<PageDTO<ChapterDTO>> list(@RequestBody PageDTO<ChapterDTO> pageDTO) {
+    public ResultBean<ChapterPageDTO> list(@RequestBody ChapterPageDTO pageDTO) {
+        ValidatorUtil.require(pageDTO.getCourseId(), "课程ID");
         chapterService.list(pageDTO);
         return ResultBean.getSuccess("查询成功！", pageDTO);
     }
