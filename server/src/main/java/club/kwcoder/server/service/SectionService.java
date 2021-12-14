@@ -13,6 +13,7 @@ import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -52,6 +53,14 @@ public class SectionService {
     /**
      * 保存，id有值时更新，无值时新增
      */
+    // 开启事务，默认只回滚 RuntimeException
+    // @Transactional(rollbackFor = Exception.class) 开启针对Exception及其子类的回滚
+    /*
+    如下情况无法回滚：
+    1、 在catch语句块中有return
+    2、 该方法被其他方法调用时
+     */
+    @Transactional
     public void save(SectionDTO sectionDto) {
         SectionDO section = CopyUtil.copy(sectionDto, SectionDO.class);
         if (StringUtils.isEmpty(sectionDto.getId())) {
