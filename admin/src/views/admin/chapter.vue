@@ -1,7 +1,15 @@
 <template>
 
   <div>
+
+    <h3>{{ course.name }}</h3>
+
     <p>
+      <router-link class="btn btn-white btn-default btn-round" to="/business/course">
+        <i class="ace-icon fa fa-arrow-left"></i>
+        返回课程
+      </router-link>
+      &nbsp;
       <button class="btn btn-white btn-default btn-round" @click="add()">
         <i class="ace-icon fa fa-edit"></i>
         新增
@@ -120,12 +128,18 @@ export default {
   data() {
     return {
       chapters: [],
-      chapter: {}
+      chapter: {},
+      course: {}
     }
   },
   mounted() {
     let _this = this;
     _this.$refs.pagination.size = 5;
+    let course = SessionStorage.get("course") || {};
+    if (Tool.isEmpty(course)) {
+      _this.$router.push("/welcome");
+    }
+    _this.course = course;
     _this.list(1);
   },
   methods: {

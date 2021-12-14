@@ -39,9 +39,14 @@
             </p>
             <p>{{ course.summary }}</p>
             <p>
-              <button class="btn btn-white btn-xs btn-info btn-round bigger-110" style="margin-right: 10px" v-on:click="edit(course)">
+              <button class="btn btn-white btn-xs btn-info btn-round bigger-110" v-on:click="toChapter(course)">
+                大章
+              </button>
+              &nbsp;
+              <button class="btn btn-white btn-xs btn-info btn-round bigger-110" v-on:click="edit(course)">
                 编辑
               </button>
+              &nbsp;
               <button class="btn btn-white btn-xs btn-warning btn-round bigger-110" v-on:click="edit(course)">
                 删除
               </button>
@@ -50,53 +55,6 @@
         </div>
       </div>
     </div>
-
-    <!--    <table id="simple-table" class="table  table-bordered table-hover">-->
-    <!--      <thead>-->
-    <!--      <tr>-->
-    <!--        <th>id</th>-->
-    <!--        <th>名称</th>-->
-    <!--        <th>概述</th>-->
-    <!--        <th>时长</th>-->
-    <!--        <th>价格（元）</th>-->
-    <!--        <th>封面</th>-->
-    <!--        <th>级别</th>-->
-    <!--        <th>收费</th>-->
-    <!--        <th>状态</th>-->
-    <!--        <th>报名数</th>-->
-    <!--        <th>顺序</th>-->
-    <!--        <th>讲师</th>-->
-    <!--        <th>操作</th>-->
-    <!--      </tr>-->
-    <!--      </thead>-->
-
-    <!--      <tbody>-->
-    <!--      <tr v-for="course in courses">-->
-    <!--        <td>{{ course.id }}</td>-->
-    <!--        <td>{{ course.name }}</td>-->
-    <!--        <td>{{ course.summary }}</td>-->
-    <!--        <td>{{ course.time }}</td>-->
-    <!--        <td>{{ course.price }}</td>-->
-    <!--        <td>{{ course.image }}</td>-->
-    <!--        <td>{{ COURSE_LEVEL | optionKV(course.level) }}</td>-->
-    <!--        <td>{{ COURSE_CHARGE | optionKV(course.charge) }}</td>-->
-    <!--        <td>{{ COURSE_STATUS | optionKV(course.status) }}</td>-->
-    <!--        <td>{{ course.enroll }}</td>-->
-    <!--        <td>{{ course.sort }}</td>-->
-    <!--        <td>{{ course.teacherId }}</td>-->
-    <!--        <td>-->
-    <!--          <div class="hidden-sm hidden-xs btn-group">-->
-    <!--            <button class="btn btn-xs btn-info" v-on:click="edit(course)">-->
-    <!--              <i class="ace-icon fa fa-pencil bigger-120"></i>-->
-    <!--            </button>-->
-    <!--            <button class="btn btn-xs btn-danger" v-on:click="del(course.id)">-->
-    <!--              <i class="ace-icon fa fa-trash-o bigger-120"></i>-->
-    <!--            </button>-->
-    <!--          </div>-->
-    <!--        </td>-->
-    <!--      </tr>-->
-    <!--      </tbody>-->
-    <!--    </table>-->
 
     <div id="form-modal" class="modal fade" role="dialog" tabindex="-1">
       <div class="modal-dialog" role="document">
@@ -298,6 +256,15 @@ export default {
           }
         })
       });
+    },
+
+    /**
+     * 点击【大章】
+     */
+    toChapter(course) {
+      let _this = this;
+      SessionStorage.set("course", course)
+      _this.$router.push("/business/chapter")
     }
   }
 }
