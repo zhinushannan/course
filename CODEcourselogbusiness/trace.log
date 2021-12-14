@@ -2290,3 +2290,273 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 's
 2021-12-14 10:09:18.182 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1d1ade59[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639446231395,"id":"","title":"请问","updatedAt":1639446231395},{"courseId":"qwe","createdAt":1639446313397,"id":"TlDp7mqR","title":" wrestling发的","updatedAt":1639446313397},{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639443488000,"id":"00000001","sort":1,"time":500,"title":"测试小节01","updatedAt":1639443488000,"video":""}],"page":1,"size":5,"total":3},"message":"查询成功","success":true}
 2021-12-14 10:09:18.183 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1d1ade59[0;39m ------------- 结束 耗时：6 ms -------------
 2021-12-14 10:10:13.026 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 10:12:30.929 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-14 10:12:30.929 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639447950929, current=DOWN, previous=UP]
+2021-12-14 10:12:30.930 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 10:12:30.940 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 10:12:31.180 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-14 10:12:31.181 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-2 - Shutdown initiated...
+2021-12-14 10:12:31.186 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-2 - Shutdown completed.
+2021-12-14 10:12:31.186 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-14 10:12:34.197 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-14 10:12:34.212 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-14 10:12:34.223 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-14 13:42:08.442 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-14 13:42:08.552 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14 13:42:09.928 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-14 13:42:11.194 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f1bbd9ec-5c94-32ff-8e1f-2dde2ffd4ff1
+2021-12-14 13:42:12.006 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-14 13:42:12.020 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-14 13:42:12.022 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-14 13:42:12.022 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-14 13:42:12.149 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-14 13:42:12.149 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 2187 ms
+2021-12-14 13:42:12.697 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-14 13:42:12.697 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-14 13:42:12.701 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-14 13:42:12.701 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-14 13:42:13.000 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-14 13:42:13.418 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-14 13:42:14.047 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-14 13:42:14.671 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-14 13:42:14.771 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-14 13:42:14.799 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-14 13:42:15.357 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-14 13:42:15.357 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-14 13:42:15.441 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-14 13:42:15.441 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-14 13:42:15.643 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 13:42:16.007 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-14 13:42:16.007 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-14 13:42:16.008 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-14 13:42:16.008 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-14 13:42:16.008 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-14 13:42:16.008 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-14 13:42:16.008 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-14 13:42:16.079 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-14 13:42:16.081 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-14 13:42:16.082 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-14 13:42:16.085 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639460536084 with initial instances count: 0
+2021-12-14 13:42:16.091 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-14 13:42:16.092 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639460536092, current=UP, previous=STARTING]
+2021-12-14 13:42:16.095 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-14 13:42:16.096 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-14 13:42:16.118 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-14 13:42:16.120 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-14 13:42:16.156 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-14 13:42:16.555 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 10.872 seconds (JVM running for 13.316)
+2021-12-14 13:42:16.557 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-14 13:42:16.557 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-14 13:42:46.120 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-14 13:42:46.120 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-14 13:42:46.120 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-14 13:42:46.120 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-14 13:42:46.121 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-14 13:42:46.122 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-12-14 13:42:46.122 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-14 13:42:46.199 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-14 13:42:57.519 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14 13:42:57.519 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-14 13:42:57.527 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 7 ms
+2021-12-14 13:42:57.588 INFO  club.kwcoder.server.config.LogAspect              :85   [32m2f0cbd1f[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 13:42:57.589 INFO  club.kwcoder.server.config.LogAspect              :86   [32m2f0cbd1f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 13:42:57.590 INFO  club.kwcoder.server.config.LogAspect              :87   [32m2f0cbd1f[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 13:42:57.590 INFO  club.kwcoder.server.config.LogAspect              :88   [32m2f0cbd1f[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:42:57.600 INFO  club.kwcoder.server.config.LogAspect              :106  [32m2f0cbd1f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:42:57.679 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m2f0cbd1f[0;39m HikariPool-1 - Starting...
+2021-12-14 13:42:57.929 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m2f0cbd1f[0;39m HikariPool-1 - Start completed.
+2021-12-14 13:42:58.171 INFO  club.kwcoder.server.config.LogAspect              :118  [32m2f0cbd1f[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 13:42:58.172 INFO  club.kwcoder.server.config.LogAspect              :119  [32m2f0cbd1f[0;39m ------------- 结束 耗时：589 ms -------------
+2021-12-14 13:43:21.423 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf04f4e0a[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 13:43:21.424 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf04f4e0a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 13:43:21.424 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf04f4e0a[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 13:43:21.424 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf04f4e0a[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:43:21.425 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf04f4e0a[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:43:21.437 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf04f4e0a[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 13:43:21.438 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf04f4e0a[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-14 13:43:23.667 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1da84f6a[0;39m ------------- 【大章】查询开始 -------------
+2021-12-14 13:43:23.668 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1da84f6a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/chapter/list POST
+2021-12-14 13:43:23.668 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1da84f6a[0;39m 类名方法: club.kwcoder.business.controller.admin.ChapterController.list
+2021-12-14 13:43:23.668 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1da84f6a[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:43:23.668 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1da84f6a[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:43:23.672 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1da84f6a[0;39m 返回结果: {"code":"200","data":{"data":[{"courseId":"00000000","id":"00000001","name":"测试大章01"},{"courseId":"00000000","id":"00000002","name":"测试大章02"},{"courseId":"00000000","id":"00000003","name":"测试大章03"},{"courseId":"00000000","id":"00000004","name":"测试大章04"},{"courseId":"00000000","id":"00000005","name":"测试大章05"}],"page":1,"size":5,"total":14},"message":"查询成功！","success":true}
+2021-12-14 13:43:23.672 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1da84f6a[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-14 13:43:25.131 INFO  club.kwcoder.server.config.LogAspect              :85   [32m621e48cf[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:43:25.131 INFO  club.kwcoder.server.config.LogAspect              :86   [32m621e48cf[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:43:25.132 INFO  club.kwcoder.server.config.LogAspect              :87   [32m621e48cf[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:43:25.132 INFO  club.kwcoder.server.config.LogAspect              :88   [32m621e48cf[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:43:25.132 INFO  club.kwcoder.server.config.LogAspect              :106  [32m621e48cf[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:43:25.154 INFO  club.kwcoder.server.config.LogAspect              :118  [32m621e48cf[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639447164617,"id":"","name":"123","summary":"123","updatedAt":1639447164617}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:43:25.155 INFO  club.kwcoder.server.config.LogAspect              :119  [32m621e48cf[0;39m ------------- 结束 耗时：24 ms -------------
+2021-12-14 13:43:26.837 INFO  club.kwcoder.server.config.LogAspect              :85   [32m934c328b[0;39m ------------- 【小节】查询开始 -------------
+2021-12-14 13:43:26.837 INFO  club.kwcoder.server.config.LogAspect              :86   [32m934c328b[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-14 13:43:26.837 INFO  club.kwcoder.server.config.LogAspect              :87   [32m934c328b[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-14 13:43:26.837 INFO  club.kwcoder.server.config.LogAspect              :88   [32m934c328b[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:43:26.838 INFO  club.kwcoder.server.config.LogAspect              :106  [32m934c328b[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:43:26.863 INFO  club.kwcoder.server.config.LogAspect              :118  [32m934c328b[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639446231395,"id":"","title":"请问","updatedAt":1639446231395},{"courseId":"qwe","createdAt":1639446313397,"id":"TlDp7mqR","title":" wrestling发的","updatedAt":1639446313397},{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639443488000,"id":"00000001","sort":1,"time":500,"title":"测试小节01","updatedAt":1639443488000,"video":""}],"page":1,"size":5,"total":3},"message":"查询成功","success":true}
+2021-12-14 13:43:26.864 INFO  club.kwcoder.server.config.LogAspect              :119  [32m934c328b[0;39m ------------- 结束 耗时：27 ms -------------
+2021-12-14 13:43:46.667 INFO  club.kwcoder.server.config.LogAspect              :85   [32m124008ac[0;39m ------------- 【小节】查询开始 -------------
+2021-12-14 13:43:46.668 INFO  club.kwcoder.server.config.LogAspect              :86   [32m124008ac[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-14 13:43:46.669 INFO  club.kwcoder.server.config.LogAspect              :87   [32m124008ac[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-14 13:43:46.670 INFO  club.kwcoder.server.config.LogAspect              :88   [32m124008ac[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:43:46.670 INFO  club.kwcoder.server.config.LogAspect              :106  [32m124008ac[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:43:46.700 INFO  club.kwcoder.server.config.LogAspect              :118  [32m124008ac[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639446231395,"id":"","title":"请问","updatedAt":1639446231395},{"courseId":"qwe","createdAt":1639446313397,"id":"TlDp7mqR","title":" wrestling发的","updatedAt":1639446313397},{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639443488000,"id":"00000001","sort":1,"time":500,"title":"测试小节01","updatedAt":1639443488000,"video":""}],"page":1,"size":5,"total":3},"message":"查询成功","success":true}
+2021-12-14 13:43:46.700 INFO  club.kwcoder.server.config.LogAspect              :119  [32m124008ac[0;39m ------------- 结束 耗时：33 ms -------------
+2021-12-14 13:43:56.446 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3cf30ec2[0;39m ------------- 【小节】查询开始 -------------
+2021-12-14 13:43:56.447 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3cf30ec2[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-14 13:43:56.448 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3cf30ec2[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-14 13:43:56.448 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3cf30ec2[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:43:56.448 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3cf30ec2[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:43:56.455 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3cf30ec2[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639446231395,"id":"","title":"请问","updatedAt":1639446231395},{"courseId":"qwe","createdAt":1639446313397,"id":"TlDp7mqR","title":" wrestling发的","updatedAt":1639446313397},{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639443488000,"id":"00000001","sort":1,"time":500,"title":"测试小节01","updatedAt":1639443488000,"video":""}],"page":1,"size":5,"total":3},"message":"查询成功","success":true}
+2021-12-14 13:43:56.456 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3cf30ec2[0;39m ------------- 结束 耗时：10 ms -------------
+2021-12-14 13:44:09.127 INFO  club.kwcoder.server.config.LogAspect              :85   [32mde509307[0;39m ------------- 【小节】查询开始 -------------
+2021-12-14 13:44:09.128 INFO  club.kwcoder.server.config.LogAspect              :86   [32mde509307[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-14 13:44:09.128 INFO  club.kwcoder.server.config.LogAspect              :87   [32mde509307[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-14 13:44:09.129 INFO  club.kwcoder.server.config.LogAspect              :88   [32mde509307[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:44:09.129 INFO  club.kwcoder.server.config.LogAspect              :106  [32mde509307[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:44:09.136 INFO  club.kwcoder.server.config.LogAspect              :118  [32mde509307[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639446231395,"id":"","title":"请问","updatedAt":1639446231395},{"courseId":"qwe","createdAt":1639446313397,"id":"TlDp7mqR","title":" wrestling发的","updatedAt":1639446313397},{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639443488000,"id":"00000001","sort":1,"time":500,"title":"测试小节01","updatedAt":1639443488000,"video":""}],"page":1,"size":5,"total":3},"message":"查询成功","success":true}
+2021-12-14 13:44:09.137 INFO  club.kwcoder.server.config.LogAspect              :119  [32mde509307[0;39m ------------- 结束 耗时：10 ms -------------
+2021-12-14 13:44:13.078 INFO  club.kwcoder.server.config.LogAspect              :85   [32mee996e1b[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:44:13.079 INFO  club.kwcoder.server.config.LogAspect              :86   [32mee996e1b[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:44:13.079 INFO  club.kwcoder.server.config.LogAspect              :87   [32mee996e1b[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:44:13.079 INFO  club.kwcoder.server.config.LogAspect              :88   [32mee996e1b[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:44:13.080 INFO  club.kwcoder.server.config.LogAspect              :106  [32mee996e1b[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:44:13.084 INFO  club.kwcoder.server.config.LogAspect              :118  [32mee996e1b[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639447164617,"id":"","name":"123","summary":"123","updatedAt":1639447164617}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:44:13.085 INFO  club.kwcoder.server.config.LogAspect              :119  [32mee996e1b[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-14 13:45:26.223 INFO  club.kwcoder.server.config.LogAspect              :85   [32mbd42178f[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:45:26.224 INFO  club.kwcoder.server.config.LogAspect              :86   [32mbd42178f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:45:26.224 INFO  club.kwcoder.server.config.LogAspect              :87   [32mbd42178f[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:45:26.224 INFO  club.kwcoder.server.config.LogAspect              :88   [32mbd42178f[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:45:26.224 INFO  club.kwcoder.server.config.LogAspect              :106  [32mbd42178f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:45:26.229 INFO  club.kwcoder.server.config.LogAspect              :118  [32mbd42178f[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:45:26.229 INFO  club.kwcoder.server.config.LogAspect              :119  [32mbd42178f[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-14 13:47:16.023 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 13:48:09.508 INFO  club.kwcoder.server.config.LogAspect              :85   [32m519dec57[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:48:09.509 INFO  club.kwcoder.server.config.LogAspect              :86   [32m519dec57[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:48:09.509 INFO  club.kwcoder.server.config.LogAspect              :87   [32m519dec57[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:48:09.509 INFO  club.kwcoder.server.config.LogAspect              :88   [32m519dec57[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:48:09.509 INFO  club.kwcoder.server.config.LogAspect              :106  [32m519dec57[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:48:09.513 INFO  club.kwcoder.server.config.LogAspect              :118  [32m519dec57[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:48:09.514 INFO  club.kwcoder.server.config.LogAspect              :119  [32m519dec57[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-14 13:48:10.714 INFO  club.kwcoder.server.config.LogAspect              :85   [32m7e0b2e16[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:48:10.714 INFO  club.kwcoder.server.config.LogAspect              :86   [32m7e0b2e16[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:48:10.714 INFO  club.kwcoder.server.config.LogAspect              :87   [32m7e0b2e16[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:48:10.715 INFO  club.kwcoder.server.config.LogAspect              :88   [32m7e0b2e16[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:48:10.715 INFO  club.kwcoder.server.config.LogAspect              :106  [32m7e0b2e16[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:48:10.719 INFO  club.kwcoder.server.config.LogAspect              :118  [32m7e0b2e16[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:48:10.720 INFO  club.kwcoder.server.config.LogAspect              :119  [32m7e0b2e16[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-14 13:48:44.801 INFO  club.kwcoder.server.config.LogAspect              :85   [32m95b6eae3[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:48:44.801 INFO  club.kwcoder.server.config.LogAspect              :86   [32m95b6eae3[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:48:44.801 INFO  club.kwcoder.server.config.LogAspect              :87   [32m95b6eae3[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:48:44.801 INFO  club.kwcoder.server.config.LogAspect              :88   [32m95b6eae3[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:48:44.802 INFO  club.kwcoder.server.config.LogAspect              :106  [32m95b6eae3[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:48:44.805 INFO  club.kwcoder.server.config.LogAspect              :118  [32m95b6eae3[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:48:44.806 INFO  club.kwcoder.server.config.LogAspect              :119  [32m95b6eae3[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-14 13:49:11.029 INFO  club.kwcoder.server.config.LogAspect              :85   [32md80984ee[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:49:11.030 INFO  club.kwcoder.server.config.LogAspect              :86   [32md80984ee[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:49:11.030 INFO  club.kwcoder.server.config.LogAspect              :87   [32md80984ee[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:49:11.034 INFO  club.kwcoder.server.config.LogAspect              :88   [32md80984ee[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:49:11.034 INFO  club.kwcoder.server.config.LogAspect              :106  [32md80984ee[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:49:11.049 INFO  club.kwcoder.server.config.LogAspect              :118  [32md80984ee[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:49:11.049 INFO  club.kwcoder.server.config.LogAspect              :119  [32md80984ee[0;39m ------------- 结束 耗时：21 ms -------------
+2021-12-14 13:49:42.844 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5b8ac37f[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:49:42.844 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5b8ac37f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:49:42.845 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5b8ac37f[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:49:42.845 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5b8ac37f[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:49:42.846 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5b8ac37f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:49:42.855 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5b8ac37f[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:49:42.856 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5b8ac37f[0;39m ------------- 结束 耗时：13 ms -------------
+2021-12-14 13:51:00.111 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma688fbad[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:51:00.112 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma688fbad[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:51:00.112 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma688fbad[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:51:00.113 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma688fbad[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:51:00.113 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma688fbad[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:51:00.120 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma688fbad[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:51:00.120 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma688fbad[0;39m ------------- 结束 耗时：9 ms -------------
+2021-12-14 13:51:44.044 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1bd1c43c[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:51:44.044 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1bd1c43c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:51:44.045 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1bd1c43c[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:51:44.045 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1bd1c43c[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:51:44.045 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1bd1c43c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:51:44.051 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1bd1c43c[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:51:44.052 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1bd1c43c[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-14 13:52:09.737 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5761a61b[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:52:09.738 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5761a61b[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:52:09.738 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5761a61b[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:52:09.739 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5761a61b[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:52:09.739 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5761a61b[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:52:09.746 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5761a61b[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:52:09.747 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5761a61b[0;39m ------------- 结束 耗时：10 ms -------------
+2021-12-14 13:52:16.037 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 13:53:07.426 INFO  club.kwcoder.server.config.LogAspect              :85   [32m565266a8[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:53:07.426 INFO  club.kwcoder.server.config.LogAspect              :86   [32m565266a8[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:53:07.426 INFO  club.kwcoder.server.config.LogAspect              :87   [32m565266a8[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:53:07.427 INFO  club.kwcoder.server.config.LogAspect              :88   [32m565266a8[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:53:07.427 INFO  club.kwcoder.server.config.LogAspect              :106  [32m565266a8[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:53:07.432 INFO  club.kwcoder.server.config.LogAspect              :118  [32m565266a8[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:53:07.434 INFO  club.kwcoder.server.config.LogAspect              :119  [32m565266a8[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-14 13:53:25.763 INFO  club.kwcoder.server.config.LogAspect              :85   [32mb22c1aa3[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:53:25.763 INFO  club.kwcoder.server.config.LogAspect              :86   [32mb22c1aa3[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:53:25.764 INFO  club.kwcoder.server.config.LogAspect              :87   [32mb22c1aa3[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:53:25.765 INFO  club.kwcoder.server.config.LogAspect              :88   [32mb22c1aa3[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:53:25.774 INFO  club.kwcoder.server.config.LogAspect              :106  [32mb22c1aa3[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:53:25.793 INFO  club.kwcoder.server.config.LogAspect              :118  [32mb22c1aa3[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:53:25.793 INFO  club.kwcoder.server.config.LogAspect              :119  [32mb22c1aa3[0;39m ------------- 结束 耗时：30 ms -------------
+2021-12-14 13:54:15.931 INFO  club.kwcoder.server.config.LogAspect              :85   [32m73de0793[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:54:15.931 INFO  club.kwcoder.server.config.LogAspect              :86   [32m73de0793[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:54:15.932 INFO  club.kwcoder.server.config.LogAspect              :87   [32m73de0793[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:54:15.932 INFO  club.kwcoder.server.config.LogAspect              :88   [32m73de0793[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:54:15.932 INFO  club.kwcoder.server.config.LogAspect              :106  [32m73de0793[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:54:15.938 INFO  club.kwcoder.server.config.LogAspect              :118  [32m73de0793[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:54:15.938 INFO  club.kwcoder.server.config.LogAspect              :119  [32m73de0793[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-14 13:54:49.518 INFO  club.kwcoder.server.config.LogAspect              :85   [32mab6493e3[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:54:49.519 INFO  club.kwcoder.server.config.LogAspect              :86   [32mab6493e3[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:54:49.519 INFO  club.kwcoder.server.config.LogAspect              :87   [32mab6493e3[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:54:49.519 INFO  club.kwcoder.server.config.LogAspect              :88   [32mab6493e3[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:54:49.519 INFO  club.kwcoder.server.config.LogAspect              :106  [32mab6493e3[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:54:49.522 INFO  club.kwcoder.server.config.LogAspect              :118  [32mab6493e3[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:54:49.523 INFO  club.kwcoder.server.config.LogAspect              :119  [32mab6493e3[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-14 13:54:50.663 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8b284a52[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:54:50.663 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8b284a52[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:54:50.663 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8b284a52[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:54:50.664 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8b284a52[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:54:50.664 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8b284a52[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:54:50.670 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8b284a52[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:54:50.670 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8b284a52[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-14 13:57:16.039 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-14 13:58:56.249 INFO  club.kwcoder.server.config.LogAspect              :85   [32mc81b0f01[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 13:58:56.250 INFO  club.kwcoder.server.config.LogAspect              :86   [32mc81b0f01[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 13:58:56.250 INFO  club.kwcoder.server.config.LogAspect              :87   [32mc81b0f01[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 13:58:56.250 INFO  club.kwcoder.server.config.LogAspect              :88   [32mc81b0f01[0;39m 远程地址: 192.168.245.1
+2021-12-14 13:58:56.250 INFO  club.kwcoder.server.config.LogAspect              :106  [32mc81b0f01[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 13:58:56.254 INFO  club.kwcoder.server.config.LogAspect              :118  [32mc81b0f01[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 13:58:56.254 INFO  club.kwcoder.server.config.LogAspect              :119  [32mc81b0f01[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-14 14:00:17.158 INFO  club.kwcoder.server.config.LogAspect              :85   [32m80a14185[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:00:17.160 INFO  club.kwcoder.server.config.LogAspect              :86   [32m80a14185[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:00:17.161 INFO  club.kwcoder.server.config.LogAspect              :87   [32m80a14185[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:00:17.161 INFO  club.kwcoder.server.config.LogAspect              :88   [32m80a14185[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:00:17.161 INFO  club.kwcoder.server.config.LogAspect              :106  [32m80a14185[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:00:17.172 INFO  club.kwcoder.server.config.LogAspect              :118  [32m80a14185[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:00:17.173 INFO  club.kwcoder.server.config.LogAspect              :119  [32m80a14185[0;39m ------------- 结束 耗时：14 ms -------------
+2021-12-14 14:00:23.741 INFO  club.kwcoder.server.config.LogAspect              :85   [32m40493e2e[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:00:23.742 INFO  club.kwcoder.server.config.LogAspect              :86   [32m40493e2e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:00:23.742 INFO  club.kwcoder.server.config.LogAspect              :87   [32m40493e2e[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:00:23.742 INFO  club.kwcoder.server.config.LogAspect              :88   [32m40493e2e[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:00:23.742 INFO  club.kwcoder.server.config.LogAspect              :106  [32m40493e2e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:00:23.746 INFO  club.kwcoder.server.config.LogAspect              :118  [32m40493e2e[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:00:23.746 INFO  club.kwcoder.server.config.LogAspect              :119  [32m40493e2e[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-14 14:00:37.552 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma69fcac5[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:00:37.552 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma69fcac5[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:00:37.554 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma69fcac5[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:00:37.554 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma69fcac5[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:00:37.554 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma69fcac5[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:00:37.560 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma69fcac5[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:00:37.560 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma69fcac5[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-14 14:01:08.213 INFO  club.kwcoder.server.config.LogAspect              :85   [32m407903f8[0;39m ------------- 【课程】查询开始 -------------
+2021-12-14 14:01:08.213 INFO  club.kwcoder.server.config.LogAspect              :86   [32m407903f8[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-14 14:01:08.214 INFO  club.kwcoder.server.config.LogAspect              :87   [32m407903f8[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-14 14:01:08.214 INFO  club.kwcoder.server.config.LogAspect              :88   [32m407903f8[0;39m 远程地址: 192.168.245.1
+2021-12-14 14:01:08.214 INFO  club.kwcoder.server.config.LogAspect              :106  [32m407903f8[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-14 14:01:08.220 INFO  club.kwcoder.server.config.LogAspect              :118  [32m407903f8[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":7200,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-14 14:01:08.220 INFO  club.kwcoder.server.config.LogAspect              :119  [32m407903f8[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-14 14:02:16.051 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

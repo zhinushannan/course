@@ -355,3 +355,4 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 's
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2021-12-14 09:45:07.127 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639446307127, current=DOWN, previous=UP]
+2021-12-14 10:12:30.929 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639447950929, current=DOWN, previous=UP]
