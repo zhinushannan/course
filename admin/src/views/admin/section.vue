@@ -38,7 +38,7 @@
         <td>{{section.chapterId}}</td>
         <td>{{section.video}}</td>
         <td>{{section.time}}</td>
-        <td>{{CHARGE | optionKV(section.charge)}}</td>
+        <td>{{ section.charge }}</td>
         <td>{{section.sort}}</td>
         <td>{{section.vod}}</td>
       <td>
@@ -98,7 +98,7 @@
                 <label class="col-sm-2 control-label">收费</label>
                 <div class="col-sm-10">
                   <select v-model="section.charge" class="form-control">
-                    <option v-for="o in CHARGE" v-bind:value="o.key">{{ o.value }}</option>
+                    <option v-for="o in SECTION_CHARGE" v-bind:value="o.key">{{o.value}}</option>
                   </select>
                 </div>
               </div>
@@ -127,19 +127,20 @@
 </template>
 
 <script>
-  import Pagination from "../../components/pagination";
-  export default {
-    components: {Pagination},
-    name: "business-section",
-    data: function() {
-      return {
-        section: {},
-        sections: [],
-        CHARGE: CHARGE
-      }
-    },
-    mounted: function() {
-      let _this = this;
+import Pagination from "../../components/pagination";
+
+export default {
+  components: {Pagination},
+  name: "business-section",
+  data: function () {
+    return {
+      section: {},
+      sections: [],
+      SECTION_CHARGE: SECTION_CHARGE,
+    }
+  },
+  mounted: function () {
+    let _this = this;
       _this.$refs.pagination.size = 5;
       _this.list(1);
       // sidebar激活样式方法一

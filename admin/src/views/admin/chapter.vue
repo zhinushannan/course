@@ -7,13 +7,13 @@
         新增
       </button>
       &nbsp;
-      <button class="btn btn-white btn-default btn-round" @click="list(1)">
+      <button v-on:click="list(1)" class="btn btn-white btn-default btn-round">
         <i class="ace-icon fa fa-refresh"></i>
         刷新
       </button>
     </p>
 
-    <Pagination ref="pagination" v-bind:list="list" v-bind:itemCount="8"/>
+    <pagination ref="pagination" v-bind:itemCount="8" v-bind:list="list"></pagination>
 
     <table id="simple-table" class="table  table-bordered table-hover">
     <thead>
@@ -124,9 +124,9 @@ export default {
     }
   },
   mounted() {
-    let _this = this
-    _this.$refs.pagination.size = 5
-    _this.list(1)
+    let _this = this;
+    _this.$refs.pagination.size = 5;
+    _this.list(1);
   },
   methods: {
     add() {
@@ -156,15 +156,16 @@ export default {
     list(page) {
       let _this = this
       Loading.show()
+      console.log(page)
       _this.$ajax.post(process.env.VUE_APP_SERVER + '/business/admin/chapter/list', {
         page: page,
-        size: _this.$refs.pagination.size
+        size: _this.$refs.pagination.size,
       }).then((response) => {
-        let page = response.data
-        _this.chapters = page.data.data
-        _this.$refs.pagination.render(page, page.data.total)
+        Loading.hide();
+        let resp = response.data;
+        _this.chapters = resp.data.data;
+        _this.$refs.pagination.render(page, resp.data.total);
       })
-      Loading.hide()
     },
     save() {
       let _this = this

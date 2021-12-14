@@ -1,1 +1,0 @@
-2021-11-27 13:46:20.595 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1637991980595, current=DOWN, previous=UP]
