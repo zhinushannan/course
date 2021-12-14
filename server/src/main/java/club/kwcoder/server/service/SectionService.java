@@ -4,13 +4,14 @@ import club.kwcoder.server.dataobject.SectionDO;
 import club.kwcoder.server.dataobject.SectionDOExample;
 import club.kwcoder.server.dto.SectionDTO;
 import club.kwcoder.server.dto.PageDTO;
+import club.kwcoder.server.dto.SectionPageDTO;
 import club.kwcoder.server.mapper.SectionMapper;
 import club.kwcoder.server.util.CopyUtil;
 import club.kwcoder.server.util.UuidUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -25,9 +26,17 @@ public class SectionService {
     /**
      * 列表查询
      */
-    public void list(PageDTO<SectionDTO> pageDto) {
+    public void list(SectionPageDTO pageDto) {
         PageHelper.startPage(pageDto.getPage(), pageDto.getSize());
         SectionDOExample sectionExample = new SectionDOExample();
+        SectionDOExample.Criteria criteria = sectionExample.createCriteria();
+
+        if (StringUtils.isNotBlank(pageDto.getCourseId()) || StringUtils.isNotBlank(pageDto.getChapterId())) {
+            criteria.andCourseIdEqualTo(pageDto.getCourseId())
+                    .andCourseIdEqualTo(pageDto.getChapterId());
+        }
+
+
         sectionExample.setOrderByClause("sort asc");
         List<SectionDO> sectionList = sectionMapper.selectByExample(sectionExample);
         PageInfo<SectionDO> pageInfo = new PageInfo<>(sectionList);

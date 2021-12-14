@@ -3,8 +3,10 @@ package club.kwcoder.business.controller.admin;
 import club.kwcoder.server.dto.SectionDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.dto.ResultBean;
+import club.kwcoder.server.dto.SectionPageDTO;
 import club.kwcoder.server.service.SectionService;
 import club.kwcoder.server.util.ValidatorUtil;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
@@ -25,7 +27,9 @@ public class SectionController {
      * 列表查询
      */
     @PostMapping("/list")
-    public ResultBean<PageDTO<SectionDTO>> list(@RequestBody PageDTO<SectionDTO> pageDto) {
+    public ResultBean<SectionPageDTO> list(@RequestBody SectionPageDTO pageDto) {
+        ValidatorUtil.require(pageDto.getCourseId(), "课程ID");
+        ValidatorUtil.require(pageDto.getChapterId(), "大章ID");
         sectionService.list(pageDto);
         return ResultBean.getSuccess("查询成功", pageDto);
     }

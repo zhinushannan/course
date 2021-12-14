@@ -2,8 +2,11 @@
 
   <div>
 
-    <h3>{{ course.name }}</h3>
-
+    <h4 class="lighter">
+      <i class="ace-icon fa fa-hand-o-right icon-animated-hand-pointer blue"></i>
+      <router-link to="/business/course" class="pink"> {{course.name}} </router-link>
+    </h4>
+    <hr>
     <p>
       <router-link class="btn btn-white btn-default btn-round" to="/business/course">
         <i class="ace-icon fa fa-arrow-left"></i>
@@ -42,12 +45,16 @@
       <td>{{ chapter.courseId }}</td>
       <td>
         <div class="hidden-sm hidden-xs btn-group">
-          <button class="btn btn-xs btn-info" @click="edit(chapter)">
-            <i class="ace-icon fa fa-pencil bigger-120"></i>
+          <button class="btn btn-xs btn-info" @click="toSection(chapter)">
+            小节
           </button>
 
-          <button class="btn btn-xs btn-danger">
-            <i class="ace-icon fa fa-trash-o bigger-120" @click="del(chapter.id)"></i>
+          <button class="btn btn-xs btn-info" @click="edit(chapter)">
+          编辑
+        </button>
+
+          <button class="btn btn-xs btn-danger" @click="del(chapter.id)">
+            删除
           </button>
 
         </div>
@@ -203,6 +210,11 @@ export default {
         }
       })
       Loading.hide()
+    },
+    toSection(chapter) {
+      let _this = this;
+      SessionStorage.set("chapter", chapter);
+      _this.$router.push("/business/section")
     }
   }
 }
