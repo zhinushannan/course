@@ -39,6 +39,11 @@
             </p>
             <p>{{ course.summary }}</p>
             <p>
+              <span class="badge badge-info">{{course.id}}</span>
+              <span class="badge badge-info">排序：{{course.sort}}</span>
+              <span class="badge badge-info">{{course.time | formatSecond}}</span>
+            </p>
+            <p>
               <button class="btn btn-white btn-xs btn-info btn-round bigger-110" v-on:click="toChapter(course)">
                 大章
               </button>

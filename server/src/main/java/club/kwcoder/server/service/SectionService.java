@@ -11,6 +11,7 @@ import club.kwcoder.server.util.UuidUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -22,6 +23,9 @@ public class SectionService {
 
     @Resource
     private SectionMapper sectionMapper;
+
+    @Autowired
+    private CourseService courseService;
 
     /**
      * 列表查询
@@ -55,6 +59,7 @@ public class SectionService {
         } else {
             this.update(section);
         }
+        courseService.updateTime(sectionDto.getCourseId());
     }
 
     /**

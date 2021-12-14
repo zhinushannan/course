@@ -424,3 +424,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 2021-12-14 14:27:35.707 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639463255707, current=DOWN, previous=UP]
+2021-12-14 14:56:52.432 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639465012432, current=DOWN, previous=UP]
+2021-12-14 14:59:35.616 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639465175616, current=DOWN, previous=UP]
+2021-12-14 19:16:26.161 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639480586161, current=DOWN, previous=UP]
+2021-12-14 19:22:06.729 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639480926729, current=DOWN, previous=UP]

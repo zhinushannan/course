@@ -5,10 +5,14 @@ import club.kwcoder.server.dataobject.CourseDOExample;
 import club.kwcoder.server.dto.CourseDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.mapper.CourseMapper;
+import club.kwcoder.server.mapper.my.MyCourseMapper;
 import club.kwcoder.server.util.CopyUtil;
 import club.kwcoder.server.util.UuidUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
@@ -19,8 +23,13 @@ import java.util.Date;
 @Service
 public class CourseService {
 
+    private static final Logger LOG = LoggerFactory.getLogger(CourseService.class);
+
     @Resource
     private CourseMapper courseMapper;
+
+    @Autowired
+    private MyCourseMapper myCourseMapper;
 
     /**
      * 列表查询
@@ -73,4 +82,10 @@ public class CourseService {
     public void delete(String id) {
         courseMapper.deleteByPrimaryKey(id);
     }
+
+    public void updateTime(String courseId) {
+        LOG.info("更新课程时长：{}", courseId);
+        myCourseMapper.updateTime(courseId);
+    }
+
 }
