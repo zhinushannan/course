@@ -3,8 +3,11 @@ package club.kwcoder.server.mapper;
 import club.kwcoder.server.dataobject.CourseContentDO;
 import club.kwcoder.server.dataobject.CourseContentDOExample;
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+@Mapper
 public interface CourseContentMapper {
     long countByExample(CourseContentDOExample example);
 

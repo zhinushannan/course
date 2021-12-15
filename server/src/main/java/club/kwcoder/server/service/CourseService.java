@@ -1,13 +1,13 @@
 package club.kwcoder.server.service;
 
 import club.kwcoder.server.dataobject.CourseCategoryDO;
-import club.kwcoder.server.dataobject.CourseCategoryDOExample;
+import club.kwcoder.server.dataobject.CourseContentDO;
 import club.kwcoder.server.dataobject.CourseDO;
 import club.kwcoder.server.dataobject.CourseDOExample;
-import club.kwcoder.server.dto.CategoryDTO;
+import club.kwcoder.server.dto.CourseContentDTO;
 import club.kwcoder.server.dto.CourseDTO;
 import club.kwcoder.server.dto.PageDTO;
-import club.kwcoder.server.mapper.CourseCategoryMapper;
+import club.kwcoder.server.mapper.CourseContentMapper;
 import club.kwcoder.server.mapper.CourseMapper;
 import club.kwcoder.server.mapper.my.MyCourseMapper;
 import club.kwcoder.server.util.CopyUtil;
@@ -38,6 +38,9 @@ public class CourseService {
 
     @Autowired
     private CourseCategoryService courseCategoryService;
+
+    @Autowired
+    private CourseContentMapper courseContentMapper;
 
     /**
      * 列表查询
@@ -100,6 +103,30 @@ public class CourseService {
         myCourseMapper.updateTime(courseId);
     }
 
+    /**
+     * 查询课程内容
+     * @param id
+     * @return
+     */
+    public CourseContentDTO findContent(String id) {
+        CourseContentDO courseContentDO = courseContentMapper.selectByPrimaryKey(id);
+        if (null == courseContentDO) {
+            return null;
+        }
+        return CopyUtil.copy(courseContentDO, CourseContentDTO.class);
+    }
 
+    /**
+     * 保存课程内容，包含新增和修改
+     * @return
+     */
+    public int saveContent(CourseContentDTO courseContentDTO) {
+        CourseContentDO copy = CopyUtil.copy(courseContentDTO, CourseContentDO.class);
+        int i = courseContentMapper.updateByPrimaryKey(copy);
+        if (0 == i) {
+            i = courseContentMapper.insert(copy);
+        }
+        return i;
+    }
 
 }

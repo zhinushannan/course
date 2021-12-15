@@ -327,3 +327,5 @@ java.lang.RuntimeException: Value for courseId cannot be null
 2021-12-15 13:15:00.979 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545300979, current=DOWN, previous=UP]
 2021-12-15 13:22:31.792 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545751792, current=DOWN, previous=UP]
 2021-12-15 13:36:13.760 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639546573760, current=DOWN, previous=UP]
+2021-12-15 14:21:17.618 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639549277618, current=DOWN, previous=UP]
+2021-12-15 14:26:34.943 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639549594943, current=DOWN, previous=UP]

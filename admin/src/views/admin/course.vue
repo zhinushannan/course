@@ -48,6 +48,10 @@
                 大章
               </button>
               &nbsp;
+              <button class="btn btn-white btn-xs btn-info btn-round bigger-110" v-on:click="editContent(course)">
+                内容
+              </button>
+              &nbsp;
               <button class="btn btn-white btn-xs btn-info btn-round bigger-110" v-on:click="edit(course)">
                 编辑
               </button>
@@ -60,6 +64,31 @@
         </div>
       </div>
     </div>
+
+    <div id="course-content-modal" class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span
+                aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">内容编辑</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <div class="col-lg-12">
+                  <div id="content"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" type="button">取消</button>
+            <button class="btn btn-primary" type="button" v-on:click="saveContent()">保存</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <div id="form-modal" class="modal fade" role="dialog" tabindex="-1">
       <div class="modal-dialog" role="document">
@@ -342,7 +371,52 @@ export default {
           _this.tree.checkNode(node, true)
         }
       })
-    }
+    },
+
+    editContent(course) {
+      let _this = this
+      let id = course.id
+      _this.course = course
+      $("#content").summernote({
+        focus: true,
+        height: 300
+      })
+      // 先清空历史文本
+      $("#content").summernote("code", "")
+      Loading.show();
+      _this.$ajax.post(process.env.VUE_APP_SERVER + "/business/admin/course/find-content/" + course.id).then((response) => {
+        Loading.hide();
+        let resp = response.data;
+        if (resp.success) {
+          $("#course-content-modal").modal({backdrop: "static", keyboard: false});
+          if (resp.success) {
+            $("#content").summernote("code", resp.data.content)
+          }
+        } else {
+          Toast.warning(resp.message)
+        }
+      })
+    },
+    /**
+     * 保存内容
+     */
+    saveContent () {
+      let _this = this;
+      let content = $("#content").summernote("code");
+      _this.$ajax.post(process.env.VUE_APP_SERVER + '/business/admin/course/save-content', {
+        id: _this.course.id,
+        content: content
+      }).then((response)=>{
+        Loading.hide();
+        let resp = response.data;
+        if (resp.success) {
+          Toast.success(resp.message);
+        } else {
+          Toast.warning(resp.message);
+        }
+      });
+    },
+
   }
 }
 </script>

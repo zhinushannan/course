@@ -96,9 +96,9 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CourseContentDO" useGeneratedKeys="true">
-    insert into course_content (content)
-    values (#{content,jdbcType=VARCHAR})
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CourseContentDO">
+    insert into course_content (id, content)
+    values (#{id,jdbcType=VARCHAR}, #{content,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CourseContentDO" useGeneratedKeys="true">
     insert into course_content

@@ -1,9 +1,6 @@
 package club.kwcoder.business.controller.admin;
 
-import club.kwcoder.server.dto.CourseCategoryDTO;
-import club.kwcoder.server.dto.CourseDTO;
-import club.kwcoder.server.dto.PageDTO;
-import club.kwcoder.server.dto.ResultBean;
+import club.kwcoder.server.dto.*;
 import club.kwcoder.server.service.CourseCategoryService;
 import club.kwcoder.server.service.CourseService;
 import club.kwcoder.server.util.ValidatorUtil;
@@ -57,6 +54,18 @@ public class CourseController {
     public ResultBean<List<CourseCategoryDTO>> listCategory(@PathVariable String courseId) {
         List<CourseCategoryDTO> courseCategoryDTOS = courseCategoryService.listByCourse(courseId);
         return ResultBean.getSuccess("查询成功", courseCategoryDTOS);
+    }
+
+    @PostMapping("/find-content/{id}")
+    public ResultBean<CourseContentDTO> findContent(@PathVariable String id) {
+        CourseContentDTO content = courseService.findContent(id);
+        return ResultBean.getSuccess("查询成功", content);
+    }
+
+    @PostMapping("/save-content")
+    public ResultBean<String> saveContent(@RequestBody CourseContentDTO courseContentDTO) {
+        courseService.saveContent(courseContentDTO);
+        return ResultBean.getSuccess("保存成功", null);
     }
 
     /**
