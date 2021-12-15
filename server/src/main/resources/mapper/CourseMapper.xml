@@ -109,13 +109,13 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CourseDO" useGeneratedKeys="true">
-    insert into course (`name`, summary, `time`, 
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CourseDO">
+    insert into course (id, `name`, summary, `time`,
       price, image, `level`, charge, 
       `status`, enroll, sort, 
       created_at, updated_at, teacher_id
       )
-    values (#{name,jdbcType=VARCHAR}, #{summary,jdbcType=VARCHAR}, #{time,jdbcType=INTEGER}, 
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{summary,jdbcType=VARCHAR}, #{time,jdbcType=INTEGER},
       #{price,jdbcType=DECIMAL}, #{image,jdbcType=VARCHAR}, #{level,jdbcType=CHAR}, #{charge,jdbcType=CHAR}, 
       #{status,jdbcType=CHAR}, #{enroll,jdbcType=INTEGER}, #{sort,jdbcType=INTEGER}, 
       #{createdAt,jdbcType=TIMESTAMP}, #{updatedAt,jdbcType=TIMESTAMP}, #{teacherId,jdbcType=CHAR}

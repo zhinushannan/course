@@ -1113,3 +1113,953 @@
 2021-12-15 12:49:30.834 INFO  club.kwcoder.server.config.LogAspect              :118  [32m98a60b6a[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
 2021-12-15 12:49:30.834 INFO  club.kwcoder.server.config.LogAspect              :119  [32m98a60b6a[0;39m ------------- 结束 耗时：16 ms -------------
 2021-12-15 12:50:15.156 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 12:53:06.364 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 12:53:06.364 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639543986364, current=DOWN, previous=UP]
+2021-12-15 12:53:06.364 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 12:53:06.380 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 12:53:06.663 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 12:53:06.669 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-12-15 12:53:06.670 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-12-15 12:53:06.678 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 12:53:09.680 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 12:53:09.695 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 12:53:09.695 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 12:53:10.836 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 12:53:11.148 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=a33492f2-9702-3ba1-85db-3f6ea16a2ce7
+2021-12-15 12:53:11.289 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 12:53:11.289 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 12:53:11.289 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 12:53:11.289 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 12:53:11.304 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 12:53:11.304 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 468 ms
+2021-12-15 12:53:11.451 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 12:53:11.451 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 12:53:11.576 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 12:53:11.716 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 12:53:12.060 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 12:53:12.435 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 12:53:12.482 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 12:53:12.482 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 12:53:12.482 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 12:53:12.482 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 12:53:12.482 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 12:53:12.482 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 12:53:12.529 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 12:53:12.529 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 12:53:12.545 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 12:53:12.545 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 12:53:12.545 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 12:53:12.545 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639543992545 with initial instances count: 2
+2021-12-15 12:53:12.545 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 12:53:12.545 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639543992545, current=UP, previous=STARTING]
+2021-12-15 12:53:12.545 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 12:53:12.545 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 12:53:12.545 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 12:53:12.545 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 12:53:12.560 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 12:53:12.982 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 3.117 seconds (JVM running for 488.39)
+2021-12-15 12:53:12.982 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 12:53:12.982 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 12:53:12.982 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 12:53:17.318 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 12:53:17.318 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639543997318, current=DOWN, previous=UP]
+2021-12-15 12:53:17.318 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 12:53:17.334 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 12:53:17.799 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 12:53:17.815 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 12:53:20.821 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 12:53:20.852 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 12:53:20.852 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 12:53:21.820 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 12:53:22.039 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=cfb4c274-4eda-32d4-ae40-62d38132b633
+2021-12-15 12:53:22.117 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 12:53:22.117 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 12:53:22.117 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 12:53:22.117 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 12:53:22.133 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 12:53:22.133 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 313 ms
+2021-12-15 12:53:22.258 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 12:53:22.258 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 12:53:22.351 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 12:53:22.508 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 12:53:22.882 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 12:53:23.242 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 12:53:23.273 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 12:53:23.273 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 12:53:23.273 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 12:53:23.273 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 12:53:23.273 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 12:53:23.273 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 12:53:23.320 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639544003320 with initial instances count: 2
+2021-12-15 12:53:23.320 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639544003320, current=UP, previous=STARTING]
+2021-12-15 12:53:23.320 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 12:53:23.320 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 12:53:23.336 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 12:53:23.336 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 12:53:23.336 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 12:53:23.664 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 2.592 seconds (JVM running for 499.074)
+2021-12-15 12:53:23.664 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 12:53:23.664 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 12:53:23.664 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 12:56:32.586 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 12:56:32.586 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-15 12:56:32.586 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 0 ms
+2021-12-15 12:56:32.586 INFO  club.kwcoder.server.config.LogAspect              :85   [32m2ee79dfa[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:56:32.586 INFO  club.kwcoder.server.config.LogAspect              :86   [32m2ee79dfa[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:56:32.586 INFO  club.kwcoder.server.config.LogAspect              :87   [32m2ee79dfa[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:56:32.586 INFO  club.kwcoder.server.config.LogAspect              :88   [32m2ee79dfa[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:56:32.586 INFO  club.kwcoder.server.config.LogAspect              :106  [32m2ee79dfa[0;39m 请求参数: []
+2021-12-15 12:56:32.601 INFO  club.kwcoder.server.config.LogAspect              :85   [32m21bdf6b2[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:56:32.601 INFO  club.kwcoder.server.config.LogAspect              :86   [32m21bdf6b2[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:56:32.601 INFO  club.kwcoder.server.config.LogAspect              :87   [32m21bdf6b2[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:56:32.601 INFO  club.kwcoder.server.config.LogAspect              :88   [32m21bdf6b2[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:56:32.601 INFO  club.kwcoder.server.config.LogAspect              :106  [32m21bdf6b2[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:56:32.601 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m2ee79dfa[0;39m HikariPool-2 - Starting...
+2021-12-15 12:56:32.617 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m2ee79dfa[0;39m HikariPool-2 - Start completed.
+2021-12-15 12:56:32.633 INFO  club.kwcoder.server.config.LogAspect              :118  [32m21bdf6b2[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:56:32.633 INFO  club.kwcoder.server.config.LogAspect              :119  [32m21bdf6b2[0;39m ------------- 结束 耗时：32 ms -------------
+2021-12-15 12:56:32.633 INFO  club.kwcoder.server.config.LogAspect              :118  [32m2ee79dfa[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:56:32.633 INFO  club.kwcoder.server.config.LogAspect              :119  [32m2ee79dfa[0;39m ------------- 结束 耗时：47 ms -------------
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcc1f2035[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcc1f2035[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma3a70dac[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcc1f2035[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma3a70dac[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcc1f2035[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma3a70dac[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcc1f2035[0;39m 请求参数: []
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma3a70dac[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma3a70dac[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcc1f2035[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma3a70dac[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcc1f2035[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:56:39.837 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma3a70dac[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma5dedbd6[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3d8c7b82[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma5dedbd6[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3d8c7b82[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma5dedbd6[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3d8c7b82[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma5dedbd6[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3d8c7b82[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma5dedbd6[0;39m 请求参数: []
+2021-12-15 12:56:46.433 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3d8c7b82[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:56:46.449 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma5dedbd6[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:56:46.449 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma5dedbd6[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-15 12:56:46.449 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3d8c7b82[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:56:46.449 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3d8c7b82[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :85   [32mbaa040f5[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :85   [32m283e2da4[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :86   [32m283e2da4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :86   [32mbaa040f5[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :87   [32m283e2da4[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :87   [32mbaa040f5[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :88   [32m283e2da4[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :88   [32mbaa040f5[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :106  [32m283e2da4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :106  [32mbaa040f5[0;39m 请求参数: []
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :118  [32m283e2da4[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :118  [32mbaa040f5[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :119  [32m283e2da4[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:57:36.422 INFO  club.kwcoder.server.config.LogAspect              :119  [32mbaa040f5[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3ce0ba3f[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3ce0ba3f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9bc94d65[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9bc94d65[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3ce0ba3f[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9bc94d65[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3ce0ba3f[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9bc94d65[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3ce0ba3f[0;39m 请求参数: []
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9bc94d65[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3ce0ba3f[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3ce0ba3f[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9bc94d65[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:58:19.240 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9bc94d65[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:58:23.333 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1703c773[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1703c773[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :85   [32m16c3e19e[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1703c773[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :86   [32m16c3e19e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1703c773[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :87   [32m16c3e19e[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1703c773[0;39m 请求参数: []
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :88   [32m16c3e19e[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :106  [32m16c3e19e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1703c773[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1703c773[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :118  [32m16c3e19e[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:58:51.633 INFO  club.kwcoder.server.config.LogAspect              :119  [32m16c3e19e[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :85   [32mdbffe4fb[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :85   [32mff9697b0[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :86   [32mdbffe4fb[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :86   [32mff9697b0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :87   [32mdbffe4fb[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :87   [32mff9697b0[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :88   [32mdbffe4fb[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :106  [32mdbffe4fb[0;39m 请求参数: []
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :88   [32mff9697b0[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:59:04.772 INFO  club.kwcoder.server.config.LogAspect              :106  [32mff9697b0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:59:04.788 INFO  club.kwcoder.server.config.LogAspect              :118  [32mdbffe4fb[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:59:04.788 INFO  club.kwcoder.server.config.LogAspect              :119  [32mdbffe4fb[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-15 12:59:04.788 INFO  club.kwcoder.server.config.LogAspect              :118  [32mff9697b0[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:59:04.788 INFO  club.kwcoder.server.config.LogAspect              :119  [32mff9697b0[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1572a03f[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1572a03f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1572a03f[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :85   [32mb65941fe[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1572a03f[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :86   [32mb65941fe[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1572a03f[0;39m 请求参数: []
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :87   [32mb65941fe[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :88   [32mb65941fe[0;39m 远程地址: 192.168.245.1
+2021-12-15 12:59:06.350 INFO  club.kwcoder.server.config.LogAspect              :106  [32mb65941fe[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 12:59:06.366 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1572a03f[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 12:59:06.366 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1572a03f[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-15 12:59:06.366 INFO  club.kwcoder.server.config.LogAspect              :118  [32mb65941fe[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 12:59:06.366 INFO  club.kwcoder.server.config.LogAspect              :119  [32mb65941fe[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :85   [32m4729f15d[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :85   [32me433f2aa[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :86   [32me433f2aa[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :86   [32m4729f15d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :87   [32me433f2aa[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :87   [32m4729f15d[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :88   [32m4729f15d[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :88   [32me433f2aa[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4729f15d[0;39m 请求参数: []
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :106  [32me433f2aa[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4729f15d[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4729f15d[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :118  [32me433f2aa[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 13:00:48.107 INFO  club.kwcoder.server.config.LogAspect              :119  [32me433f2aa[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-15 13:03:23.341 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:08:23.356 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:10:50.889 INFO  club.kwcoder.server.config.LogAspect              :85   [32m49fe437d[0;39m ------------- 【课程】保存开始 -------------
+2021-12-15 13:10:50.889 INFO  club.kwcoder.server.config.LogAspect              :86   [32m49fe437d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/save POST
+2021-12-15 13:10:50.889 INFO  club.kwcoder.server.config.LogAspect              :87   [32m49fe437d[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.save
+2021-12-15 13:10:50.890 INFO  club.kwcoder.server.config.LogAspect              :88   [32m49fe437d[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:10:50.890 INFO  club.kwcoder.server.config.LogAspect              :106  [32m49fe437d[0;39m 请求参数: [{"charge":"C","level":"1","name":"测试课程","price":199.9,"sort":1,"status":"P","summary":"测试课程"}]
+2021-12-15 13:10:50.905 INFO  club.kwcoder.server.config.LogAspect              :118  [32m49fe437d[0;39m 返回结果: {"code":"200","data":{"charge":"C","level":"1","name":"测试课程","price":199.9,"sort":1,"status":"P","summary":"测试课程"},"message":"保存成功！","success":true}
+2021-12-15 13:10:50.906 INFO  club.kwcoder.server.config.LogAspect              :119  [32m49fe437d[0;39m ------------- 结束 耗时：17 ms -------------
+2021-12-15 13:10:50.928 INFO  club.kwcoder.server.config.LogAspect              :85   [32md265cc17[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:10:50.929 INFO  club.kwcoder.server.config.LogAspect              :86   [32md265cc17[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:10:50.929 INFO  club.kwcoder.server.config.LogAspect              :87   [32md265cc17[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:10:50.929 INFO  club.kwcoder.server.config.LogAspect              :88   [32md265cc17[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:10:50.929 INFO  club.kwcoder.server.config.LogAspect              :106  [32md265cc17[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:10:50.933 INFO  club.kwcoder.server.config.LogAspect              :118  [32md265cc17[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000},{"charge":"C","createdAt":1639545050891,"id":"","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050891}],"page":1,"size":5,"total":2},"message":"查询成功","success":true}
+2021-12-15 13:10:50.933 INFO  club.kwcoder.server.config.LogAspect              :119  [32md265cc17[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-15 13:11:13.731 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 13:11:13.731 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545073731, current=DOWN, previous=UP]
+2021-12-15 13:11:13.731 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:11:13.750 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:11:14.114 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:11:14.115 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-2 - Shutdown initiated...
+2021-12-15 13:11:14.125 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-2 - Shutdown completed.
+2021-12-15 13:11:14.125 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 13:11:17.134 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 13:11:17.147 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 13:11:17.152 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 13:11:18.313 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 13:11:18.563 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=cfb4c274-4eda-32d4-ae40-62d38132b633
+2021-12-15 13:11:18.688 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 13:11:18.688 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:11:18.688 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 13:11:18.688 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 13:11:18.704 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 13:11:18.704 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 391 ms
+2021-12-15 13:11:18.844 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 13:11:18.844 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 13:11:18.938 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:11:19.094 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 13:11:19.454 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 13:11:19.824 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 13:11:19.855 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 13:11:19.855 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 13:11:19.855 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 13:11:19.855 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 13:11:19.855 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 13:11:19.855 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 13:11:19.902 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639545079902 with initial instances count: 2
+2021-12-15 13:11:19.902 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545079902, current=UP, previous=STARTING]
+2021-12-15 13:11:19.902 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:11:19.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:11:19.917 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:11:19.917 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 13:11:19.917 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 13:11:20.261 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 2.895 seconds (JVM running for 1575.669)
+2021-12-15 13:11:20.261 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 13:11:20.261 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 13:11:20.261 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 13:11:27.058 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 13:11:27.058 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-15 13:11:27.073 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 15 ms
+2021-12-15 13:11:27.073 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf9ea9e7f[0;39m ------------- 【课程】保存开始 -------------
+2021-12-15 13:11:27.073 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf9ea9e7f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/save POST
+2021-12-15 13:11:27.073 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf9ea9e7f[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.save
+2021-12-15 13:11:27.073 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf9ea9e7f[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:11:27.073 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf9ea9e7f[0;39m 请求参数: [{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"C","createdAt":1639545050000,"id":"","level":"1","name":"测试课程","price":199.9,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050000}]
+2021-12-15 13:11:27.089 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mf9ea9e7f[0;39m HikariPool-3 - Starting...
+2021-12-15 13:11:27.104 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mf9ea9e7f[0;39m HikariPool-3 - Start completed.
+2021-12-15 13:11:27.151 ERROR o.a.c.c.C.[.[.[/business].[dispatcherServlet]     :175  [32mf9ea9e7f[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/business] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course.PRIMARY'
+### The error may exist in file [C:\CODE\course\server\target\classes\mapper\CourseMapper.xml]
+### The error may involve club.kwcoder.server.mapper.CourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into course (`name`, summary, `time`,        price, image, `level`, charge,        `status`, enroll, sort,        created_at, updated_at, teacher_id       )     values (?, ?, ?,        ?, ?, ?, ?,        ?, ?, ?,        ?, ?, ?       )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course.PRIMARY'
+; Duplicate entry '' for key 'course.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy140.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy97.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy164.insert(Unknown Source)
+	at club.kwcoder.server.service.CourseService.insert(CourseService.java:79)
+	at club.kwcoder.server.service.CourseService.save(CourseService.java:61)
+	at club.kwcoder.business.controller.admin.CourseController.save(CourseController.java:44)
+	at club.kwcoder.business.controller.admin.CourseController$$FastClassBySpringCGLIB$$faf135e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at club.kwcoder.server.config.LogAspect.doAround(LogAspect.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at club.kwcoder.business.controller.admin.CourseController$$EnhancerBySpringCGLIB$$853d76f4.save(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-15 13:12:11.608 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 13:12:11.608 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545131608, current=DOWN, previous=UP]
+2021-12-15 13:12:11.608 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:12:11.624 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:12:11.952 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:12:11.952 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-3 - Shutdown initiated...
+2021-12-15 13:12:11.967 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-3 - Shutdown completed.
+2021-12-15 13:12:11.967 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 13:12:14.979 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 13:12:14.995 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 13:12:14.995 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 13:12:16.010 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 13:12:16.229 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=cfb4c274-4eda-32d4-ae40-62d38132b633
+2021-12-15 13:12:16.339 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 13:12:16.339 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:12:16.339 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 13:12:16.339 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 13:12:16.354 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 13:12:16.354 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 344 ms
+2021-12-15 13:12:16.464 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 13:12:16.464 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 13:12:16.557 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:12:16.698 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 13:12:17.057 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 13:12:17.417 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 13:12:17.448 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 13:12:17.448 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 13:12:17.448 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 13:12:17.448 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 13:12:17.448 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 13:12:17.448 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 13:12:17.495 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639545137495 with initial instances count: 2
+2021-12-15 13:12:17.495 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545137495, current=UP, previous=STARTING]
+2021-12-15 13:12:17.495 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:12:17.495 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:12:17.495 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 13:12:17.510 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 13:12:17.510 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:12:17.838 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 2.568 seconds (JVM running for 1633.246)
+2021-12-15 13:12:17.838 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 13:12:17.838 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 13:12:17.838 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 13:12:21.447 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 13:12:21.447 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-15 13:12:21.447 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 0 ms
+2021-12-15 13:12:21.463 INFO  club.kwcoder.server.config.LogAspect              :85   [32macaf9c23[0;39m ------------- 【课程】保存开始 -------------
+2021-12-15 13:12:21.463 INFO  club.kwcoder.server.config.LogAspect              :86   [32macaf9c23[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/save POST
+2021-12-15 13:12:21.463 INFO  club.kwcoder.server.config.LogAspect              :87   [32macaf9c23[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.save
+2021-12-15 13:12:21.463 INFO  club.kwcoder.server.config.LogAspect              :88   [32macaf9c23[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:12:21.463 INFO  club.kwcoder.server.config.LogAspect              :106  [32macaf9c23[0;39m 请求参数: [{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"C","createdAt":1639545050000,"id":"","level":"1","name":"测试课程","price":199.9,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050000}]
+2021-12-15 13:12:21.463 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32macaf9c23[0;39m HikariPool-4 - Starting...
+2021-12-15 13:12:21.479 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32macaf9c23[0;39m HikariPool-4 - Start completed.
+2021-12-15 13:12:21.510 ERROR o.a.c.c.C.[.[.[/business].[dispatcherServlet]     :175  [32macaf9c23[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/business] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course_category.PRIMARY'
+### The error may exist in file [C:\CODE\course\server\target\classes\mapper\CourseCategoryMapper.xml]
+### The error may involve club.kwcoder.server.mapper.CourseCategoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into course_category (course_id, category_id)     values (?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course_category.PRIMARY'
+; Duplicate entry '' for key 'course_category.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course_category.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 'course_category.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy140.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy97.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy175.insert(Unknown Source)
+	at club.kwcoder.server.service.CourseCategoryService.insert(CourseCategoryService.java:55)
+	at club.kwcoder.server.service.CourseCategoryService.saveBatch(CourseCategoryService.java:83)
+	at club.kwcoder.server.service.CourseService.save(CourseService.java:67)
+	at club.kwcoder.business.controller.admin.CourseController.save(CourseController.java:44)
+	at club.kwcoder.business.controller.admin.CourseController$$FastClassBySpringCGLIB$$faf135e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at club.kwcoder.server.config.LogAspect.doAround(LogAspect.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at club.kwcoder.business.controller.admin.CourseController$$EnhancerBySpringCGLIB$$853d76f4.save(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-15 13:12:48.780 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 13:12:48.780 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545168780, current=DOWN, previous=UP]
+2021-12-15 13:12:48.780 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:12:48.796 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:12:49.077 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:12:49.077 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-4 - Shutdown initiated...
+2021-12-15 13:12:49.077 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-4 - Shutdown completed.
+2021-12-15 13:12:49.077 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 13:12:52.092 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 13:12:52.107 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 13:12:52.107 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 13:12:52.950 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 13:12:53.153 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=cfb4c274-4eda-32d4-ae40-62d38132b633
+2021-12-15 13:12:53.278 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 13:12:53.278 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:12:53.278 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 13:12:53.278 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 13:12:53.294 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 13:12:53.294 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 344 ms
+2021-12-15 13:12:53.403 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 13:12:53.403 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 13:12:53.481 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:12:53.622 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 13:12:53.966 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 13:12:54.325 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 13:12:54.356 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 13:12:54.356 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 13:12:54.356 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 13:12:54.372 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 13:12:54.372 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 13:12:54.372 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 13:12:54.403 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 13:12:54.403 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639545174403 with initial instances count: 2
+2021-12-15 13:12:54.419 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 13:12:54.419 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545174419, current=UP, previous=STARTING]
+2021-12-15 13:12:54.419 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:12:54.419 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:12:54.419 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 13:12:54.419 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 13:12:54.434 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:12:54.747 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 2.518 seconds (JVM running for 1670.161)
+2021-12-15 13:12:54.747 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 13:12:54.747 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 13:12:54.747 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 13:12:59.199 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 13:12:59.199 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-15 13:12:59.199 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 0 ms
+2021-12-15 13:12:59.199 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf239fb1d[0;39m ------------- 【课程】保存开始 -------------
+2021-12-15 13:12:59.199 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf239fb1d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/save POST
+2021-12-15 13:12:59.199 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf239fb1d[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.save
+2021-12-15 13:12:59.199 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf239fb1d[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:12:59.199 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf239fb1d[0;39m 请求参数: [{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"C","createdAt":1639545050000,"id":"","level":"1","name":"测试课程","price":199.9,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050000}]
+2021-12-15 13:12:59.214 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mf239fb1d[0;39m HikariPool-5 - Starting...
+2021-12-15 13:12:59.230 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mf239fb1d[0;39m HikariPool-5 - Start completed.
+2021-12-15 13:12:59.277 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf239fb1d[0;39m 返回结果: {"code":"200","data":{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"C","createdAt":1639545050000,"id":"","level":"1","name":"测试课程","price":199.9,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050000},"message":"保存成功！","success":true}
+2021-12-15 13:12:59.277 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf239fb1d[0;39m ------------- 结束 耗时：78 ms -------------
+2021-12-15 13:12:59.293 INFO  club.kwcoder.server.config.LogAspect              :85   [32mb1a4bbeb[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:12:59.293 INFO  club.kwcoder.server.config.LogAspect              :86   [32mb1a4bbeb[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:12:59.293 INFO  club.kwcoder.server.config.LogAspect              :87   [32mb1a4bbeb[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:12:59.293 INFO  club.kwcoder.server.config.LogAspect              :88   [32mb1a4bbeb[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:12:59.293 INFO  club.kwcoder.server.config.LogAspect              :106  [32mb1a4bbeb[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:12:59.308 INFO  club.kwcoder.server.config.LogAspect              :118  [32mb1a4bbeb[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000},{"charge":"C","createdAt":1639545050891,"id":"","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050891},{"charge":"C","createdAt":1639545179214,"id":"7oxFky5v","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545179214},{"charge":"C","createdAt":1639545141463,"id":"pvYfzCTq","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545141463}],"page":1,"size":5,"total":4},"message":"查询成功","success":true}
+2021-12-15 13:12:59.308 INFO  club.kwcoder.server.config.LogAspect              :119  [32mb1a4bbeb[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-15 13:13:03.117 INFO  club.kwcoder.server.config.LogAspect              :85   [32m57f6d21c[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:13:03.117 INFO  club.kwcoder.server.config.LogAspect              :86   [32m57f6d21c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:13:03.117 INFO  club.kwcoder.server.config.LogAspect              :87   [32m57f6d21c[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:13:03.117 INFO  club.kwcoder.server.config.LogAspect              :88   [32m57f6d21c[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:13:03.118 INFO  club.kwcoder.server.config.LogAspect              :106  [32m57f6d21c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:13:03.121 INFO  club.kwcoder.server.config.LogAspect              :118  [32m57f6d21c[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000},{"charge":"C","createdAt":1639545050891,"id":"","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545050891},{"charge":"C","createdAt":1639545179214,"id":"7oxFky5v","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545179214},{"charge":"C","createdAt":1639545141463,"id":"pvYfzCTq","level":"1","name":"测试课程","price":199.90,"sort":1,"status":"P","summary":"测试课程","updatedAt":1639545141463}],"page":1,"size":5,"total":4},"message":"查询成功","success":true}
+2021-12-15 13:13:03.122 INFO  club.kwcoder.server.config.LogAspect              :119  [32m57f6d21c[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-15 13:13:29.414 INFO  club.kwcoder.server.config.LogAspect              :85   [32m2fd0e6ce[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:13:29.414 INFO  club.kwcoder.server.config.LogAspect              :86   [32m2fd0e6ce[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:13:29.414 INFO  club.kwcoder.server.config.LogAspect              :87   [32m2fd0e6ce[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:13:29.415 INFO  club.kwcoder.server.config.LogAspect              :88   [32m2fd0e6ce[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:13:29.415 INFO  club.kwcoder.server.config.LogAspect              :106  [32m2fd0e6ce[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:13:29.420 INFO  club.kwcoder.server.config.LogAspect              :118  [32m2fd0e6ce[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 13:13:29.421 INFO  club.kwcoder.server.config.LogAspect              :119  [32m2fd0e6ce[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-15 13:13:46.495 INFO  club.kwcoder.server.config.LogAspect              :85   [32m7a66bf1a[0;39m ------------- 【课程】保存开始 -------------
+2021-12-15 13:13:46.496 INFO  club.kwcoder.server.config.LogAspect              :86   [32m7a66bf1a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/save POST
+2021-12-15 13:13:46.496 INFO  club.kwcoder.server.config.LogAspect              :87   [32m7a66bf1a[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.save
+2021-12-15 13:13:46.496 INFO  club.kwcoder.server.config.LogAspect              :88   [32m7a66bf1a[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:13:46.496 INFO  club.kwcoder.server.config.LogAspect              :106  [32m7a66bf1a[0;39m 请求参数: [{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"C","level":"1","name":"测试课程","price":19.99,"status":"P","summary":"测试课程"}]
+2021-12-15 13:13:46.505 ERROR o.a.c.c.C.[.[.[/business].[dispatcherServlet]     :175  [32m7a66bf1a[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/business] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for courseId cannot be null] with root cause
+java.lang.RuntimeException: Value for courseId cannot be null
+	at club.kwcoder.server.dataobject.CourseCategoryDOExample$GeneratedCriteria.addCriterion(CourseCategoryDOExample.java:95)
+	at club.kwcoder.server.dataobject.CourseCategoryDOExample$GeneratedCriteria.andCourseIdEqualTo(CourseCategoryDOExample.java:188)
+	at club.kwcoder.server.dataobject.CourseCategoryDOExample$Criteria.andCourseIdEqualTo(CourseCategoryDOExample.java:320)
+	at club.kwcoder.server.service.CourseCategoryService.saveBatch(CourseCategoryService.java:74)
+	at club.kwcoder.server.service.CourseService.save(CourseService.java:67)
+	at club.kwcoder.business.controller.admin.CourseController.save(CourseController.java:44)
+	at club.kwcoder.business.controller.admin.CourseController$$FastClassBySpringCGLIB$$faf135e7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at club.kwcoder.server.config.LogAspect.doAround(LogAspect.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at club.kwcoder.business.controller.admin.CourseController$$EnhancerBySpringCGLIB$$853d76f4.save(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-15 13:14:26.986 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 13:14:26.986 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545266986, current=DOWN, previous=UP]
+2021-12-15 13:14:26.986 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:14:27.001 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:14:27.262 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:14:27.262 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-5 - Shutdown initiated...
+2021-12-15 13:14:27.262 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-5 - Shutdown completed.
+2021-12-15 13:14:27.262 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 13:14:30.291 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 13:14:30.307 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 13:14:30.307 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 13:14:31.260 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 13:14:31.479 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=cfb4c274-4eda-32d4-ae40-62d38132b633
+2021-12-15 13:14:31.604 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 13:14:31.604 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:14:31.604 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 13:14:31.604 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 13:14:31.620 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 13:14:31.620 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 360 ms
+2021-12-15 13:14:31.729 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 13:14:31.729 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 13:14:31.807 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:14:31.948 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 13:14:32.292 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 13:14:32.667 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 13:14:32.682 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 13:14:32.682 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 13:14:32.682 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 13:14:32.682 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 13:14:32.682 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 13:14:32.682 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 13:14:32.729 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639545272729 with initial instances count: 1
+2021-12-15 13:14:32.729 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 13:14:32.729 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545272729, current=UP, previous=STARTING]
+2021-12-15 13:14:32.745 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:14:32.745 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:14:32.745 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 13:14:32.745 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 13:14:32.760 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:14:33.104 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 2.571 seconds (JVM running for 1768.51)
+2021-12-15 13:14:33.104 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 13:14:33.104 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 13:14:33.104 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 13:14:36.276 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 13:14:36.276 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-15 13:14:36.291 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 15 ms
+2021-12-15 13:14:36.291 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5fce54f8[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:14:36.291 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5fce54f8[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:14:36.291 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5fce54f8[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:14:36.291 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5fce54f8[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:14:36.291 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5fce54f8[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:14:36.291 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m5fce54f8[0;39m HikariPool-6 - Starting...
+2021-12-15 13:14:36.307 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m5fce54f8[0;39m HikariPool-6 - Start completed.
+2021-12-15 13:14:36.323 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5fce54f8[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639545226496,"id":"zb82Ap07","level":"1","name":"测试课程","price":19.99,"status":"P","summary":"测试课程","updatedAt":1639545226496},{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":2},"message":"查询成功","success":true}
+2021-12-15 13:14:36.323 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5fce54f8[0;39m ------------- 结束 耗时：32 ms -------------
+2021-12-15 13:14:46.875 INFO  club.kwcoder.server.config.LogAspect              :85   [32mffe4ecb8[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:14:46.876 INFO  club.kwcoder.server.config.LogAspect              :86   [32mffe4ecb8[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:14:46.876 INFO  club.kwcoder.server.config.LogAspect              :87   [32mffe4ecb8[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:14:46.876 INFO  club.kwcoder.server.config.LogAspect              :88   [32mffe4ecb8[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:14:46.876 INFO  club.kwcoder.server.config.LogAspect              :106  [32mffe4ecb8[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:14:46.881 INFO  club.kwcoder.server.config.LogAspect              :118  [32mffe4ecb8[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 13:14:46.882 INFO  club.kwcoder.server.config.LogAspect              :119  [32mffe4ecb8[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-15 13:15:00.979 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-15 13:15:00.979 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545300979, current=DOWN, previous=UP]
+2021-12-15 13:15:00.979 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:15:00.994 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:15:01.338 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:15:01.338 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-6 - Shutdown initiated...
+2021-12-15 13:15:01.354 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-6 - Shutdown completed.
+2021-12-15 13:15:01.354 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-15 13:15:04.366 WARN  com.netflix.discovery.TimedSupervisorTask         :90   [32m        [0;39m task supervisor shutting down, can't accept the task
+2021-12-15 13:15:04.366 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-15 13:15:04.382 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - deregister  status: 200
+2021-12-15 13:15:04.382 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-15 13:15:05.292 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-15 13:15:05.526 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=cfb4c274-4eda-32d4-ae40-62d38132b633
+2021-12-15 13:15:05.636 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-15 13:15:05.636 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:15:05.636 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-15 13:15:05.636 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-15 13:15:05.651 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-15 13:15:05.651 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 343 ms
+2021-12-15 13:15:05.761 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-15 13:15:05.761 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-15 13:15:05.839 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 13:15:05.979 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-15 13:15:06.323 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-15 13:15:06.682 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-15 13:15:06.714 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-15 13:15:06.714 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-15 13:15:06.714 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-15 13:15:06.714 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-15 13:15:06.714 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-15 13:15:06.714 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-15 13:15:06.761 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-15 13:15:06.761 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639545306761 with initial instances count: 2
+2021-12-15 13:15:06.776 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-15 13:15:06.776 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639545306776, current=UP, previous=STARTING]
+2021-12-15 13:15:06.776 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-15 13:15:06.776 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-15 13:15:06.776 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-15 13:15:06.776 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-15 13:15:06.792 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-15 13:15:07.104 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 2.55 seconds (JVM running for 1802.517)
+2021-12-15 13:15:07.104 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-15 13:15:07.104 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-15 13:15:07.104 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-15 13:15:18.516 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 13:15:18.517 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-15 13:15:18.523 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 6 ms
+2021-12-15 13:15:18.527 INFO  club.kwcoder.server.config.LogAspect              :85   [32mdbec1079[0;39m ------------- 【课程】保存开始 -------------
+2021-12-15 13:15:18.528 INFO  club.kwcoder.server.config.LogAspect              :86   [32mdbec1079[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/save POST
+2021-12-15 13:15:18.528 INFO  club.kwcoder.server.config.LogAspect              :87   [32mdbec1079[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.save
+2021-12-15 13:15:18.528 INFO  club.kwcoder.server.config.LogAspect              :88   [32mdbec1079[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:15:18.529 INFO  club.kwcoder.server.config.LogAspect              :106  [32mdbec1079[0;39m 请求参数: [{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"F","name":"course","status":"P","summary":"course"}]
+2021-12-15 13:15:18.537 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mdbec1079[0;39m HikariPool-7 - Starting...
+2021-12-15 13:15:18.552 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mdbec1079[0;39m HikariPool-7 - Start completed.
+2021-12-15 13:15:18.582 INFO  club.kwcoder.server.config.LogAspect              :118  [32mdbec1079[0;39m 返回结果: {"code":"200","data":{"categorys":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101}],"charge":"F","name":"course","status":"P","summary":"course"},"message":"保存成功！","success":true}
+2021-12-15 13:15:18.582 INFO  club.kwcoder.server.config.LogAspect              :119  [32mdbec1079[0;39m ------------- 结束 耗时：55 ms -------------
+2021-12-15 13:15:18.607 INFO  club.kwcoder.server.config.LogAspect              :85   [32m7dcf8bda[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:15:18.607 INFO  club.kwcoder.server.config.LogAspect              :86   [32m7dcf8bda[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:15:18.607 INFO  club.kwcoder.server.config.LogAspect              :87   [32m7dcf8bda[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:15:18.607 INFO  club.kwcoder.server.config.LogAspect              :88   [32m7dcf8bda[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:15:18.608 INFO  club.kwcoder.server.config.LogAspect              :106  [32m7dcf8bda[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:15:18.616 INFO  club.kwcoder.server.config.LogAspect              :118  [32m7dcf8bda[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"F","createdAt":1639545318559,"id":"AMHpbVW7","name":"course","status":"P","summary":"course","updatedAt":1639545318559},{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":2},"message":"查询成功","success":true}
+2021-12-15 13:15:18.616 INFO  club.kwcoder.server.config.LogAspect              :119  [32m7dcf8bda[0;39m ------------- 结束 耗时：10 ms -------------
+2021-12-15 13:15:47.482 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcbe4c258[0;39m ------------- 【分类】操作开始 -------------
+2021-12-15 13:15:47.482 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcbe4c258[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-15 13:15:47.483 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcbe4c258[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-15 13:15:47.483 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcbe4c258[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:15:47.484 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcbe4c258[0;39m 请求参数: []
+2021-12-15 13:15:47.486 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8f7df8f4[0;39m ------------- 【课程】查询开始 -------------
+2021-12-15 13:15:47.486 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8f7df8f4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-15 13:15:47.487 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8f7df8f4[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-15 13:15:47.487 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8f7df8f4[0;39m 远程地址: 192.168.245.1
+2021-12-15 13:15:47.487 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8f7df8f4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-15 13:15:47.494 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8f7df8f4[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","time":100500,"updatedAt":1639460716000}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-15 13:15:47.494 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8f7df8f4[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-15 13:15:47.505 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcbe4c258[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-15 13:15:47.506 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcbe4c258[0;39m ------------- 结束 耗时：25 ms -------------

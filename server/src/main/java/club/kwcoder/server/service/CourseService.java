@@ -1,9 +1,13 @@
 package club.kwcoder.server.service;
 
+import club.kwcoder.server.dataobject.CourseCategoryDO;
+import club.kwcoder.server.dataobject.CourseCategoryDOExample;
 import club.kwcoder.server.dataobject.CourseDO;
 import club.kwcoder.server.dataobject.CourseDOExample;
+import club.kwcoder.server.dto.CategoryDTO;
 import club.kwcoder.server.dto.CourseDTO;
 import club.kwcoder.server.dto.PageDTO;
+import club.kwcoder.server.mapper.CourseCategoryMapper;
 import club.kwcoder.server.mapper.CourseMapper;
 import club.kwcoder.server.mapper.my.MyCourseMapper;
 import club.kwcoder.server.util.CopyUtil;
@@ -14,6 +18,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
@@ -30,6 +35,9 @@ public class CourseService {
 
     @Autowired
     private MyCourseMapper myCourseMapper;
+
+    @Autowired
+    private CourseCategoryService courseCategoryService;
 
     /**
      * 列表查询
@@ -48,6 +56,7 @@ public class CourseService {
     /**
      * 保存，id有值时更新，无值时新增
      */
+    @Transactional
     public void save(CourseDTO courseDto) {
         CourseDO course = CopyUtil.copy(courseDto, CourseDO.class);
         if (StringUtils.isEmpty(courseDto.getId())) {
@@ -55,6 +64,9 @@ public class CourseService {
         } else {
             this.update(course);
         }
+        // 批量保存分类
+        courseCategoryService.saveBatch(course.getId(), courseDto.getCategorys());
+
     }
 
     /**
@@ -87,5 +99,7 @@ public class CourseService {
         LOG.info("更新课程时长：{}", courseId);
         myCourseMapper.updateTime(courseId);
     }
+
+
 
 }

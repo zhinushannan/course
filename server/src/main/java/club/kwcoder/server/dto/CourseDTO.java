@@ -2,6 +2,8 @@ package club.kwcoder.server.dto;
 
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -83,5 +85,7 @@ public class CourseDTO {
      * 讲师|teacher.id
      */
     private String teacherId;
+
+    private List<CategoryDTO> categorys;
 
 }
