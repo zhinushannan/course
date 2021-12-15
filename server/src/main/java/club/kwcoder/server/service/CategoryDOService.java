@@ -10,6 +10,7 @@ import club.kwcoder.server.util.UuidUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
@@ -72,7 +73,23 @@ public class CategoryDOService {
     /**
      * 删除
      */
+    @Transactional
     public void delete(String id) {
+        deleteChildren(id);
         categoryDOMapper.deleteByPrimaryKey(id);
+    }
+
+    /**
+     * 删除子分类
+     * @param id
+     */
+    public void deleteChildren(String id) {
+        CategoryDO categoryDO = categoryDOMapper.selectByPrimaryKey(id);
+        if ("00000000".equals(categoryDO.getParent())) {
+            // 如果是一级分类，需要删除其下的二级分类
+            CategoryDOExample example = new CategoryDOExample();
+            example.createCriteria().andParentEqualTo(id);
+            categoryDOMapper.deleteByExample(example);
+        }
     }
 }
