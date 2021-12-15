@@ -52,7 +52,7 @@
                 编辑
               </button>
               &nbsp;
-              <button class="btn btn-white btn-xs btn-warning btn-round bigger-110" v-on:click="edit(course)">
+              <button class="btn btn-white btn-xs btn-warning btn-round bigger-110" v-on:click="del(course.id)">
                 删除
               </button>
             </p>
@@ -196,6 +196,7 @@ export default {
     add() {
       let _this = this;
       _this.course = {};
+      _this.tree.checkAllNodes(false);
       $("#form-modal").modal("show");
     },
 
@@ -205,6 +206,7 @@ export default {
     edit(course) {
       let _this = this;
       _this.course = $.extend({}, course);
+      _this.listCategory(course.id);
       $("#form-modal").modal("show");
     },
 
@@ -322,6 +324,24 @@ export default {
       let zNodes = _this.categorys;
 
       _this.tree = $.fn.zTree.init($("#tree"), setting, zNodes);
+    },
+
+    listCategory(courseId) {
+      let _this = this;
+      Loading.show();
+      _this.$ajax.post(process.env.VUE_APP_SERVER + "/business/admin/course/list-category/" + courseId).then((response) => {
+        Loading.hide();
+        console.log("查询课程下所有分类结果：", response);
+        let resp = response.data;
+        let categorys = resp.data;
+
+        // 勾选查询到的分类
+        _this.tree.checkAllNodes(false)
+        for (let i = 0; i < categorys.length; i++) {
+          let node = _this.tree.getNodeByParam("id", categorys[i].categoryId);
+          _this.tree.checkNode(node, true)
+        }
+      })
     }
   }
 }

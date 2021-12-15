@@ -11,6 +11,7 @@ import club.kwcoder.server.util.UuidUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
@@ -69,6 +70,7 @@ public class CourseCategoryService {
         courseCategoryMapper.deleteByPrimaryKey(id);
     }
 
+    @Transactional
     public void saveBatch(String courseId, List<CategoryDTO> categorys) {
         CourseCategoryDOExample example = new CourseCategoryDOExample();
         example.createCriteria().andCourseIdEqualTo(courseId);
@@ -82,6 +84,13 @@ public class CourseCategoryService {
                     .setCategoryId(categoryDTO.getId());
             insert(courseCategoryDO);
         }
+    }
+
+    public List<CourseCategoryDTO> listByCourse(String courseId) {
+        CourseCategoryDOExample example = new CourseCategoryDOExample();
+        example.createCriteria().andCourseIdEqualTo(courseId);
+        List<CourseCategoryDO> courseCategoryDOS = courseCategoryMapper.selectByExample(example);
+        return CopyUtil.copyList(courseCategoryDOS, CourseCategoryDTO.class);
     }
 
 }

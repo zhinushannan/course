@@ -1,15 +1,20 @@
 package club.kwcoder.business.controller.admin;
 
+import club.kwcoder.server.dto.CourseCategoryDTO;
 import club.kwcoder.server.dto.CourseDTO;
 import club.kwcoder.server.dto.PageDTO;
 import club.kwcoder.server.dto.ResultBean;
+import club.kwcoder.server.service.CourseCategoryService;
 import club.kwcoder.server.service.CourseService;
 import club.kwcoder.server.util.ValidatorUtil;
+import org.checkerframework.checker.units.qual.A;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RestController
 @RequestMapping("/admin/course")
@@ -20,6 +25,9 @@ public class CourseController {
 
     @Resource
     private CourseService courseService;
+
+    @Autowired
+    private CourseCategoryService courseCategoryService;
 
     /**
      * 列表查询
@@ -43,6 +51,12 @@ public class CourseController {
 
         courseService.save(courseDto);
         return ResultBean.getSuccess("保存成功！", courseDto);
+    }
+
+    @PostMapping("/list-category/{courseId}")
+    public ResultBean<List<CourseCategoryDTO>> listCategory(@PathVariable String courseId) {
+        List<CourseCategoryDTO> courseCategoryDTOS = courseCategoryService.listByCourse(courseId);
+        return ResultBean.getSuccess("查询成功", courseCategoryDTOS);
     }
 
     /**
