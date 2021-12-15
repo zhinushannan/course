@@ -75,6 +75,9 @@
           </div>
           <div class="modal-body">
             <form class="form-horizontal">
+              <div class="col-lg-12">
+                {{ saveContentLabel }}
+              </div>
               <div class="form-group">
                 <div class="col-lg-12">
                   <div id="content"></div>
@@ -206,7 +209,8 @@ export default {
       COURSE_CHARGE: COURSE_CHARGE,
       COURSE_STATUS: COURSE_STATUS,
       categorys: [],
-      tree: {}
+      tree: {},
+      saveContentLabel: ''
     }
   },
   mounted: function () {
@@ -253,7 +257,6 @@ export default {
         let resp = response.data;
         _this.courses = resp.data.data;
         _this.$refs.pagination.render(page, resp.data.total);
-
       })
     },
 
@@ -383,6 +386,7 @@ export default {
       })
       // 先清空历史文本
       $("#content").summernote("code", "")
+      _this.saveContentLabel = ""
       Loading.show();
       _this.$ajax.post(process.env.VUE_APP_SERVER + "/business/admin/course/find-content/" + course.id).then((response) => {
         Loading.hide();
@@ -392,6 +396,17 @@ export default {
           if (resp.success) {
             $("#content").summernote("code", resp.data.content)
           }
+
+          // 自动保存
+          let saveContentInterval = setInterval(function () {
+            _this.saveContent();
+          }, 5000);
+
+          // 当关闭内容框时，清空计时器
+          $("#course-content-modal").on("hidden.bs.modal", function () {
+            clearInterval(saveContentInterval)
+          })
+
         } else {
           Toast.warning(resp.message)
         }
@@ -410,7 +425,9 @@ export default {
         Loading.hide();
         let resp = response.data;
         if (resp.success) {
-          Toast.success(resp.message);
+          // Toast.success(resp.message);
+          let now = Tool.dateFormat("mm:ss")
+          _this.saveContentLabel = "最后保存时间：" + now
         } else {
           Toast.warning(resp.message);
         }
