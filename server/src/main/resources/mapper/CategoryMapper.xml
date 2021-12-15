@@ -98,15 +98,18 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CategoryDO" useGeneratedKeys="true">
-    insert into category (parent, `name`, sort
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CategoryDO">
+    insert into category (id, parent, `name`, sort
       )
-    values (#{parent,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER}
+    values (#{id,jdbcType=CHAR}, #{parent,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER}
       )
   </insert>
-  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CategoryDO" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="club.kwcoder.server.dataobject.CategoryDO">
     insert into category
     <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
       <if test="parent != null">
         parent,
       </if>
@@ -118,6 +121,9 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=CHAR},
+      </if>
       <if test="parent != null">
         #{parent,jdbcType=CHAR},
       </if>
