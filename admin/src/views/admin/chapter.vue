@@ -146,6 +146,7 @@ export default {
     }
     _this.course = course;
     _this.list(1);
+    _this.$parent.activeSideBar("business-course-sidebar")
   },
   methods: {
     add() {
