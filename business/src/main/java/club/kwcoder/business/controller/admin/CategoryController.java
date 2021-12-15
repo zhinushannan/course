@@ -10,9 +10,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RestController
-@RequestMapping("/admin/categoryDO")
+@RequestMapping("/admin/category")
 public class CategoryController {
 
     private static final Logger LOG = LoggerFactory.getLogger(CategoryController.class);
@@ -28,6 +29,12 @@ public class CategoryController {
     public ResultBean<PageDTO<CategoryDTO>> list(@RequestBody PageDTO<CategoryDTO> pageDto) {
         categoryDOService.list(pageDto);
         return ResultBean.getSuccess("查询成功", pageDto);
+    }
+
+    @PostMapping("/all")
+    public ResultBean<List<CategoryDTO>> all() {
+        List<CategoryDTO> all = categoryDOService.all();
+        return ResultBean.getSuccess("查询成功", all);
     }
 
     /**

@@ -35,6 +35,13 @@ public class CategoryDOService {
         pageDto.setData(categoryDODtoList);
     }
 
+    public List<CategoryDTO> all() {
+        CategoryDOExample categoryDOExample = new CategoryDOExample();
+        categoryDOExample.setOrderByClause("sort asc");
+        List<CategoryDO> categoryDOList = categoryDOMapper.selectByExample(categoryDOExample);
+        return CopyUtil.copyList(categoryDOList, CategoryDTO.class);
+    }
+
     /**
      * 保存，id有值时更新，无值时新增
      */
