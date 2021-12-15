@@ -76,4 +76,12 @@ public class CourseController {
         courseService.delete(id);
         return ResultBean.getSuccess("删除成功", null);
     }
+
+    @RequestMapping(value = "/sort")
+    public ResultBean<String> sort(@RequestBody SortDTO sort) {
+        LOG.info("更新排序");
+        courseService.sort(sort);
+        return ResultBean.getSuccess("更新排序成功", null);
+    }
+
 }

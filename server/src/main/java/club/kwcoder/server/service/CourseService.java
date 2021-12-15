@@ -7,6 +7,7 @@ import club.kwcoder.server.dataobject.CourseDOExample;
 import club.kwcoder.server.dto.CourseContentDTO;
 import club.kwcoder.server.dto.CourseDTO;
 import club.kwcoder.server.dto.PageDTO;
+import club.kwcoder.server.dto.SortDTO;
 import club.kwcoder.server.mapper.CourseContentMapper;
 import club.kwcoder.server.mapper.CourseMapper;
 import club.kwcoder.server.mapper.my.MyCourseMapper;
@@ -129,4 +130,19 @@ public class CourseService {
         return i;
     }
 
+    @Transactional
+    public void sort(SortDTO sort) {
+        // 修改当前记录的排序值
+        myCourseMapper.updateSort(sort);
+
+        // 如果排序值变大
+        if (sort.getNewSort() > sort.getOldSort()) {
+            myCourseMapper.moveSortsForward(sort);
+        }
+
+        // 如果排序值变小
+        if (sort.getOldSort() > sort.getNewSort()) {
+            myCourseMapper.moveSortsBackward(sort);
+        }
+    }
 }
