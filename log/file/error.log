@@ -344,3 +344,9 @@ Caused by: java.io.FileNotFoundException: C:\CODE\course\teacher\TkMjBqKz-168AEA
 	... 76 common frames omitted
 2021-12-16 23:25:43.805 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639668343805, current=DOWN, previous=UP]
 2021-12-16 23:26:08.236 ERROR club.kwcoder.server.config.LogAspect              :79   [32m1c0ff464[0;39m 未获取到业务名称
+2021-12-16 23:44:11.061 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669451061, current=DOWN, previous=UP]
+2021-12-16 23:45:04.884 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669504884, current=DOWN, previous=UP]
+2021-12-16 23:45:50.588 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669550588, current=DOWN, previous=UP]
+2021-12-16 23:46:51.999 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669611999, current=DOWN, previous=UP]
+2021-12-16 23:47:58.446 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669678446, current=DOWN, previous=UP]
+2021-12-16 23:48:45.004 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669725004, current=DOWN, previous=UP]

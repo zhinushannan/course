@@ -3898,3 +3898,6 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-12-16 23:24:09.800 INFO  club.kwcoder.server.config.LogAspect              :119  [32m55753956[0;39m ------------- 结束 耗时：7 ms -------------
 2021-12-16 23:26:27.013 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-16 23:31:27.016 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 23:36:27.024 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 23:41:27.040 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 23:46:27.054 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
