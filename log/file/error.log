@@ -1,0 +1,2 @@
+2021-12-16 22:28:03.491 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639664883490, current=DOWN, previous=UP]
+2021-12-16 22:28:29.563 ERROR club.kwcoder.server.config.LogAspect              :79   [32m2d7bfd7b[0;39m 未获取到业务名称

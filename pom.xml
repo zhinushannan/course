@@ -13,6 +13,7 @@
         <module>system</module>
         <module>business</module>
         <module>generator</module>
+        <module>file</module>
     </modules>
     <name>course</name>
     <description>course</description>
