@@ -236,3 +236,4 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '' for key 't
 	at java.lang.Thread.run(Thread.java:748)
 2021-12-16 09:20:53.176 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639617653176, current=DOWN, previous=UP]
 2021-12-16 09:21:37.840 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639617697840, current=DOWN, previous=UP]
+2021-12-16 10:43:14.269 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639622594269, current=DOWN, previous=UP]

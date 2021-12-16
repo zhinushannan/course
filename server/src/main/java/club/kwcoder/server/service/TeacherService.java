@@ -67,4 +67,10 @@ public class TeacherService {
     public void delete(String id) {
         teacherMapper.deleteByPrimaryKey(id);
     }
+
+    public List<TeacherDTO> all() {
+        TeacherDOExample example = new TeacherDOExample();
+        List<TeacherDO> teacherDOS = teacherMapper.selectByExample(example);
+        return CopyUtil.copyList(teacherDOS, TeacherDTO.class);
+    }
 }

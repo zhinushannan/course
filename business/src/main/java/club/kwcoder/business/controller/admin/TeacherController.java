@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RestController
 @RequestMapping("/admin/teacher")
@@ -61,4 +62,11 @@ public class TeacherController {
         teacherService.delete(id);
         return resultBean;
     }
+
+    @RequestMapping("/all")
+    public ResultBean<List<TeacherDTO>> all() {
+        List<TeacherDTO> teachers = teacherService.all();
+        return ResultBean.getSuccess("查询成功", teachers);
+    }
+
 }

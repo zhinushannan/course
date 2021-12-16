@@ -236,3 +236,25 @@ java.lang.IllegalStateException: Shutdown in progress
 2021-12-16 10:19:25.594 INFO  club.kwcoder.gateway.GatewayApplication           :61   [32m        [0;39m Started GatewayApplication in 15.034 seconds (JVM running for 17.708)
 2021-12-16 10:19:25.594 INFO  club.kwcoder.gateway.GatewayApplication           :28   [32m        [0;39m 启动成功！！！
 2021-12-16 10:19:25.594 INFO  club.kwcoder.gateway.GatewayApplication           :29   [32m        [0;39m Gateway地址：	http://127.0.0.1:9000
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-12-16 10:19:53.064 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-16 10:19:53.079 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-16 10:22:22.528 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: BUSINESS.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-12-16 10:22:22.548 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer  :58   [32m        [0;39m Shutdown hook installed for: NFLoadBalancer-PingTimer-BUSINESS
+2021-12-16 10:22:22.549 INFO  com.netflix.loadbalancer.BaseLoadBalancer         :197  [32m        [0;39m Client: BUSINESS instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=BUSINESS,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-12-16 10:22:22.554 INFO  c.n.loadbalancer.DynamicServerListLoadBalancer    :222  [32m        [0;39m Using serverListUpdater PollingServerListUpdater
+2021-12-16 10:22:22.574 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: BUSINESS.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-12-16 10:22:22.576 INFO  c.n.loadbalancer.DynamicServerListLoadBalancer    :150  [32m        [0;39m DynamicServerListLoadBalancer for client BUSINESS initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=BUSINESS,current list of Servers=[DESKTOP-IIUD3CS:9002],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-IIUD3CS:9002;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@51e66d1f
+2021-12-16 10:22:23.568 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: BUSINESS.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-12-16 10:24:22.801 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 10:29:22.814 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 10:34:22.817 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 10:39:22.832 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-16 10:44:22.843 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
