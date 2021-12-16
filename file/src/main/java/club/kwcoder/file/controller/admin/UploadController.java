@@ -4,6 +4,7 @@ import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.util.UuidUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,12 @@ import java.io.IOException;
 @RequestMapping("/admin")
 public class UploadController {
 
+    @Value("${file.domain}")
+    private String FILE_DOMAIN;
+
+    @Value("${file.path}")
+    private String FILE_PATH;
+
     public static final String BUSINESS_NAME = "文件上传";
 
     private static final Logger LOG = LoggerFactory.getLogger(UploadController.class);
@@ -33,12 +40,12 @@ public class UploadController {
 
         String fileName = file.getOriginalFilename();
         String key = UuidUtil.getShortUuid();
-        String fullPath = "C:/CODE/course/file_dir/teacher/" + key + "-" + fileName;
+        String fullPath = FILE_PATH + "teacher/" + key + "-" + fileName;
         File dest = new File(fullPath);
         file.transferTo(dest);
         LOG.info(dest.getAbsolutePath());
 
-        return ResultBean.getSuccess("上传成功", "http://127.0.0.1:9000/file/f/teacher/" + key + "-" + fileName);
+        return ResultBean.getSuccess("上传成功", FILE_DOMAIN + "teacher/" + key + "-" + fileName);
     }
 
 }
