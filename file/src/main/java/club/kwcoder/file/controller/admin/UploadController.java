@@ -38,7 +38,7 @@ public class UploadController {
         file.transferTo(dest);
         LOG.info(dest.getAbsolutePath());
 
-        return ResultBean.getSuccess("上传成功", null);
+        return ResultBean.getSuccess("上传成功", "http://127.0.0.1:9000/file/f/teacher/" + key + "-" + fileName);
     }
 
 }

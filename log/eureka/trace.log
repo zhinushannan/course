@@ -387,3 +387,21 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 2021-12-16 23:48:51.337 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/DESKTOP-IIUD3CS:file:9003 with status UP (replication=true)
 2021-12-16 23:49:26.230 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
 2021-12-16 23:50:26.241 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 11ms
+2021-12-16 23:51:26.243 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-12-16 23:52:26.250 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-12-16 23:52:43.045 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/DESKTOP-IIUD3CS:file:9003 with status DOWN (replication=false)
+2021-12-16 23:52:43.567 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/DESKTOP-IIUD3CS:file:9003 with status DOWN (replication=true)
+2021-12-16 23:52:46.343 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:328  [32m        [0;39m Cancelled instance FILE/DESKTOP-IIUD3CS:file:9003 (replication=false)
+2021-12-16 23:52:46.867 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:313  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: FILE/DESKTOP-IIUD3CS:file:9003
+2021-12-16 23:52:46.867 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): FILE - DESKTOP-IIUD3CS:file:9003
+2021-12-16 23:52:46.868 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task FILE/DESKTOP-IIUD3CS:file:9003:Cancel@localhost failed with response code 404
+2021-12-16 23:52:46.868 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m FILE/DESKTOP-IIUD3CS:file:9003:Cancel@localhost: missing entry.
+2021-12-16 23:52:48.842 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/DESKTOP-IIUD3CS:file:9003 with status UP (replication=false)
+2021-12-16 23:52:49.367 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/DESKTOP-IIUD3CS:file:9003 with status UP (replication=true)
+2021-12-16 23:53:26.254 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-12-16 23:54:26.272 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 17ms
+2021-12-16 23:55:25.685 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 6
+2021-12-16 23:55:26.272 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-12-16 23:56:26.286 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 13ms
+2021-12-16 23:57:26.298 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 11ms
+2021-12-16 23:58:26.308 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 10ms

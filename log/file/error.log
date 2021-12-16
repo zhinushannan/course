@@ -350,3 +350,4 @@ Caused by: java.io.FileNotFoundException: C:\CODE\course\teacher\TkMjBqKz-168AEA
 2021-12-16 23:46:51.999 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669611999, current=DOWN, previous=UP]
 2021-12-16 23:47:58.446 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669678446, current=DOWN, previous=UP]
 2021-12-16 23:48:45.004 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669725004, current=DOWN, previous=UP]
+2021-12-16 23:52:43.033 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639669963033, current=DOWN, previous=UP]
