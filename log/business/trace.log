@@ -44,3 +44,113 @@
 2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8386bfc0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
 2021-12-17 00:16:40.263 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8386bfc0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
 2021-12-17 00:16:40.263 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8386bfc0[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 00:17:52.640 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-17 00:17:52.641 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639671472641, current=DOWN, previous=UP]
+2021-12-17 00:17:52.642 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-17 00:17:52.653 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-17 00:17:53.032 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 00:17:53.033 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-12-17 00:17:53.040 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-12-17 00:17:53.041 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-17 09:05:58.754 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-17 09:05:58.847 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-17 09:06:00.472 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-17 09:06:02.332 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=e65dca3d-5a1d-373b-a209-ee064e70cb08
+2021-12-17 09:06:04.160 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-17 09:06:04.176 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-17 09:06:04.176 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-17 09:06:04.176 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-17 09:06:04.347 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-17 09:06:04.347 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 3839 ms
+2021-12-17 09:06:05.347 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 09:06:05.347 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 09:06:05.347 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 09:06:05.347 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 09:06:05.644 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-17 09:06:06.191 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-17 09:06:06.847 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-17 09:06:07.581 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-17 09:06:07.753 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-17 09:06:07.784 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-17 09:06:08.518 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-17 09:06:08.518 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-17 09:06:08.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-17 09:06:08.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-17 09:06:08.862 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639703169299 with initial instances count: 0
+2021-12-17 09:06:09.315 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-17 09:06:09.315 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639703169315, current=UP, previous=STARTING]
+2021-12-17 09:06:09.315 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-17 09:06:09.315 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-17 09:06:09.346 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-17 09:06:09.346 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-17 09:06:09.377 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 13.427 seconds (JVM running for 16.77)
+2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 09:06:39.329 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 09:08:56.632 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 09:08:56.632 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-17 09:08:56.640 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 8 ms
+2021-12-17 09:08:56.688 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5e56cd31[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5e56cd31[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5e56cd31[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5e56cd31[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:08:56.700 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5e56cd31[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:08:56.777 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m5e56cd31[0;39m HikariPool-1 - Starting...
+2021-12-17 09:08:57.011 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m5e56cd31[0;39m HikariPool-1 - Start completed.
+2021-12-17 09:08:57.209 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5e56cd31[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:08:57.209 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5e56cd31[0;39m ------------- 结束 耗时：526 ms -------------
+2021-12-17 09:09:02.908 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcabca6cc[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcabca6cc[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcabca6cc[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcabca6cc[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcabca6cc[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:02.915 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcabca6cc[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:02.916 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcabca6cc[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-17 09:09:20.182 INFO  club.kwcoder.server.config.LogAspect              :85   [32m269838b9[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :86   [32m269838b9[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :87   [32m269838b9[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :88   [32m269838b9[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :106  [32m269838b9[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:20.188 INFO  club.kwcoder.server.config.LogAspect              :118  [32m269838b9[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:20.188 INFO  club.kwcoder.server.config.LogAspect              :119  [32m269838b9[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 09:09:43.913 INFO  club.kwcoder.server.config.LogAspect              :85   [32meb3848e0[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:43.913 INFO  club.kwcoder.server.config.LogAspect              :86   [32meb3848e0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :87   [32meb3848e0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :88   [32meb3848e0[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :106  [32meb3848e0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:43.917 INFO  club.kwcoder.server.config.LogAspect              :118  [32meb3848e0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:43.918 INFO  club.kwcoder.server.config.LogAspect              :119  [32meb3848e0[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 09:09:46.902 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9ccc450e[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:46.903 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9ccc450e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:46.903 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9ccc450e[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:46.904 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9ccc450e[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:46.904 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9ccc450e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:46.908 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9ccc450e[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:46.908 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9ccc450e[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 09:11:09.225 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:12:56.826 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5cb58d91[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:12:56.826 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5cb58d91[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5cb58d91[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5cb58d91[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5cb58d91[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5cb58d91[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5cb58d91[0;39m ------------- 结束 耗时：16 ms -------------
