@@ -142,3 +142,99 @@
 2021-12-17 09:08:57.349 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-12-17 09:08:57.358 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
 2021-12-17 09:11:12.096 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:16:12.109 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:21:12.125 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:26:12.137 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:31:12.141 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:36:12.149 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:41:12.160 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:46:12.165 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:46:38.249 INFO  club.kwcoder.server.config.LogAspect              :85   [32m87b00ba6[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:46:38.250 INFO  club.kwcoder.server.config.LogAspect              :86   [32m87b00ba6[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:46:38.250 INFO  club.kwcoder.server.config.LogAspect              :87   [32m87b00ba6[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:46:38.250 INFO  club.kwcoder.server.config.LogAspect              :88   [32m87b00ba6[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:46:38.254 INFO  club.kwcoder.server.config.LogAspect              :106  [32m87b00ba6[0;39m 请求参数: [null]
+2021-12-17 09:46:38.258 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m87b00ba6[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@32fb0d4c
+2021-12-17 09:46:38.258 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m87b00ba6[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:46:38.259 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m87b00ba6[0;39m 54774
+2021-12-17 09:46:38.260 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m87b00ba6[0;39m C:\CODE\course\file_dir\teacher\VIlZZW1h-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:46:38.272 INFO  club.kwcoder.server.config.LogAspect              :118  [32m87b00ba6[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/VIlZZW1h-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 09:46:38.273 INFO  club.kwcoder.server.config.LogAspect              :119  [32m87b00ba6[0;39m ------------- 结束 耗时：27 ms -------------
+2021-12-17 09:47:40.929 INFO  club.kwcoder.server.config.LogAspect              :85   [32madf3d214[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:47:40.930 INFO  club.kwcoder.server.config.LogAspect              :86   [32madf3d214[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:47:40.931 INFO  club.kwcoder.server.config.LogAspect              :87   [32madf3d214[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:47:40.932 INFO  club.kwcoder.server.config.LogAspect              :88   [32madf3d214[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:47:40.932 INFO  club.kwcoder.server.config.LogAspect              :106  [32madf3d214[0;39m 请求参数: [null]
+2021-12-17 09:47:40.933 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32madf3d214[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@633f05a0
+2021-12-17 09:47:40.933 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32madf3d214[0;39m 2_BigPic.png
+2021-12-17 09:47:40.934 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32madf3d214[0;39m 18775
+2021-12-17 09:47:40.935 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32madf3d214[0;39m C:\CODE\course\file_dir\teacher\49g1ViKc-2_BigPic.png
+2021-12-17 09:47:40.936 INFO  club.kwcoder.server.config.LogAspect              :118  [32madf3d214[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/49g1ViKc-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:47:40.936 INFO  club.kwcoder.server.config.LogAspect              :119  [32madf3d214[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-17 09:49:40.807 INFO  club.kwcoder.server.config.LogAspect              :85   [32m36a755ee[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :86   [32m36a755ee[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :87   [32m36a755ee[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :88   [32m36a755ee[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :106  [32m36a755ee[0;39m 请求参数: [null]
+2021-12-17 09:49:40.809 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m36a755ee[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@52eba453
+2021-12-17 09:49:40.809 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m36a755ee[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:49:40.809 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m36a755ee[0;39m 54774
+2021-12-17 09:49:40.810 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m36a755ee[0;39m C:\CODE\course\file_dir\teacher\UixhRfmK-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:49:40.811 INFO  club.kwcoder.server.config.LogAspect              :118  [32m36a755ee[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/UixhRfmK-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 09:49:40.811 INFO  club.kwcoder.server.config.LogAspect              :119  [32m36a755ee[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:49:49.888 INFO  club.kwcoder.server.config.LogAspect              :85   [32m33fb8b95[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:49:49.888 INFO  club.kwcoder.server.config.LogAspect              :86   [32m33fb8b95[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:49:49.889 INFO  club.kwcoder.server.config.LogAspect              :87   [32m33fb8b95[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:49:49.889 INFO  club.kwcoder.server.config.LogAspect              :88   [32m33fb8b95[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:49.889 INFO  club.kwcoder.server.config.LogAspect              :106  [32m33fb8b95[0;39m 请求参数: [null]
+2021-12-17 09:49:49.890 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m33fb8b95[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@74f9a712
+2021-12-17 09:49:49.890 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m33fb8b95[0;39m 1_BigPic.png
+2021-12-17 09:49:49.891 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m33fb8b95[0;39m 191565
+2021-12-17 09:49:49.893 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m33fb8b95[0;39m C:\CODE\course\file_dir\teacher\tAEE8fSk-1_BigPic.png
+2021-12-17 09:49:49.894 INFO  club.kwcoder.server.config.LogAspect              :118  [32m33fb8b95[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/tAEE8fSk-1_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:49:49.894 INFO  club.kwcoder.server.config.LogAspect              :119  [32m33fb8b95[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :85   [32m7ee66431[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :86   [32m7ee66431[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :87   [32m7ee66431[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :88   [32m7ee66431[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :106  [32m7ee66431[0;39m 请求参数: [null]
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m7ee66431[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6d1836f7
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m7ee66431[0;39m 2_BigPic.png
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m7ee66431[0;39m 18775
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m7ee66431[0;39m C:\CODE\course\file_dir\teacher\OHj0QB3O-2_BigPic.png
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :118  [32m7ee66431[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/OHj0QB3O-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :119  [32m7ee66431[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:51:12.170 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:52:42.413 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3a78a209[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:52:42.414 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3a78a209[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:52:42.415 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3a78a209[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:52:42.415 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3a78a209[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:52:42.415 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3a78a209[0;39m 请求参数: [null]
+2021-12-17 09:52:42.416 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m3a78a209[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1550a0e
+2021-12-17 09:52:42.416 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m3a78a209[0;39m 2_BigPic.png
+2021-12-17 09:52:42.416 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m3a78a209[0;39m 18775
+2021-12-17 09:52:42.417 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m3a78a209[0;39m C:\CODE\course\file_dir\teacher\FepQtoKx-2_BigPic.png
+2021-12-17 09:52:42.418 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3a78a209[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/FepQtoKx-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:52:42.418 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3a78a209[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 09:53:14.619 INFO  club.kwcoder.server.config.LogAspect              :85   [32m82415b17[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :86   [32m82415b17[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :87   [32m82415b17[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :88   [32m82415b17[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :106  [32m82415b17[0;39m 请求参数: [null]
+2021-12-17 09:53:14.621 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m82415b17[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@36dcd058
+2021-12-17 09:53:14.621 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m82415b17[0;39m 2_BigPic.png
+2021-12-17 09:53:14.621 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m82415b17[0;39m 18775
+2021-12-17 09:53:14.622 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m82415b17[0;39m C:\CODE\course\file_dir\teacher\VYPBBz2i-2_BigPic.png
+2021-12-17 09:53:14.623 INFO  club.kwcoder.server.config.LogAspect              :118  [32m82415b17[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/VYPBBz2i-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:53:14.623 INFO  club.kwcoder.server.config.LogAspect              :119  [32m82415b17[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:53:43.445 INFO  club.kwcoder.server.config.LogAspect              :85   [32m08133b4a[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:53:43.446 INFO  club.kwcoder.server.config.LogAspect              :86   [32m08133b4a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:53:43.446 INFO  club.kwcoder.server.config.LogAspect              :87   [32m08133b4a[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:53:43.447 INFO  club.kwcoder.server.config.LogAspect              :88   [32m08133b4a[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:53:43.447 INFO  club.kwcoder.server.config.LogAspect              :106  [32m08133b4a[0;39m 请求参数: [null]
+2021-12-17 09:53:43.447 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m08133b4a[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@76f08004
+2021-12-17 09:53:43.447 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m08133b4a[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:53:43.447 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m08133b4a[0;39m 54774
+2021-12-17 09:53:43.448 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m08133b4a[0;39m C:\CODE\course\file_dir\teacher\i39rPtfx-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:53:43.449 INFO  club.kwcoder.server.config.LogAspect              :118  [32m08133b4a[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/i39rPtfx-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 09:53:43.449 INFO  club.kwcoder.server.config.LogAspect              :119  [32m08133b4a[0;39m ------------- 结束 耗时：4 ms -------------

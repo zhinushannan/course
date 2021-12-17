@@ -12,7 +12,7 @@
       </button>
     </p>
 
-    <pagination ref="pagination" v-bind:list="list" v-bind:itemCount="8"></pagination>
+    <Pagination ref="pagination" v-bind:list="list" v-bind:itemCount="8"></Pagination>
 
     <div class="row">
       <div v-for="teacher in teachers" class="col-md-3">
@@ -86,11 +86,11 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label">头像</label>
                 <div class="col-sm-10">
-                  <button type="button" v-on:click="selectImage()" class="btn btn-white btn-default btn-round">
-                    <i class="ace-icon fa fa-upload"></i>
-                    上传头像
-                  </button>
-                  <input type="file" class="hidden" ref="file" @change="uploadImage()" id="file-upload-input">
+                  <File
+                      v-bind:id="'image-upload'"
+                      v-bind:suffixs="['jpg', 'jpeg', 'png']"
+                      v-bind:text="'上传头像1'"
+                      v-bind:after-upload="afterUpload"></File>
                   <div v-show="teacher.image" class="row">
                     <div class="col-md-4">
                       <img v-show="teacher.image" v-bind:src="teacher.image" class="img-responsive" alt="">
@@ -130,8 +130,9 @@
 
 <script>
   import Pagination from "../../components/pagination";
+  import File from "@/components/file";
   export default {
-    components: {Pagination},
+    components: {File, Pagination},
     name: "business-teacher",
     data: function() {
       return {
@@ -180,7 +181,6 @@
           let resp = response.data;
           _this.teachers = resp.data.data;
           _this.$refs.pagination.render(page, resp.data.total);
-
         })
       },
 
@@ -235,42 +235,11 @@
         });
       },
 
-      uploadImage() {
+      afterUpload(resp) {
         let _this = this
-        let formData = new window.FormData()
-        // key: "file" 必须和后端controller参数名保持一致
-        let file = _this.$refs.file.files[0]
-
-        // 判断文件格式
-        let suffixs = ["jpg", "jpeg", "png"]
-        let fileName = file.name
-        let suffix = file.subString(fileName.lastIndex(".") + 1, fileName.length).toLowerCase()
-        let validateSuffix = false
-        for (let i = 0; i < suffixs.length; i++) {
-          if (suffixs[i].toLowerCase() === suffix) {
-            validateSuffix = true;
-            break;
-          }
-        }
-        if (!validateSuffix) {
-          Toast.warning("文件格式不整齐！只支持上传：" + suffixs.join(", "))
-          return
-        }
-
-
-        formData.append("file", file)
-        Loading.show()
-        _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/upload", formData).then((response) => {
-          Loading.hide()
-          let resp = response.data
-          let image = resp.data
-          console.log("头像地址：", image)
-          _this.teacher.image = image
-        })
-      },
-
-      selectImage() {
-        $("#file-upload-input").trigger("click")
+        let image = resp.data
+        console.log("头像地址：", image)
+        _this.teacher.image = image
       }
 
     }
