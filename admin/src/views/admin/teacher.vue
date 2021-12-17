@@ -90,7 +90,7 @@
                     <i class="ace-icon fa fa-upload"></i>
                     上传头像
                   </button>
-                  <input type="file" hidden style="display: none" @change="uploadImage()" id="file-upload-input">
+                  <input type="file" class="hidden" ref="file" @change="uploadImage()" id="file-upload-input">
                   <div v-show="teacher.image" class="row">
                     <div class="col-md-4">
                       <img v-show="teacher.image" v-bind:src="teacher.image" class="img-responsive" alt="">
@@ -239,7 +239,26 @@
         let _this = this
         let formData = new window.FormData()
         // key: "file" 必须和后端controller参数名保持一致
-        formData.append("file", document.querySelector("#file-upload-input").files[0])
+        let file = _this.$refs.file.files[0]
+
+        // 判断文件格式
+        let suffixs = ["jpg", "jpeg", "png"]
+        let fileName = file.name
+        let suffix = file.subString(fileName.lastIndex(".") + 1, fileName.length).toLowerCase()
+        let validateSuffix = false
+        for (let i = 0; i < suffixs.length; i++) {
+          if (suffixs[i].toLowerCase() === suffix) {
+            validateSuffix = true;
+            break;
+          }
+        }
+        if (!validateSuffix) {
+          Toast.warning("文件格式不整齐！只支持上传：" + suffixs.join(", "))
+          return
+        }
+
+
+        formData.append("file", file)
         Loading.show()
         _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/upload", formData).then((response) => {
           Loading.hide()

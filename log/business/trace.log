@@ -154,3 +154,67 @@
 2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5cb58d91[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
 2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5cb58d91[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
 2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5cb58d91[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3ff4517c[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3ff4517c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3ff4517c[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3ff4517c[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3ff4517c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3ff4517c[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:15:18.048 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3ff4517c[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :85   [32m34271dfd[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :86   [32m34271dfd[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :87   [32m34271dfd[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :88   [32m34271dfd[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :106  [32m34271dfd[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :118  [32m34271dfd[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :119  [32m34271dfd[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :85   [32mab2e8a3d[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :86   [32mab2e8a3d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :87   [32mab2e8a3d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :88   [32mab2e8a3d[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :106  [32mab2e8a3d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :118  [32mab2e8a3d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :119  [32mab2e8a3d[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:16:09.235 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:17:17.369 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8e345ecc[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:17:17.369 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8e345ecc[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8e345ecc[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8e345ecc[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8e345ecc[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8e345ecc[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8e345ecc[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-17 09:17:25.133 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf00eab7d[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:17:25.133 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf00eab7d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf00eab7d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf00eab7d[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf00eab7d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf00eab7d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf00eab7d[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1e48cd40[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1e48cd40[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1e48cd40[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1e48cd40[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1e48cd40[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1e48cd40[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1e48cd40[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :85   [32mc9a9f5d9[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :86   [32mc9a9f5d9[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :87   [32mc9a9f5d9[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :88   [32mc9a9f5d9[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :106  [32mc9a9f5d9[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:18:07.979 INFO  club.kwcoder.server.config.LogAspect              :118  [32mc9a9f5d9[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:18:07.979 INFO  club.kwcoder.server.config.LogAspect              :119  [32mc9a9f5d9[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcf48792f[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcf48792f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcf48792f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcf48792f[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcf48792f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcf48792f[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcf48792f[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3e4cd08e[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3e4cd08e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3e4cd08e[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3e4cd08e[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3e4cd08e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3e4cd08e[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3e4cd08e[0;39m ------------- 结束 耗时：0 ms -------------
