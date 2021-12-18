@@ -523,12 +523,15 @@ export default {
     activeSideBar(id) {
       console.log(id)
 
+      if (id === 'business-chapter-sidebar' || id === 'business-section-sidebar') {
+        id = 'business-course-sidebar'
+      }
+
       $("li.active").removeClass("active")
       $("li.open").removeClass("open")
 
       $("#" + id).parents("li").addClass("open active")
       $("#" + id).addClass("active")
-
 
       // // 兄弟菜单去掉active样式，自身增加active样式
       // $("#" + id).siblings().removeClass("active")

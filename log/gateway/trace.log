@@ -193,3 +193,38 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2021-12-18 19:07:49.662 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-18 19:12:49.672 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-18 19:17:49.673 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:22:49.686 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:27:34.706 WARN  reactor.netty.http.client.HttpClientConnect       :299  [32m        [0;39m [id: 0x1ee2b9ae, L:0.0.0.0/0.0.0.0:8213 ! R:DESKTOP-IIUD3CS/192.168.245.1:9003] The connection observed an error
+reactor.netty.http.client.PrematureCloseException: Connection has been closed BEFORE response, while sending request body
+2021-12-18 19:27:34.708 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [fee566a3-267]  500 Server Error for HTTP POST "/file/admin/upload"
+reactor.netty.http.client.PrematureCloseException: Connection has been closed BEFORE response, while sending request body
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.web.cors.reactive.CorsWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP POST "/file/admin/upload" [ExceptionHandlingWebHandler]
+Stack trace:
+2021-12-18 19:27:49.692 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:32:49.699 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:37:49.712 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:42:49.724 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:47:49.736 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:49:20.690 WARN  reactor.netty.http.client.HttpClientConnect       :299  [32m        [0;39m [id: 0x33bc91b1, L:0.0.0.0/0.0.0.0:2423 ! R:DESKTOP-IIUD3CS/192.168.245.1:9003] The connection observed an error
+reactor.netty.http.client.PrematureCloseException: Connection has been closed BEFORE response, while sending request body
+2021-12-18 19:49:20.691 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [388ac5ca-413]  500 Server Error for HTTP POST "/file/admin/upload"
+reactor.netty.http.client.PrematureCloseException: Connection has been closed BEFORE response, while sending request body
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.web.cors.reactive.CorsWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP POST "/file/admin/upload" [ExceptionHandlingWebHandler]
+Stack trace:
+2021-12-18 19:52:49.746 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:54:01.169 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0x9caf46ea, L:/127.0.0.1:9000 - R:/127.0.0.1:2650] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-18 19:55:26.642 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0x5766c41e, L:/127.0.0.1:9000 - R:/127.0.0.1:2898] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-18 19:55:26.707 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0xd726b3b9, L:/127.0.0.1:9000 - R:/127.0.0.1:2902] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-18 19:56:44.757 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0xedd0dd59, L:/127.0.0.1:9000 - R:/127.0.0.1:2919] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-18 19:57:49.757 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 19:59:58.697 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0x19e01c9a, L:/127.0.0.1:9000 - R:/127.0.0.1:3530] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-18 19:59:58.724 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0xb89c61e2, L:/127.0.0.1:9000 - R:/127.0.0.1:3532] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-18 20:00:53.367 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0xdd19b494, L:/127.0.0.1:9000 - R:/127.0.0.1:3618] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。

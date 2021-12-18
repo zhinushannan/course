@@ -165,7 +165,17 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label">封面</label>
                 <div class="col-sm-10">
-                  <input v-model="course.image" class="form-control">
+                  <File
+                      v-bind:id="'image-upload'"
+                      v-bind:suffixs="['jpg', 'jpeg', 'png']"
+                      v-bind:text="'上传封面'"
+                      v-bind:use="FILE_USE.COURSE.key"
+                      v-bind:after-upload="afterUpload"></File>
+                  <div v-show="course.image" class="row">
+                    <div class="col-md-4">
+                      <img v-show="course.image" v-bind:src="course.image" class="img-responsive" alt="">
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="form-group">
@@ -214,7 +224,6 @@
       </div><!-- /.modal-dialog -->
     </div><!-- 新增modal -->
 
-
     <!-- 排序modal -->
     <div id="course-sort-modal" class="modal fade" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
@@ -262,9 +271,10 @@
 
 <script>
 import Pagination from "../../components/pagination";
+import File from "../../components/file";
 
 export default {
-  components: {Pagination},
+  components: {Pagination, File},
   name: "business-course",
   data: function () {
     return {
@@ -273,6 +283,7 @@ export default {
       COURSE_LEVEL: COURSE_LEVEL,
       COURSE_CHARGE: COURSE_CHARGE,
       COURSE_STATUS: COURSE_STATUS,
+      FILE_USE: FILE_USE,
       categorys: [],
       tree: {},
       saveContentLabel: '',
@@ -549,6 +560,13 @@ export default {
         _this.teachers = resp.data;
       })
     },
+
+    afterUpload(resp) {
+      let _this = this
+      let image = resp.data
+      console.log("封面地址：", image.path)
+      _this.course.image = image.path
+    }
 
   }
 }
