@@ -999,3 +999,37 @@ org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the requ
 2021-12-18 19:56:44.578 INFO  club.kwcoder.server.config.LogAspect              :118  [32md8bf80fd[0;39m 返回结果: {"code":"200","data":{"name":"video3.mp4","path":"http://127.0.0.1:9000/file/f/course/OZtx5Ohh.mp4","size":12857124,"suffix":"mp4","use":"C"},"message":"上传成功","success":true}
 2021-12-18 19:56:44.578 INFO  club.kwcoder.server.config.LogAspect              :119  [32md8bf80fd[0;39m ------------- 结束 耗时：10 ms -------------
 2021-12-18 20:01:13.519 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 20:04:58.273 INFO  club.kwcoder.server.config.LogAspect              :85   [32m93d874ba[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-18 20:04:58.274 INFO  club.kwcoder.server.config.LogAspect              :86   [32m93d874ba[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-18 20:04:58.274 INFO  club.kwcoder.server.config.LogAspect              :87   [32m93d874ba[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-18 20:04:58.274 INFO  club.kwcoder.server.config.LogAspect              :88   [32m93d874ba[0;39m 远程地址: 192.168.245.1
+2021-12-18 20:04:58.274 INFO  club.kwcoder.server.config.LogAspect              :106  [32m93d874ba[0;39m 请求参数: [null,"C"]
+2021-12-18 20:04:58.275 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m93d874ba[0;39m video3.mp4
+2021-12-18 20:04:58.275 INFO  c.kwcoder.file.controller.admin.UploadController  :47   [32m93d874ba[0;39m 12857124
+2021-12-18 20:04:58.275 INFO  c.kwcoder.file.controller.admin.UploadController  :69   [32m93d874ba[0;39m C:\CODE\course\file_dir\course\kW9Z8VUE.mp4
+2021-12-18 20:04:58.276 INFO  c.kwcoder.file.controller.admin.UploadController  :71   [32m93d874ba[0;39m 保存文件记录开始
+2021-12-18 20:04:58.286 INFO  club.kwcoder.server.config.LogAspect              :118  [32m93d874ba[0;39m 返回结果: {"code":"200","data":{"name":"video3.mp4","path":"http://127.0.0.1:9000/file/f/course/kW9Z8VUE.mp4","size":12857124,"suffix":"mp4","use":"C"},"message":"上传成功","success":true}
+2021-12-18 20:04:58.286 INFO  club.kwcoder.server.config.LogAspect              :119  [32m93d874ba[0;39m ------------- 结束 耗时：13 ms -------------
+2021-12-18 20:05:56.575 INFO  club.kwcoder.server.config.LogAspect              :85   [32mee763d3c[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-18 20:05:56.575 INFO  club.kwcoder.server.config.LogAspect              :86   [32mee763d3c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-18 20:05:56.575 INFO  club.kwcoder.server.config.LogAspect              :87   [32mee763d3c[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-18 20:05:56.576 INFO  club.kwcoder.server.config.LogAspect              :88   [32mee763d3c[0;39m 远程地址: 192.168.245.1
+2021-12-18 20:05:56.576 INFO  club.kwcoder.server.config.LogAspect              :106  [32mee763d3c[0;39m 请求参数: [null,"C"]
+2021-12-18 20:05:56.576 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32mee763d3c[0;39m video3.mp4
+2021-12-18 20:05:56.576 INFO  c.kwcoder.file.controller.admin.UploadController  :47   [32mee763d3c[0;39m 12857124
+2021-12-18 20:05:56.577 INFO  c.kwcoder.file.controller.admin.UploadController  :69   [32mee763d3c[0;39m C:\CODE\course\file_dir\course\lW0A16q2.mp4
+2021-12-18 20:05:56.577 INFO  c.kwcoder.file.controller.admin.UploadController  :71   [32mee763d3c[0;39m 保存文件记录开始
+2021-12-18 20:05:56.588 INFO  club.kwcoder.server.config.LogAspect              :118  [32mee763d3c[0;39m 返回结果: {"code":"200","data":{"name":"video3.mp4","path":"http://127.0.0.1:9000/file/f/course/lW0A16q2.mp4","size":12857124,"suffix":"mp4","use":"C"},"message":"上传成功","success":true}
+2021-12-18 20:05:56.588 INFO  club.kwcoder.server.config.LogAspect              :119  [32mee763d3c[0;39m ------------- 结束 耗时：13 ms -------------
+2021-12-18 20:06:13.530 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 20:06:14.218 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf0703fba[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-18 20:06:14.218 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf0703fba[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-18 20:06:14.219 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf0703fba[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-18 20:06:14.219 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf0703fba[0;39m 远程地址: 192.168.245.1
+2021-12-18 20:06:14.219 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf0703fba[0;39m 请求参数: [null,"C"]
+2021-12-18 20:06:14.219 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32mf0703fba[0;39m video3.mp4
+2021-12-18 20:06:14.220 INFO  c.kwcoder.file.controller.admin.UploadController  :47   [32mf0703fba[0;39m 12857124
+2021-12-18 20:06:14.220 INFO  c.kwcoder.file.controller.admin.UploadController  :69   [32mf0703fba[0;39m C:\CODE\course\file_dir\course\K1pqyJnL.mp4
+2021-12-18 20:06:14.221 INFO  c.kwcoder.file.controller.admin.UploadController  :71   [32mf0703fba[0;39m 保存文件记录开始
+2021-12-18 20:06:14.230 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf0703fba[0;39m 返回结果: {"code":"200","data":{"name":"video3.mp4","path":"http://127.0.0.1:9000/file/f/course/K1pqyJnL.mp4","size":12857124,"suffix":"mp4","use":"C"},"message":"上传成功","success":true}
+2021-12-18 20:06:14.231 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf0703fba[0;39m ------------- 结束 耗时：14 ms -------------
