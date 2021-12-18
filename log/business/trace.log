@@ -1,346 +1,501 @@
-2021-12-17 00:00:14.325 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9ec53198[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 00:00:14.326 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9ec53198[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 00:00:14.327 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9ec53198[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 00:00:14.327 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9ec53198[0;39m 远程地址: 192.168.245.1
-2021-12-17 00:00:14.327 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9ec53198[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 00:00:14.330 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9ec53198[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 00:00:14.330 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9ec53198[0;39m ------------- 结束 耗时：5 ms -------------
-2021-12-17 00:01:27.072 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 00:05:25.913 INFO  club.kwcoder.server.config.LogAspect              :85   [32meb60c8e4[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 00:05:25.913 INFO  club.kwcoder.server.config.LogAspect              :86   [32meb60c8e4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 00:05:25.914 INFO  club.kwcoder.server.config.LogAspect              :87   [32meb60c8e4[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 00:05:25.915 INFO  club.kwcoder.server.config.LogAspect              :88   [32meb60c8e4[0;39m 远程地址: 192.168.245.1
-2021-12-17 00:05:25.916 INFO  club.kwcoder.server.config.LogAspect              :106  [32meb60c8e4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 00:05:25.921 INFO  club.kwcoder.server.config.LogAspect              :118  [32meb60c8e4[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 00:05:25.921 INFO  club.kwcoder.server.config.LogAspect              :119  [32meb60c8e4[0;39m ------------- 结束 耗时：9 ms -------------
-2021-12-17 00:05:57.575 INFO  club.kwcoder.server.config.LogAspect              :85   [32m54e9265f[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 00:05:57.576 INFO  club.kwcoder.server.config.LogAspect              :86   [32m54e9265f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 00:05:57.576 INFO  club.kwcoder.server.config.LogAspect              :87   [32m54e9265f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 00:05:57.576 INFO  club.kwcoder.server.config.LogAspect              :88   [32m54e9265f[0;39m 远程地址: 192.168.245.1
-2021-12-17 00:05:57.577 INFO  club.kwcoder.server.config.LogAspect              :106  [32m54e9265f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 00:05:57.580 INFO  club.kwcoder.server.config.LogAspect              :118  [32m54e9265f[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 00:05:57.580 INFO  club.kwcoder.server.config.LogAspect              :119  [32m54e9265f[0;39m ------------- 结束 耗时：5 ms -------------
-2021-12-17 00:06:12.119 INFO  club.kwcoder.server.config.LogAspect              :85   [32me4fd8014[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 00:06:12.119 INFO  club.kwcoder.server.config.LogAspect              :86   [32me4fd8014[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 00:06:12.119 INFO  club.kwcoder.server.config.LogAspect              :87   [32me4fd8014[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 00:06:12.120 INFO  club.kwcoder.server.config.LogAspect              :88   [32me4fd8014[0;39m 远程地址: 192.168.245.1
-2021-12-17 00:06:12.120 INFO  club.kwcoder.server.config.LogAspect              :106  [32me4fd8014[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 00:06:12.124 INFO  club.kwcoder.server.config.LogAspect              :118  [32me4fd8014[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 00:06:12.124 INFO  club.kwcoder.server.config.LogAspect              :119  [32me4fd8014[0;39m ------------- 结束 耗时：6 ms -------------
-2021-12-17 00:06:27.086 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 00:11:27.096 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 00:13:42.600 INFO  club.kwcoder.server.config.LogAspect              :85   [32m59b53846[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :86   [32m59b53846[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :87   [32m59b53846[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :88   [32m59b53846[0;39m 远程地址: 192.168.245.1
-2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :106  [32m59b53846[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 00:13:42.606 INFO  club.kwcoder.server.config.LogAspect              :118  [32m59b53846[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 00:13:42.606 INFO  club.kwcoder.server.config.LogAspect              :119  [32m59b53846[0;39m ------------- 结束 耗时：6 ms -------------
-2021-12-17 00:16:27.100 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 00:16:40.257 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8386bfc0[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 00:16:40.257 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8386bfc0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8386bfc0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8386bfc0[0;39m 远程地址: 192.168.245.1
-2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8386bfc0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 00:16:40.263 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8386bfc0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 00:16:40.263 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8386bfc0[0;39m ------------- 结束 耗时：6 ms -------------
-2021-12-17 00:17:52.640 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
-2021-12-17 00:17:52.641 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639671472641, current=DOWN, previous=UP]
-2021-12-17 00:17:52.642 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
-2021-12-17 00:17:52.653 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
-2021-12-17 00:17:53.032 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-12-17 00:17:53.033 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
-2021-12-17 00:17:53.040 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
-2021-12-17 00:17:53.041 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
-2021-12-17 09:05:58.754 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
-2021-12-17 09:05:58.847 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-12-17 09:06:00.472 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
-2021-12-17 09:06:02.332 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=e65dca3d-5a1d-373b-a209-ee064e70cb08
-2021-12-17 09:06:04.160 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
-2021-12-17 09:06:04.176 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
-2021-12-17 09:06:04.176 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
-2021-12-17 09:06:04.176 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-12-17 09:06:04.347 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
-2021-12-17 09:06:04.347 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 3839 ms
-2021-12-17 09:06:05.347 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
-2021-12-17 09:06:05.347 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-12-17 09:06:05.347 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
-2021-12-17 09:06:05.347 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-12-17 09:06:05.644 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-12-17 09:06:06.191 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
-2021-12-17 09:06:06.847 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
-2021-12-17 09:06:07.581 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
-2021-12-17 09:06:07.753 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
-2021-12-17 09:06:07.784 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
-2021-12-17 09:06:08.518 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
-2021-12-17 09:06:08.518 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
-2021-12-17 09:06:08.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
-2021-12-17 09:06:08.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
-2021-12-17 09:06:08.862 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
-2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
-2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
-2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
-2021-12-17 09:06:09.299 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
-2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639703169299 with initial instances count: 0
-2021-12-17 09:06:09.315 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
-2021-12-17 09:06:09.315 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639703169315, current=UP, previous=STARTING]
-2021-12-17 09:06:09.315 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
-2021-12-17 09:06:09.315 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
-2021-12-17 09:06:09.346 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
-2021-12-17 09:06:09.346 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
-2021-12-17 09:06:09.377 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
-2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 13.427 seconds (JVM running for 16.77)
-2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
-2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
-2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
-2021-12-17 09:06:39.329 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
-2021-12-17 09:08:56.632 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-17 09:08:56.632 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
-2021-12-17 09:08:56.640 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 8 ms
-2021-12-17 09:08:56.688 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5e56cd31[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5e56cd31[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5e56cd31[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5e56cd31[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:08:56.700 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5e56cd31[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:08:56.777 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m5e56cd31[0;39m HikariPool-1 - Starting...
-2021-12-17 09:08:57.011 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m5e56cd31[0;39m HikariPool-1 - Start completed.
-2021-12-17 09:08:57.209 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5e56cd31[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:08:57.209 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5e56cd31[0;39m ------------- 结束 耗时：526 ms -------------
-2021-12-17 09:09:02.908 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcabca6cc[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcabca6cc[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcabca6cc[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcabca6cc[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcabca6cc[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:09:02.915 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcabca6cc[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:09:02.916 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcabca6cc[0;39m ------------- 结束 耗时：8 ms -------------
-2021-12-17 09:09:20.182 INFO  club.kwcoder.server.config.LogAspect              :85   [32m269838b9[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :86   [32m269838b9[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :87   [32m269838b9[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :88   [32m269838b9[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :106  [32m269838b9[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:09:20.188 INFO  club.kwcoder.server.config.LogAspect              :118  [32m269838b9[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:09:20.188 INFO  club.kwcoder.server.config.LogAspect              :119  [32m269838b9[0;39m ------------- 结束 耗时：6 ms -------------
-2021-12-17 09:09:43.913 INFO  club.kwcoder.server.config.LogAspect              :85   [32meb3848e0[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:09:43.913 INFO  club.kwcoder.server.config.LogAspect              :86   [32meb3848e0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :87   [32meb3848e0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :88   [32meb3848e0[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :106  [32meb3848e0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:09:43.917 INFO  club.kwcoder.server.config.LogAspect              :118  [32meb3848e0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:09:43.918 INFO  club.kwcoder.server.config.LogAspect              :119  [32meb3848e0[0;39m ------------- 结束 耗时：5 ms -------------
-2021-12-17 09:09:46.902 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9ccc450e[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:09:46.903 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9ccc450e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:09:46.903 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9ccc450e[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:09:46.904 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9ccc450e[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:09:46.904 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9ccc450e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:09:46.908 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9ccc450e[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:09:46.908 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9ccc450e[0;39m ------------- 结束 耗时：6 ms -------------
-2021-12-17 09:11:09.225 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:12:56.826 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5cb58d91[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:12:56.826 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5cb58d91[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5cb58d91[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5cb58d91[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5cb58d91[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5cb58d91[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5cb58d91[0;39m ------------- 结束 耗时：16 ms -------------
-2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3ff4517c[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3ff4517c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3ff4517c[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3ff4517c[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3ff4517c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3ff4517c[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:15:18.048 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3ff4517c[0;39m ------------- 结束 耗时：15 ms -------------
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :85   [32m34271dfd[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :86   [32m34271dfd[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :87   [32m34271dfd[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :88   [32m34271dfd[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :106  [32m34271dfd[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :118  [32m34271dfd[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :119  [32m34271dfd[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :85   [32mab2e8a3d[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :86   [32mab2e8a3d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :87   [32mab2e8a3d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :88   [32mab2e8a3d[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :106  [32mab2e8a3d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :118  [32mab2e8a3d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :119  [32mab2e8a3d[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:16:09.235 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:17:17.369 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8e345ecc[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:17:17.369 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8e345ecc[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8e345ecc[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8e345ecc[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8e345ecc[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8e345ecc[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8e345ecc[0;39m ------------- 结束 耗时：15 ms -------------
-2021-12-17 09:17:25.133 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf00eab7d[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:17:25.133 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf00eab7d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf00eab7d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf00eab7d[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf00eab7d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf00eab7d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf00eab7d[0;39m ------------- 结束 耗时：16 ms -------------
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1e48cd40[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1e48cd40[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1e48cd40[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1e48cd40[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1e48cd40[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1e48cd40[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1e48cd40[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :85   [32mc9a9f5d9[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :86   [32mc9a9f5d9[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :87   [32mc9a9f5d9[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :88   [32mc9a9f5d9[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :106  [32mc9a9f5d9[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:18:07.979 INFO  club.kwcoder.server.config.LogAspect              :118  [32mc9a9f5d9[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:18:07.979 INFO  club.kwcoder.server.config.LogAspect              :119  [32mc9a9f5d9[0;39m ------------- 结束 耗时：15 ms -------------
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcf48792f[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcf48792f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcf48792f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcf48792f[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcf48792f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcf48792f[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcf48792f[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3e4cd08e[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3e4cd08e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3e4cd08e[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3e4cd08e[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3e4cd08e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3e4cd08e[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3e4cd08e[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:21:09.250 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:26:09.260 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:29:52.456 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8667f06b[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:29:52.456 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8667f06b[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:29:52.457 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8667f06b[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:29:52.457 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8667f06b[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:29:52.457 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8667f06b[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:29:52.463 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8667f06b[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:29:52.464 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8667f06b[0;39m ------------- 结束 耗时：8 ms -------------
-2021-12-17 09:30:40.358 INFO  club.kwcoder.server.config.LogAspect              :85   [32m257f7112[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:30:40.358 INFO  club.kwcoder.server.config.LogAspect              :86   [32m257f7112[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:30:40.358 INFO  club.kwcoder.server.config.LogAspect              :87   [32m257f7112[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:30:40.359 INFO  club.kwcoder.server.config.LogAspect              :88   [32m257f7112[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:30:40.359 INFO  club.kwcoder.server.config.LogAspect              :106  [32m257f7112[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:30:40.362 INFO  club.kwcoder.server.config.LogAspect              :118  [32m257f7112[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:30:40.363 INFO  club.kwcoder.server.config.LogAspect              :119  [32m257f7112[0;39m ------------- 结束 耗时：5 ms -------------
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :85   [32m4ed7162c[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :86   [32m4ed7162c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :87   [32m4ed7162c[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :88   [32m4ed7162c[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4ed7162c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4ed7162c[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4ed7162c[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:31:09.265 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:31:27.890 INFO  club.kwcoder.server.config.LogAspect              :85   [32md7570dec[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:31:27.890 INFO  club.kwcoder.server.config.LogAspect              :86   [32md7570dec[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:31:27.890 INFO  club.kwcoder.server.config.LogAspect              :87   [32md7570dec[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:31:27.891 INFO  club.kwcoder.server.config.LogAspect              :88   [32md7570dec[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:31:27.891 INFO  club.kwcoder.server.config.LogAspect              :106  [32md7570dec[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:31:27.894 INFO  club.kwcoder.server.config.LogAspect              :118  [32md7570dec[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:31:27.895 INFO  club.kwcoder.server.config.LogAspect              :119  [32md7570dec[0;39m ------------- 结束 耗时：5 ms -------------
-2021-12-17 09:34:54.599 INFO  club.kwcoder.server.config.LogAspect              :85   [32mb76005b4[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:34:54.600 INFO  club.kwcoder.server.config.LogAspect              :86   [32mb76005b4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:34:54.601 INFO  club.kwcoder.server.config.LogAspect              :87   [32mb76005b4[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:34:54.601 INFO  club.kwcoder.server.config.LogAspect              :88   [32mb76005b4[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:34:54.602 INFO  club.kwcoder.server.config.LogAspect              :106  [32mb76005b4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:34:54.607 INFO  club.kwcoder.server.config.LogAspect              :118  [32mb76005b4[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:34:54.607 INFO  club.kwcoder.server.config.LogAspect              :119  [32mb76005b4[0;39m ------------- 结束 耗时：8 ms -------------
-2021-12-17 09:35:00.450 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma4263cdb[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:35:00.450 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma4263cdb[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:35:00.450 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma4263cdb[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:35:00.451 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma4263cdb[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:35:00.451 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma4263cdb[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:35:00.454 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma4263cdb[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:35:00.454 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma4263cdb[0;39m ------------- 结束 耗时：4 ms -------------
-2021-12-17 09:36:00.577 INFO  club.kwcoder.server.config.LogAspect              :85   [32m77a4427c[0;39m ------------- 【分类】操作开始 -------------
-2021-12-17 09:36:00.578 INFO  club.kwcoder.server.config.LogAspect              :86   [32m77a4427c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
-2021-12-17 09:36:00.580 INFO  club.kwcoder.server.config.LogAspect              :87   [32m77a4427c[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
-2021-12-17 09:36:00.581 INFO  club.kwcoder.server.config.LogAspect              :88   [32m77a4427c[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:36:00.582 INFO  club.kwcoder.server.config.LogAspect              :106  [32m77a4427c[0;39m 请求参数: []
-2021-12-17 09:36:00.583 INFO  club.kwcoder.server.config.LogAspect              :85   [32mfdb0858f[0;39m ------------- 【讲师】操作开始 -------------
-2021-12-17 09:36:00.583 INFO  club.kwcoder.server.config.LogAspect              :86   [32mfdb0858f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/all POST
-2021-12-17 09:36:00.584 INFO  club.kwcoder.server.config.LogAspect              :87   [32mfdb0858f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.all
-2021-12-17 09:36:00.585 INFO  club.kwcoder.server.config.LogAspect              :88   [32mfdb0858f[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:36:00.586 INFO  club.kwcoder.server.config.LogAspect              :106  [32mfdb0858f[0;39m 请求参数: []
-2021-12-17 09:36:00.594 INFO  club.kwcoder.server.config.LogAspect              :118  [32mfdb0858f[0;39m 返回结果: {"code":"200","data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"message":"查询成功","success":true}
-2021-12-17 09:36:00.594 INFO  club.kwcoder.server.config.LogAspect              :119  [32mfdb0858f[0;39m ------------- 结束 耗时：11 ms -------------
-2021-12-17 09:36:00.599 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf7e1a25a[0;39m ------------- 【课程】查询开始 -------------
-2021-12-17 09:36:00.599 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf7e1a25a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
-2021-12-17 09:36:00.600 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf7e1a25a[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
-2021-12-17 09:36:00.600 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf7e1a25a[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:36:00.600 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf7e1a25a[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:36:00.618 INFO  club.kwcoder.server.config.LogAspect              :118  [32m77a4427c[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
-2021-12-17 09:36:00.618 INFO  club.kwcoder.server.config.LogAspect              :119  [32m77a4427c[0;39m ------------- 结束 耗时：41 ms -------------
-2021-12-17 09:36:00.630 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf7e1a25a[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","teacherId":"7NU88xR9","time":100500,"updatedAt":1639622741378}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
-2021-12-17 09:36:00.630 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf7e1a25a[0;39m ------------- 结束 耗时：31 ms -------------
-2021-12-17 09:36:09.280 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:41:09.286 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :85   [32m78f17159[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :86   [32m78f17159[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :87   [32m78f17159[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :88   [32m78f17159[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:43:36.961 INFO  club.kwcoder.server.config.LogAspect              :106  [32m78f17159[0;39m 请求参数: [{"page":1,"size":10,"total":0}]
-2021-12-17 09:43:36.966 INFO  club.kwcoder.server.config.LogAspect              :118  [32m78f17159[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":10,"total":1},"success":true}
-2021-12-17 09:43:36.966 INFO  club.kwcoder.server.config.LogAspect              :119  [32m78f17159[0;39m ------------- 结束 耗时：7 ms -------------
-2021-12-17 09:45:38.857 INFO  club.kwcoder.server.config.LogAspect              :85   [32m4a31400d[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:45:38.857 INFO  club.kwcoder.server.config.LogAspect              :86   [32m4a31400d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:45:38.858 INFO  club.kwcoder.server.config.LogAspect              :87   [32m4a31400d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:45:38.858 INFO  club.kwcoder.server.config.LogAspect              :88   [32m4a31400d[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:45:38.858 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4a31400d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:45:38.863 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4a31400d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:45:38.864 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4a31400d[0;39m ------------- 结束 耗时：7 ms -------------
-2021-12-17 09:46:09.291 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :85   [32mccae40e5[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :86   [32mccae40e5[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :87   [32mccae40e5[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :88   [32mccae40e5[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :106  [32mccae40e5[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :118  [32mccae40e5[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :119  [32mccae40e5[0;39m ------------- 结束 耗时：0 ms -------------
-2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :85   [32m850728e0[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :86   [32m850728e0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :87   [32m850728e0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :88   [32m850728e0[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :106  [32m850728e0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:47:27.704 INFO  club.kwcoder.server.config.LogAspect              :118  [32m850728e0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:47:27.704 INFO  club.kwcoder.server.config.LogAspect              :119  [32m850728e0[0;39m ------------- 结束 耗时：16 ms -------------
-2021-12-17 09:47:30.244 INFO  club.kwcoder.server.config.LogAspect              :85   [32m24b87771[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :86   [32m24b87771[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :87   [32m24b87771[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :88   [32m24b87771[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :106  [32m24b87771[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:47:30.250 INFO  club.kwcoder.server.config.LogAspect              :118  [32m24b87771[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:47:30.251 INFO  club.kwcoder.server.config.LogAspect              :119  [32m24b87771[0;39m ------------- 结束 耗时：7 ms -------------
-2021-12-17 09:47:51.657 INFO  club.kwcoder.server.config.LogAspect              :85   [32m24efe43d[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:47:51.657 INFO  club.kwcoder.server.config.LogAspect              :86   [32m24efe43d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:47:51.658 INFO  club.kwcoder.server.config.LogAspect              :87   [32m24efe43d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:47:51.658 INFO  club.kwcoder.server.config.LogAspect              :88   [32m24efe43d[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:47:51.659 INFO  club.kwcoder.server.config.LogAspect              :106  [32m24efe43d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:47:51.661 INFO  club.kwcoder.server.config.LogAspect              :118  [32m24efe43d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:47:51.661 INFO  club.kwcoder.server.config.LogAspect              :119  [32m24efe43d[0;39m ------------- 结束 耗时：4 ms -------------
-2021-12-17 09:49:31.587 INFO  club.kwcoder.server.config.LogAspect              :85   [32mad0a1215[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:49:31.587 INFO  club.kwcoder.server.config.LogAspect              :86   [32mad0a1215[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:49:31.588 INFO  club.kwcoder.server.config.LogAspect              :87   [32mad0a1215[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:49:31.589 INFO  club.kwcoder.server.config.LogAspect              :88   [32mad0a1215[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:49:31.589 INFO  club.kwcoder.server.config.LogAspect              :106  [32mad0a1215[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:49:31.595 INFO  club.kwcoder.server.config.LogAspect              :118  [32mad0a1215[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:49:31.595 INFO  club.kwcoder.server.config.LogAspect              :119  [32mad0a1215[0;39m ------------- 结束 耗时：8 ms -------------
-2021-12-17 09:51:09.293 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
-2021-12-17 09:53:23.225 INFO  club.kwcoder.server.config.LogAspect              :85   [32m82046163[0;39m ------------- 【讲师】查询开始 -------------
-2021-12-17 09:53:23.226 INFO  club.kwcoder.server.config.LogAspect              :86   [32m82046163[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
-2021-12-17 09:53:23.226 INFO  club.kwcoder.server.config.LogAspect              :87   [32m82046163[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
-2021-12-17 09:53:23.226 INFO  club.kwcoder.server.config.LogAspect              :88   [32m82046163[0;39m 远程地址: 192.168.245.1
-2021-12-17 09:53:23.227 INFO  club.kwcoder.server.config.LogAspect              :106  [32m82046163[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
-2021-12-17 09:53:23.232 INFO  club.kwcoder.server.config.LogAspect              :118  [32m82046163[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
-2021-12-17 09:53:23.233 INFO  club.kwcoder.server.config.LogAspect              :119  [32m82046163[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-18 14:59:57.248 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-18 14:59:57.364 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-18 14:59:58.684 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-18 14:59:59.494 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m        [0;39m No MyBatis mapper was found in '[club.kwcoder.server.mapper]' package. Please check your configuration.
+2021-12-18 14:59:59.701 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=a3610767-6d12-3c59-b67a-1f128c4434ed
+2021-12-18 15:00:00.688 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-18 15:00:00.701 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-18 15:00:00.703 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-18 15:00:00.703 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-18 15:00:00.938 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-18 15:00:00.939 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 2240 ms
+2021-12-18 15:00:01.006 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controllerExceptionHandler': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [club.kwcoder.business.controller.ControllerExceptionHandler] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e92995f]
+2021-12-18 15:00:01.009 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-12-18 15:00:01.028 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-18 15:00:01.043 ERROR org.springframework.boot.SpringApplication        :837  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controllerExceptionHandler': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [club.kwcoder.business.controller.ControllerExceptionHandler] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e92995f]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1200)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at club.kwcoder.business.BusinessApplication.main(BusinessApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [club.kwcoder.business.controller.ControllerExceptionHandler] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e92995f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: club/kwcoder/server/exception/ValidatorException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: club.kwcoder.server.exception.ValidatorException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 28 common frames omitted
+2021-12-18 15:21:22.851 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-18 15:21:22.915 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-18 15:21:23.876 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-18 15:21:24.765 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebd07291-16b6-3cdb-a819-512ff2724bbc
+2021-12-18 15:21:26.097 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-18 15:21:26.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-18 15:21:26.108 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-18 15:21:26.108 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-18 15:21:26.257 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-18 15:21:26.257 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 2364 ms
+2021-12-18 15:21:26.672 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryDOService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+2021-12-18 15:21:26.674 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-12-18 15:21:26.685 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-18 15:21:26.697 ERROR org.springframework.boot.SpringApplication        :837  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryDOService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at club.kwcoder.business.BusinessApplication.main(BusinessApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryDOService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:521)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1509)
+	... 51 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	... 64 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$71c6b1ad.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$71c6b1ad$$FastClassBySpringCGLIB$$ec733cad.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$71c6b1ad.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 65 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 78 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 80 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.File'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 84 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.File
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 86 common frames omitted
+2021-12-18 15:21:49.503 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-18 15:21:49.632 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-18 15:21:50.866 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-18 15:21:51.687 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebd07291-16b6-3cdb-a819-512ff2724bbc
+2021-12-18 15:21:52.366 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-18 15:21:52.375 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-18 15:21:52.376 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-18 15:21:52.376 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-18 15:21:52.521 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-18 15:21:52.522 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 1638 ms
+2021-12-18 15:21:52.868 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryDOService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+2021-12-18 15:21:52.870 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-12-18 15:21:52.881 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-18 15:21:52.892 ERROR org.springframework.boot.SpringApplication        :837  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryDOService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at club.kwcoder.business.BusinessApplication.main(BusinessApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryDOService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [C:\CODE\course\server\target\classes\club\kwcoder\server\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1404)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:521)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1509)
+	... 51 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	... 64 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b823cbf.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b823cbf$$FastClassBySpringCGLIB$$6f69a3c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b823cbf.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 65 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\CODE\course\server\target\classes\mapper\FileMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 78 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 80 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'club.kwcoder.server.dataobject.FileExample'.  Cause: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 84 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.server.dataobject.FileExample
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 86 common frames omitted
+2021-12-18 15:22:46.932 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-18 15:22:46.982 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-18 15:22:47.795 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-18 15:22:48.567 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebd07291-16b6-3cdb-a819-512ff2724bbc
+2021-12-18 15:22:49.284 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-18 15:22:49.291 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-18 15:22:49.292 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-18 15:22:49.292 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-18 15:22:49.408 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-18 15:22:49.408 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 1597 ms
+2021-12-18 15:22:49.876 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-18 15:22:49.876 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-18 15:22:49.879 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-18 15:22:49.879 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-18 15:22:50.070 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-18 15:22:50.391 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-18 15:22:50.896 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-18 15:22:51.389 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-18 15:22:51.478 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-18 15:22:51.499 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-18 15:22:51.913 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-18 15:22:51.914 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-18 15:22:51.997 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-18 15:22:51.998 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-18 15:22:52.171 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:22:52.493 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-18 15:22:52.494 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-18 15:22:52.494 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-18 15:22:52.494 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-18 15:22:52.494 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-18 15:22:52.494 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-18 15:22:52.495 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-18 15:22:52.635 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-18 15:22:52.637 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-18 15:22:52.639 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-18 15:22:52.643 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639812172642 with initial instances count: 1
+2021-12-18 15:22:52.650 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-18 15:22:52.651 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639812172651, current=UP, previous=STARTING]
+2021-12-18 15:22:52.652 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-18 15:22:52.653 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-18 15:22:52.706 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-18 15:22:52.707 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-18 15:22:52.716 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-18 15:22:53.310 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 7.474 seconds (JVM running for 9.206)
+2021-12-18 15:22:53.311 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-18 15:22:53.312 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-18 15:24:18.572 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-18 15:24:18.573 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-18 15:24:18.587 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 14 ms
+2021-12-18 15:24:18.641 INFO  club.kwcoder.server.config.LogAspect              :85   [32m97576ed2[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-18 15:24:18.642 INFO  club.kwcoder.server.config.LogAspect              :86   [32m97576ed2[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-18 15:24:18.642 INFO  club.kwcoder.server.config.LogAspect              :87   [32m97576ed2[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-18 15:24:18.643 INFO  club.kwcoder.server.config.LogAspect              :88   [32m97576ed2[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:18.654 INFO  club.kwcoder.server.config.LogAspect              :106  [32m97576ed2[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:24:18.724 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m97576ed2[0;39m HikariPool-1 - Starting...
+2021-12-18 15:24:19.060 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m97576ed2[0;39m HikariPool-1 - Start completed.
+2021-12-18 15:24:19.105 INFO  club.kwcoder.server.config.LogAspect              :118  [32m97576ed2[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-18 15:24:19.105 INFO  club.kwcoder.server.config.LogAspect              :119  [32m97576ed2[0;39m ------------- 结束 耗时：468 ms -------------
+2021-12-18 15:24:20.361 INFO  club.kwcoder.server.config.LogAspect              :85   [32m39a3a6bb[0;39m ------------- 【分类】操作开始 -------------
+2021-12-18 15:24:20.361 INFO  club.kwcoder.server.config.LogAspect              :85   [32m13b3d5a7[0;39m ------------- 【讲师】操作开始 -------------
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :86   [32m39a3a6bb[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :86   [32m13b3d5a7[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/all POST
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :87   [32m39a3a6bb[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :87   [32m13b3d5a7[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.all
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :88   [32m39a3a6bb[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :88   [32m13b3d5a7[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:20.362 INFO  club.kwcoder.server.config.LogAspect              :106  [32m39a3a6bb[0;39m 请求参数: []
+2021-12-18 15:24:20.363 INFO  club.kwcoder.server.config.LogAspect              :106  [32m13b3d5a7[0;39m 请求参数: []
+2021-12-18 15:24:20.368 INFO  club.kwcoder.server.config.LogAspect              :118  [32m13b3d5a7[0;39m 返回结果: {"code":"200","data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"message":"查询成功","success":true}
+2021-12-18 15:24:20.369 INFO  club.kwcoder.server.config.LogAspect              :119  [32m13b3d5a7[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-18 15:24:20.370 INFO  club.kwcoder.server.config.LogAspect              :85   [32m43c22169[0;39m ------------- 【课程】查询开始 -------------
+2021-12-18 15:24:20.371 INFO  club.kwcoder.server.config.LogAspect              :86   [32m43c22169[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-18 15:24:20.371 INFO  club.kwcoder.server.config.LogAspect              :87   [32m43c22169[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-18 15:24:20.372 INFO  club.kwcoder.server.config.LogAspect              :88   [32m43c22169[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:20.372 INFO  club.kwcoder.server.config.LogAspect              :106  [32m43c22169[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:24:20.395 INFO  club.kwcoder.server.config.LogAspect              :118  [32m39a3a6bb[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-18 15:24:20.396 INFO  club.kwcoder.server.config.LogAspect              :119  [32m39a3a6bb[0;39m ------------- 结束 耗时：35 ms -------------
+2021-12-18 15:24:20.407 INFO  club.kwcoder.server.config.LogAspect              :118  [32m43c22169[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","teacherId":"7NU88xR9","time":100500,"updatedAt":1639622741378}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 15:24:20.407 INFO  club.kwcoder.server.config.LogAspect              :119  [32m43c22169[0;39m ------------- 结束 耗时：37 ms -------------
+2021-12-18 15:24:21.840 INFO  club.kwcoder.server.config.LogAspect              :85   [32m90970f2d[0;39m ------------- 【分类】操作开始 -------------
+2021-12-18 15:24:21.841 INFO  club.kwcoder.server.config.LogAspect              :86   [32m90970f2d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-18 15:24:21.841 INFO  club.kwcoder.server.config.LogAspect              :87   [32m90970f2d[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-18 15:24:21.841 INFO  club.kwcoder.server.config.LogAspect              :88   [32m90970f2d[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:21.842 INFO  club.kwcoder.server.config.LogAspect              :106  [32m90970f2d[0;39m 请求参数: []
+2021-12-18 15:24:21.847 INFO  club.kwcoder.server.config.LogAspect              :118  [32m90970f2d[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-18 15:24:21.847 INFO  club.kwcoder.server.config.LogAspect              :119  [32m90970f2d[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-18 15:24:27.799 INFO  club.kwcoder.server.config.LogAspect              :85   [32mdae0651d[0;39m ------------- 【分类】操作开始 -------------
+2021-12-18 15:24:27.800 INFO  club.kwcoder.server.config.LogAspect              :86   [32mdae0651d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-18 15:24:27.800 INFO  club.kwcoder.server.config.LogAspect              :87   [32mdae0651d[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-18 15:24:27.800 INFO  club.kwcoder.server.config.LogAspect              :88   [32mdae0651d[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:27.800 INFO  club.kwcoder.server.config.LogAspect              :106  [32mdae0651d[0;39m 请求参数: []
+2021-12-18 15:24:27.806 INFO  club.kwcoder.server.config.LogAspect              :118  [32mdae0651d[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-18 15:24:27.806 INFO  club.kwcoder.server.config.LogAspect              :119  [32mdae0651d[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-18 15:24:30.397 INFO  club.kwcoder.server.config.LogAspect              :85   [32m57d6da0e[0;39m ------------- 【分类】操作开始 -------------
+2021-12-18 15:24:30.398 INFO  club.kwcoder.server.config.LogAspect              :86   [32m57d6da0e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-18 15:24:30.398 INFO  club.kwcoder.server.config.LogAspect              :87   [32m57d6da0e[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-18 15:24:30.398 INFO  club.kwcoder.server.config.LogAspect              :88   [32m57d6da0e[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:30.399 INFO  club.kwcoder.server.config.LogAspect              :106  [32m57d6da0e[0;39m 请求参数: []
+2021-12-18 15:24:30.404 INFO  club.kwcoder.server.config.LogAspect              :118  [32m57d6da0e[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-18 15:24:30.404 INFO  club.kwcoder.server.config.LogAspect              :119  [32m57d6da0e[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-18 15:24:33.641 INFO  club.kwcoder.server.config.LogAspect              :85   [32mac9243d1[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:24:33.641 INFO  club.kwcoder.server.config.LogAspect              :86   [32mac9243d1[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:24:33.642 INFO  club.kwcoder.server.config.LogAspect              :87   [32mac9243d1[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:24:33.642 INFO  club.kwcoder.server.config.LogAspect              :88   [32mac9243d1[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:24:33.642 INFO  club.kwcoder.server.config.LogAspect              :106  [32mac9243d1[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:24:33.660 INFO  club.kwcoder.server.config.LogAspect              :118  [32mac9243d1[0;39m 返回结果: {"data":{"data":[],"page":1,"size":5,"total":0},"success":true}
+2021-12-18 15:24:33.660 INFO  club.kwcoder.server.config.LogAspect              :119  [32mac9243d1[0;39m ------------- 结束 耗时：19 ms -------------
+2021-12-18 15:27:52.509 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:29:08.934 INFO  club.kwcoder.server.config.LogAspect              :85   [32mdf20cd49[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:29:08.934 INFO  club.kwcoder.server.config.LogAspect              :86   [32mdf20cd49[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:29:08.935 INFO  club.kwcoder.server.config.LogAspect              :87   [32mdf20cd49[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:29:08.935 INFO  club.kwcoder.server.config.LogAspect              :88   [32mdf20cd49[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:08.935 INFO  club.kwcoder.server.config.LogAspect              :106  [32mdf20cd49[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:29:08.938 INFO  club.kwcoder.server.config.LogAspect              :118  [32mdf20cd49[0;39m 返回结果: {"data":{"data":[],"page":1,"size":5,"total":0},"success":true}
+2021-12-18 15:29:08.939 INFO  club.kwcoder.server.config.LogAspect              :119  [32mdf20cd49[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-18 15:29:16.828 INFO  club.kwcoder.server.config.LogAspect              :85   [32me968ab80[0;39m ------------- 【文件】保存开始 -------------
+2021-12-18 15:29:16.829 INFO  club.kwcoder.server.config.LogAspect              :86   [32me968ab80[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/save POST
+2021-12-18 15:29:16.829 INFO  club.kwcoder.server.config.LogAspect              :87   [32me968ab80[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.save
+2021-12-18 15:29:16.829 INFO  club.kwcoder.server.config.LogAspect              :88   [32me968ab80[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:16.832 INFO  club.kwcoder.server.config.LogAspect              :106  [32me968ab80[0;39m 请求参数: [{"path":"test","use":"C"}]
+2021-12-18 15:29:16.848 INFO  club.kwcoder.server.config.LogAspect              :118  [32me968ab80[0;39m 返回结果: {"data":{"path":"test","use":"C"},"success":true}
+2021-12-18 15:29:16.848 INFO  club.kwcoder.server.config.LogAspect              :119  [32me968ab80[0;39m ------------- 结束 耗时：20 ms -------------
+2021-12-18 15:29:16.875 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma974b4c7[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:29:16.876 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma974b4c7[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:29:16.876 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma974b4c7[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:29:16.877 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma974b4c7[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:16.877 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma974b4c7[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:29:16.881 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma974b4c7[0;39m 返回结果: {"data":{"data":[{"createdAt":1639812556836,"id":"vmRKhiwY","path":"test","updatedAt":1639812556836,"use":"C"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-18 15:29:16.881 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma974b4c7[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-18 15:29:18.952 INFO  club.kwcoder.server.config.LogAspect              :85   [32me96b4908[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:29:18.953 INFO  club.kwcoder.server.config.LogAspect              :86   [32me96b4908[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:29:18.953 INFO  club.kwcoder.server.config.LogAspect              :87   [32me96b4908[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:29:18.953 INFO  club.kwcoder.server.config.LogAspect              :88   [32me96b4908[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:18.953 INFO  club.kwcoder.server.config.LogAspect              :106  [32me96b4908[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:29:18.957 INFO  club.kwcoder.server.config.LogAspect              :118  [32me96b4908[0;39m 返回结果: {"data":{"data":[{"createdAt":1639812556836,"id":"vmRKhiwY","path":"test","updatedAt":1639812556836,"use":"C"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-18 15:29:18.957 INFO  club.kwcoder.server.config.LogAspect              :119  [32me96b4908[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-18 15:29:20.142 INFO  club.kwcoder.server.config.LogAspect              :85   [32m2913f627[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:29:20.142 INFO  club.kwcoder.server.config.LogAspect              :86   [32m2913f627[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:29:20.143 INFO  club.kwcoder.server.config.LogAspect              :87   [32m2913f627[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:29:20.143 INFO  club.kwcoder.server.config.LogAspect              :88   [32m2913f627[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:20.143 INFO  club.kwcoder.server.config.LogAspect              :106  [32m2913f627[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:29:20.147 INFO  club.kwcoder.server.config.LogAspect              :118  [32m2913f627[0;39m 返回结果: {"data":{"data":[{"createdAt":1639812556836,"id":"vmRKhiwY","path":"test","updatedAt":1639812556836,"use":"C"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-18 15:29:20.147 INFO  club.kwcoder.server.config.LogAspect              :119  [32m2913f627[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-18 15:29:26.154 INFO  club.kwcoder.server.config.LogAspect              :85   [32m92982216[0;39m ------------- 【文件】保存开始 -------------
+2021-12-18 15:29:26.155 INFO  club.kwcoder.server.config.LogAspect              :86   [32m92982216[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/save POST
+2021-12-18 15:29:26.155 INFO  club.kwcoder.server.config.LogAspect              :87   [32m92982216[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.save
+2021-12-18 15:29:26.155 INFO  club.kwcoder.server.config.LogAspect              :88   [32m92982216[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:26.155 INFO  club.kwcoder.server.config.LogAspect              :106  [32m92982216[0;39m 请求参数: [{"createdAt":1639812556000,"id":"vmRKhiwY","path":"test111","updatedAt":1639812556000,"use":"C"}]
+2021-12-18 15:29:26.166 INFO  club.kwcoder.server.config.LogAspect              :118  [32m92982216[0;39m 返回结果: {"data":{"createdAt":1639812556000,"id":"vmRKhiwY","path":"test111","updatedAt":1639812556000,"use":"C"},"success":true}
+2021-12-18 15:29:26.166 INFO  club.kwcoder.server.config.LogAspect              :119  [32m92982216[0;39m ------------- 结束 耗时：12 ms -------------
+2021-12-18 15:29:26.188 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma1bf15b1[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:29:26.189 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma1bf15b1[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:29:26.189 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma1bf15b1[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:29:26.189 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma1bf15b1[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:26.189 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma1bf15b1[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:29:26.198 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma1bf15b1[0;39m 返回结果: {"data":{"data":[{"createdAt":1639812556000,"id":"vmRKhiwY","path":"test111","updatedAt":1639812566156,"use":"C"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-18 15:29:26.198 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma1bf15b1[0;39m ------------- 结束 耗时：10 ms -------------
+2021-12-18 15:29:29.486 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1a506fb8[0;39m ------------- 【文件】删除开始 -------------
+2021-12-18 15:29:29.487 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1a506fb8[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/delete/vmRKhiwY DELETE
+2021-12-18 15:29:29.487 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1a506fb8[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.delete
+2021-12-18 15:29:29.487 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1a506fb8[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:29.488 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1a506fb8[0;39m 请求参数: ["vmRKhiwY"]
+2021-12-18 15:29:29.497 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1a506fb8[0;39m 返回结果: {"success":true}
+2021-12-18 15:29:29.497 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1a506fb8[0;39m ------------- 结束 耗时：11 ms -------------
+2021-12-18 15:29:29.517 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9a133f4a[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 15:29:29.517 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9a133f4a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/file/list POST
+2021-12-18 15:29:29.518 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9a133f4a[0;39m 类名方法: club.kwcoder.business.controller.admin.FileController.list
+2021-12-18 15:29:29.518 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9a133f4a[0;39m 远程地址: 192.168.245.1
+2021-12-18 15:29:29.518 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9a133f4a[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 15:29:29.520 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9a133f4a[0;39m 返回结果: {"data":{"data":[],"page":1,"size":5,"total":0},"success":true}
+2021-12-18 15:29:29.521 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9a133f4a[0;39m ------------- 结束 耗时：4 ms -------------

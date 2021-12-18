@@ -1,0 +1,478 @@
+2021-12-17 00:02:48.852 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:06:19.108 INFO  club.kwcoder.server.config.LogAspect              :85   [32md6e2e96c[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 00:06:19.109 INFO  club.kwcoder.server.config.LogAspect              :86   [32md6e2e96c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 00:06:19.109 INFO  club.kwcoder.server.config.LogAspect              :87   [32md6e2e96c[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 00:06:19.110 INFO  club.kwcoder.server.config.LogAspect              :88   [32md6e2e96c[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:06:19.110 INFO  club.kwcoder.server.config.LogAspect              :106  [32md6e2e96c[0;39m 请求参数: [null]
+2021-12-17 00:06:19.110 INFO  c.kwcoder.file.controller.admin.UploadController  :30   [32md6e2e96c[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@14056b7a
+2021-12-17 00:06:19.111 INFO  c.kwcoder.file.controller.admin.UploadController  :31   [32md6e2e96c[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 00:06:19.111 INFO  c.kwcoder.file.controller.admin.UploadController  :32   [32md6e2e96c[0;39m 54774
+2021-12-17 00:06:19.112 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32md6e2e96c[0;39m C:\CODE\course\file_dir\teacher\4uYkzxjD-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 00:06:19.112 INFO  club.kwcoder.server.config.LogAspect              :118  [32md6e2e96c[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/4uYkzxjD-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 00:06:19.113 INFO  club.kwcoder.server.config.LogAspect              :119  [32md6e2e96c[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 00:07:48.856 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:12:31.964 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-12-17 00:12:31.965 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639671151965, current=DOWN, previous=UP]
+2021-12-17 00:12:31.966 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-17 00:12:31.977 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-17 00:12:32.565 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 00:12:32.566 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-17 00:12:35.571 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-17 00:12:35.587 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - deregister  status: 200
+2021-12-17 00:12:35.593 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-17 00:12:37.198 INFO  club.kwcoder.file.FileApplication                 :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-17 00:12:37.588 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=1b245f65-80bb-3001-a722-8d943f1d332e
+2021-12-17 00:12:37.755 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-12-17 00:12:37.755 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-12-17 00:12:37.755 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-17 00:12:37.755 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-17 00:12:37.770 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-17 00:12:37.770 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 569 ms
+2021-12-17 00:12:37.923 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 00:12:37.923 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 00:12:38.015 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-17 00:12:38.164 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-17 00:12:38.536 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-17 00:12:38.937 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-17 00:12:38.973 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-17 00:12:38.974 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-17 00:12:38.975 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-17 00:12:38.975 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-17 00:12:38.975 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-17 00:12:38.975 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-17 00:12:39.020 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:12:39.020 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 00:12:39.020 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 00:12:39.020 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 00:12:39.021 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 00:12:39.021 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 00:12:39.021 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-17 00:12:39.021 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 00:12:39.023 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 00:12:39.023 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-17 00:12:39.024 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-17 00:12:39.024 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639671159024 with initial instances count: 3
+2021-12-17 00:12:39.029 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-12-17 00:12:39.029 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639671159029, current=UP, previous=STARTING]
+2021-12-17 00:12:39.029 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-17 00:12:39.030 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-12-17 00:12:39.035 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-12-17 00:12:39.036 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-12-17 00:12:39.045 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-17 00:12:39.394 INFO  club.kwcoder.file.FileApplication                 :61   [32m        [0;39m Started FileApplication in 3.454 seconds (JVM running for 6433.581)
+2021-12-17 00:12:39.395 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-17 00:12:39.395 INFO  club.kwcoder.file.FileApplication                 :25   [32m        [0;39m 启动成功！！！
+2021-12-17 00:12:39.395 INFO  club.kwcoder.file.FileApplication                 :26   [32m        [0;39m File地址：	http://127.0.0.1:9003
+2021-12-17 00:12:46.698 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 00:12:46.699 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-17 00:12:46.705 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 6 ms
+2021-12-17 00:14:19.128 INFO  club.kwcoder.server.config.LogAspect              :85   [32m53ec5e5d[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 00:14:19.129 INFO  club.kwcoder.server.config.LogAspect              :86   [32m53ec5e5d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 00:14:19.129 INFO  club.kwcoder.server.config.LogAspect              :87   [32m53ec5e5d[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 00:14:19.129 INFO  club.kwcoder.server.config.LogAspect              :88   [32m53ec5e5d[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:14:19.130 INFO  club.kwcoder.server.config.LogAspect              :106  [32m53ec5e5d[0;39m 请求参数: [null]
+2021-12-17 00:14:19.132 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m53ec5e5d[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@69eeff54
+2021-12-17 00:14:19.133 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m53ec5e5d[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 00:14:19.133 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m53ec5e5d[0;39m 54774
+2021-12-17 00:14:19.134 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m53ec5e5d[0;39m C:\CODE\course\file_dir\teacher\NZzCykby-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 00:14:19.137 INFO  club.kwcoder.server.config.LogAspect              :118  [32m53ec5e5d[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/NZzCykby-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 00:14:19.138 INFO  club.kwcoder.server.config.LogAspect              :119  [32m53ec5e5d[0;39m ------------- 结束 耗时：9 ms -------------
+2021-12-17 00:17:39.036 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:17:52.675 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-12-17 00:17:52.675 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639671472675, current=DOWN, previous=UP]
+2021-12-17 00:17:52.675 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-17 00:17:52.681 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-17 00:17:53.062 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 00:17:53.063 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-17 09:06:04.816 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-17 09:06:04.925 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-17 09:06:06.066 INFO  club.kwcoder.file.FileApplication                 :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-17 09:06:07.066 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=1b245f65-80bb-3001-a722-8d943f1d332e
+2021-12-17 09:06:08.378 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-12-17 09:06:08.393 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-12-17 09:06:08.393 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-17 09:06:08.393 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-17 09:06:08.550 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-17 09:06:08.550 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 2453 ms
+2021-12-17 09:06:09.143 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 09:06:09.143 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 09:06:09.143 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 09:06:09.143 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 09:06:09.393 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-17 09:06:09.862 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-17 09:06:10.471 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-17 09:06:11.065 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-17 09:06:11.159 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-17 09:06:11.190 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-17 09:06:11.549 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-17 09:06:11.549 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-17 09:06:11.627 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-17 09:06:11.627 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-17 09:06:11.799 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-17 09:06:12.080 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 09:06:12.159 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 09:06:12.159 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-17 09:06:12.159 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-17 09:06:12.159 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639703172159 with initial instances count: 0
+2021-12-17 09:06:12.159 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-12-17 09:06:12.159 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639703172159, current=UP, previous=STARTING]
+2021-12-17 09:06:12.159 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-17 09:06:12.159 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-12-17 09:06:12.190 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-12-17 09:06:12.190 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-12-17 09:06:12.221 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-17 09:06:12.582 INFO  club.kwcoder.file.FileApplication                 :61   [32m        [0;39m Started FileApplication in 9.07 seconds (JVM running for 11.851)
+2021-12-17 09:06:12.582 INFO  club.kwcoder.file.FileApplication                 :25   [32m        [0;39m 启动成功！！！
+2021-12-17 09:06:12.582 INFO  club.kwcoder.file.FileApplication                 :26   [32m        [0;39m File地址：	http://127.0.0.1:9003
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-12-17 09:06:42.173 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 09:06:42.189 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 09:08:57.349 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 09:08:57.349 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-17 09:08:57.358 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-12-17 09:11:12.096 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:16:12.109 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:21:12.125 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:26:12.137 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:31:12.141 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:36:12.149 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:41:12.160 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:46:12.165 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:46:38.249 INFO  club.kwcoder.server.config.LogAspect              :85   [32m87b00ba6[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:46:38.250 INFO  club.kwcoder.server.config.LogAspect              :86   [32m87b00ba6[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:46:38.250 INFO  club.kwcoder.server.config.LogAspect              :87   [32m87b00ba6[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:46:38.250 INFO  club.kwcoder.server.config.LogAspect              :88   [32m87b00ba6[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:46:38.254 INFO  club.kwcoder.server.config.LogAspect              :106  [32m87b00ba6[0;39m 请求参数: [null]
+2021-12-17 09:46:38.258 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m87b00ba6[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@32fb0d4c
+2021-12-17 09:46:38.258 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m87b00ba6[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:46:38.259 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m87b00ba6[0;39m 54774
+2021-12-17 09:46:38.260 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m87b00ba6[0;39m C:\CODE\course\file_dir\teacher\VIlZZW1h-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:46:38.272 INFO  club.kwcoder.server.config.LogAspect              :118  [32m87b00ba6[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/VIlZZW1h-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 09:46:38.273 INFO  club.kwcoder.server.config.LogAspect              :119  [32m87b00ba6[0;39m ------------- 结束 耗时：27 ms -------------
+2021-12-17 09:47:40.929 INFO  club.kwcoder.server.config.LogAspect              :85   [32madf3d214[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:47:40.930 INFO  club.kwcoder.server.config.LogAspect              :86   [32madf3d214[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:47:40.931 INFO  club.kwcoder.server.config.LogAspect              :87   [32madf3d214[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:47:40.932 INFO  club.kwcoder.server.config.LogAspect              :88   [32madf3d214[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:47:40.932 INFO  club.kwcoder.server.config.LogAspect              :106  [32madf3d214[0;39m 请求参数: [null]
+2021-12-17 09:47:40.933 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32madf3d214[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@633f05a0
+2021-12-17 09:47:40.933 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32madf3d214[0;39m 2_BigPic.png
+2021-12-17 09:47:40.934 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32madf3d214[0;39m 18775
+2021-12-17 09:47:40.935 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32madf3d214[0;39m C:\CODE\course\file_dir\teacher\49g1ViKc-2_BigPic.png
+2021-12-17 09:47:40.936 INFO  club.kwcoder.server.config.LogAspect              :118  [32madf3d214[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/49g1ViKc-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:47:40.936 INFO  club.kwcoder.server.config.LogAspect              :119  [32madf3d214[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-17 09:49:40.807 INFO  club.kwcoder.server.config.LogAspect              :85   [32m36a755ee[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :86   [32m36a755ee[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :87   [32m36a755ee[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :88   [32m36a755ee[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:40.808 INFO  club.kwcoder.server.config.LogAspect              :106  [32m36a755ee[0;39m 请求参数: [null]
+2021-12-17 09:49:40.809 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m36a755ee[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@52eba453
+2021-12-17 09:49:40.809 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m36a755ee[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:49:40.809 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m36a755ee[0;39m 54774
+2021-12-17 09:49:40.810 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m36a755ee[0;39m C:\CODE\course\file_dir\teacher\UixhRfmK-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:49:40.811 INFO  club.kwcoder.server.config.LogAspect              :118  [32m36a755ee[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/UixhRfmK-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 09:49:40.811 INFO  club.kwcoder.server.config.LogAspect              :119  [32m36a755ee[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:49:49.888 INFO  club.kwcoder.server.config.LogAspect              :85   [32m33fb8b95[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:49:49.888 INFO  club.kwcoder.server.config.LogAspect              :86   [32m33fb8b95[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:49:49.889 INFO  club.kwcoder.server.config.LogAspect              :87   [32m33fb8b95[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:49:49.889 INFO  club.kwcoder.server.config.LogAspect              :88   [32m33fb8b95[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:49.889 INFO  club.kwcoder.server.config.LogAspect              :106  [32m33fb8b95[0;39m 请求参数: [null]
+2021-12-17 09:49:49.890 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m33fb8b95[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@74f9a712
+2021-12-17 09:49:49.890 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m33fb8b95[0;39m 1_BigPic.png
+2021-12-17 09:49:49.891 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m33fb8b95[0;39m 191565
+2021-12-17 09:49:49.893 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m33fb8b95[0;39m C:\CODE\course\file_dir\teacher\tAEE8fSk-1_BigPic.png
+2021-12-17 09:49:49.894 INFO  club.kwcoder.server.config.LogAspect              :118  [32m33fb8b95[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/tAEE8fSk-1_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:49:49.894 INFO  club.kwcoder.server.config.LogAspect              :119  [32m33fb8b95[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :85   [32m7ee66431[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :86   [32m7ee66431[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :87   [32m7ee66431[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :88   [32m7ee66431[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :106  [32m7ee66431[0;39m 请求参数: [null]
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m7ee66431[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6d1836f7
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m7ee66431[0;39m 2_BigPic.png
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m7ee66431[0;39m 18775
+2021-12-17 09:49:59.251 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m7ee66431[0;39m C:\CODE\course\file_dir\teacher\OHj0QB3O-2_BigPic.png
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :118  [32m7ee66431[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/OHj0QB3O-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:49:59.251 INFO  club.kwcoder.server.config.LogAspect              :119  [32m7ee66431[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:51:12.170 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:52:42.413 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3a78a209[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:52:42.414 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3a78a209[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:52:42.415 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3a78a209[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:52:42.415 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3a78a209[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:52:42.415 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3a78a209[0;39m 请求参数: [null]
+2021-12-17 09:52:42.416 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m3a78a209[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1550a0e
+2021-12-17 09:52:42.416 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m3a78a209[0;39m 2_BigPic.png
+2021-12-17 09:52:42.416 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m3a78a209[0;39m 18775
+2021-12-17 09:52:42.417 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m3a78a209[0;39m C:\CODE\course\file_dir\teacher\FepQtoKx-2_BigPic.png
+2021-12-17 09:52:42.418 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3a78a209[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/FepQtoKx-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:52:42.418 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3a78a209[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 09:53:14.619 INFO  club.kwcoder.server.config.LogAspect              :85   [32m82415b17[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :86   [32m82415b17[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :87   [32m82415b17[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :88   [32m82415b17[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:53:14.620 INFO  club.kwcoder.server.config.LogAspect              :106  [32m82415b17[0;39m 请求参数: [null]
+2021-12-17 09:53:14.621 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m82415b17[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@36dcd058
+2021-12-17 09:53:14.621 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m82415b17[0;39m 2_BigPic.png
+2021-12-17 09:53:14.621 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m82415b17[0;39m 18775
+2021-12-17 09:53:14.622 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m82415b17[0;39m C:\CODE\course\file_dir\teacher\VYPBBz2i-2_BigPic.png
+2021-12-17 09:53:14.623 INFO  club.kwcoder.server.config.LogAspect              :118  [32m82415b17[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/VYPBBz2i-2_BigPic.png","message":"上传成功","success":true}
+2021-12-17 09:53:14.623 INFO  club.kwcoder.server.config.LogAspect              :119  [32m82415b17[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:53:43.445 INFO  club.kwcoder.server.config.LogAspect              :85   [32m08133b4a[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-17 09:53:43.446 INFO  club.kwcoder.server.config.LogAspect              :86   [32m08133b4a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-17 09:53:43.446 INFO  club.kwcoder.server.config.LogAspect              :87   [32m08133b4a[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-17 09:53:43.447 INFO  club.kwcoder.server.config.LogAspect              :88   [32m08133b4a[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:53:43.447 INFO  club.kwcoder.server.config.LogAspect              :106  [32m08133b4a[0;39m 请求参数: [null]
+2021-12-17 09:53:43.447 INFO  c.kwcoder.file.controller.admin.UploadController  :37   [32m08133b4a[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@76f08004
+2021-12-17 09:53:43.447 INFO  c.kwcoder.file.controller.admin.UploadController  :38   [32m08133b4a[0;39m 168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:53:43.447 INFO  c.kwcoder.file.controller.admin.UploadController  :39   [32m08133b4a[0;39m 54774
+2021-12-17 09:53:43.448 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m08133b4a[0;39m C:\CODE\course\file_dir\teacher\i39rPtfx-168AEAC40196359896F780F2E1104D99.png
+2021-12-17 09:53:43.449 INFO  club.kwcoder.server.config.LogAspect              :118  [32m08133b4a[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/i39rPtfx-168AEAC40196359896F780F2E1104D99.png","message":"上传成功","success":true}
+2021-12-17 09:53:43.449 INFO  club.kwcoder.server.config.LogAspect              :119  [32m08133b4a[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:56:12.180 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:01:12.183 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:06:12.192 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:11:12.206 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:16:12.215 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:21:12.231 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:26:12.241 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:01:30.128 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:06:30.138 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:11:30.141 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:16:30.144 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:21:30.160 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:26:30.176 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:31:30.187 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:36:30.196 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:41:30.209 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:46:30.224 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:51:30.241 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:56:30.242 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:01:30.251 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:06:30.255 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:11:30.270 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:16:30.280 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:21:30.292 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:26:30.302 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:31:30.305 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:36:30.315 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:41:30.327 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:46:30.332 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:51:30.348 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:56:30.362 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:01:30.377 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:06:30.388 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:11:30.397 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:16:30.401 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:21:30.414 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:26:30.430 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:31:30.438 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:36:30.439 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:41:30.446 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:46:30.460 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:51:30.471 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:56:30.482 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:01:30.488 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:06:30.493 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:11:30.501 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:16:30.505 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:21:30.515 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:26:30.518 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:31:30.519 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:36:30.527 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:41:30.528 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:46:30.536 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:51:30.539 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:56:30.554 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:01:30.555 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:06:30.562 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:11:30.574 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:16:30.582 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:21:30.595 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:26:30.603 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:31:30.620 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:36:30.634 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:41:30.645 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:46:30.658 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:51:30.661 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:56:30.670 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:01:30.681 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:06:30.687 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:11:30.690 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:16:30.699 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:21:30.706 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:26:30.715 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:31:30.727 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:36:30.731 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:41:30.742 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:46:30.754 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:51:30.767 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:56:30.776 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:01:30.791 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:06:30.793 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:11:30.806 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:16:30.812 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:21:30.822 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:26:30.833 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:31:30.835 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:36:30.849 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:41:30.860 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:46:30.867 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:51:30.872 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:56:30.877 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:01:30.891 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:06:30.906 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:11:30.914 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:16:30.915 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:21:30.923 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:26:30.930 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:31:30.936 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:36:30.945 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:41:30.953 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:46:30.959 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:51:30.963 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:56:30.978 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:01:30.989 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:06:30.997 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:11:31.010 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:16:31.022 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:21:31.026 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:26:31.034 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:31:31.045 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:36:31.054 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:41:31.067 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:46:31.078 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:51:31.084 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:56:31.095 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:01:31.103 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:06:31.112 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:11:31.122 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:16:31.135 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:21:31.138 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:26:31.153 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:31:31.163 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:31:11.101 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:36:11.113 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:41:11.124 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:46:11.129 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:50:41.646 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-12-17 22:50:41.648 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639752641648, current=DOWN, previous=UP]
+2021-12-17 22:50:41.650 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-17 22:50:41.669 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-17 22:50:42.085 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 22:50:42.093 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-17 22:50:45.102 WARN  com.netflix.discovery.TimedSupervisorTask         :90   [32m        [0;39m task supervisor shutting down, can't accept the task
+2021-12-17 22:50:45.102 WARN  com.netflix.discovery.TimedSupervisorTask         :90   [32m        [0;39m task supervisor shutting down, can't accept the task
+2021-12-17 22:50:45.103 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-17 22:50:47.267 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:196)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:172)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1535)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 more
+
+2021-12-17 22:50:47.267 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 26 more
+
+2021-12-17 22:50:47.268 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-12-17 22:50:47.268 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: java.net.ConnectException: Connection refused: connect

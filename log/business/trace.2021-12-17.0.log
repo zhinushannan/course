@@ -1,0 +1,484 @@
+2021-12-17 00:00:14.325 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9ec53198[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 00:00:14.326 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9ec53198[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 00:00:14.327 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9ec53198[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 00:00:14.327 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9ec53198[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:00:14.327 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9ec53198[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 00:00:14.330 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9ec53198[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 00:00:14.330 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9ec53198[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 00:01:27.072 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:05:25.913 INFO  club.kwcoder.server.config.LogAspect              :85   [32meb60c8e4[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 00:05:25.913 INFO  club.kwcoder.server.config.LogAspect              :86   [32meb60c8e4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 00:05:25.914 INFO  club.kwcoder.server.config.LogAspect              :87   [32meb60c8e4[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 00:05:25.915 INFO  club.kwcoder.server.config.LogAspect              :88   [32meb60c8e4[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:05:25.916 INFO  club.kwcoder.server.config.LogAspect              :106  [32meb60c8e4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 00:05:25.921 INFO  club.kwcoder.server.config.LogAspect              :118  [32meb60c8e4[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 00:05:25.921 INFO  club.kwcoder.server.config.LogAspect              :119  [32meb60c8e4[0;39m ------------- 结束 耗时：9 ms -------------
+2021-12-17 00:05:57.575 INFO  club.kwcoder.server.config.LogAspect              :85   [32m54e9265f[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 00:05:57.576 INFO  club.kwcoder.server.config.LogAspect              :86   [32m54e9265f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 00:05:57.576 INFO  club.kwcoder.server.config.LogAspect              :87   [32m54e9265f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 00:05:57.576 INFO  club.kwcoder.server.config.LogAspect              :88   [32m54e9265f[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:05:57.577 INFO  club.kwcoder.server.config.LogAspect              :106  [32m54e9265f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 00:05:57.580 INFO  club.kwcoder.server.config.LogAspect              :118  [32m54e9265f[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 00:05:57.580 INFO  club.kwcoder.server.config.LogAspect              :119  [32m54e9265f[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 00:06:12.119 INFO  club.kwcoder.server.config.LogAspect              :85   [32me4fd8014[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 00:06:12.119 INFO  club.kwcoder.server.config.LogAspect              :86   [32me4fd8014[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 00:06:12.119 INFO  club.kwcoder.server.config.LogAspect              :87   [32me4fd8014[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 00:06:12.120 INFO  club.kwcoder.server.config.LogAspect              :88   [32me4fd8014[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:06:12.120 INFO  club.kwcoder.server.config.LogAspect              :106  [32me4fd8014[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 00:06:12.124 INFO  club.kwcoder.server.config.LogAspect              :118  [32me4fd8014[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 00:06:12.124 INFO  club.kwcoder.server.config.LogAspect              :119  [32me4fd8014[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 00:06:27.086 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:11:27.096 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:13:42.600 INFO  club.kwcoder.server.config.LogAspect              :85   [32m59b53846[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :86   [32m59b53846[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :87   [32m59b53846[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :88   [32m59b53846[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:13:42.601 INFO  club.kwcoder.server.config.LogAspect              :106  [32m59b53846[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 00:13:42.606 INFO  club.kwcoder.server.config.LogAspect              :118  [32m59b53846[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 00:13:42.606 INFO  club.kwcoder.server.config.LogAspect              :119  [32m59b53846[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 00:16:27.100 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 00:16:40.257 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8386bfc0[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 00:16:40.257 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8386bfc0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8386bfc0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8386bfc0[0;39m 远程地址: 192.168.245.1
+2021-12-17 00:16:40.258 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8386bfc0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 00:16:40.263 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8386bfc0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 00:16:40.263 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8386bfc0[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 00:17:52.640 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-17 00:17:52.641 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639671472641, current=DOWN, previous=UP]
+2021-12-17 00:17:52.642 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-17 00:17:52.653 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-17 00:17:53.032 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 00:17:53.033 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-12-17 00:17:53.040 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-12-17 00:17:53.041 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-17 09:05:58.754 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-12-17 09:05:58.847 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-17 09:06:00.472 INFO  club.kwcoder.business.BusinessApplication         :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-17 09:06:02.332 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=e65dca3d-5a1d-373b-a209-ee064e70cb08
+2021-12-17 09:06:04.160 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2021-12-17 09:06:04.176 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2021-12-17 09:06:04.176 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-17 09:06:04.176 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-17 09:06:04.347 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-17 09:06:04.347 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 3839 ms
+2021-12-17 09:06:05.347 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 09:06:05.347 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 09:06:05.347 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-17 09:06:05.347 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 09:06:05.644 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-17 09:06:06.191 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-17 09:06:06.847 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-17 09:06:07.581 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-17 09:06:07.753 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-17 09:06:07.784 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-17 09:06:08.518 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-17 09:06:08.518 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-17 09:06:08.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-17 09:06:08.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-17 09:06:08.862 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-17 09:06:09.206 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-17 09:06:09.299 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639703169299 with initial instances count: 0
+2021-12-17 09:06:09.315 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application BUSINESS with eureka with status UP
+2021-12-17 09:06:09.315 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639703169315, current=UP, previous=STARTING]
+2021-12-17 09:06:09.315 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-17 09:06:09.315 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2021-12-17 09:06:09.346 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/business'
+2021-12-17 09:06:09.346 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9002
+2021-12-17 09:06:09.377 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :61   [32m        [0;39m Started BusinessApplication in 13.427 seconds (JVM running for 16.77)
+2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
+2021-12-17 09:06:09.862 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-12-17 09:06:39.314 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-17 09:06:39.329 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-17 09:08:56.632 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 09:08:56.632 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-17 09:08:56.640 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 8 ms
+2021-12-17 09:08:56.688 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5e56cd31[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5e56cd31[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5e56cd31[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:08:56.689 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5e56cd31[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:08:56.700 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5e56cd31[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:08:56.777 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m5e56cd31[0;39m HikariPool-1 - Starting...
+2021-12-17 09:08:57.011 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m5e56cd31[0;39m HikariPool-1 - Start completed.
+2021-12-17 09:08:57.209 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5e56cd31[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:08:57.209 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5e56cd31[0;39m ------------- 结束 耗时：526 ms -------------
+2021-12-17 09:09:02.908 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcabca6cc[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcabca6cc[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcabca6cc[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcabca6cc[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:02.909 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcabca6cc[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:02.915 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcabca6cc[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:02.916 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcabca6cc[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-17 09:09:20.182 INFO  club.kwcoder.server.config.LogAspect              :85   [32m269838b9[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :86   [32m269838b9[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :87   [32m269838b9[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :88   [32m269838b9[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:20.183 INFO  club.kwcoder.server.config.LogAspect              :106  [32m269838b9[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:20.188 INFO  club.kwcoder.server.config.LogAspect              :118  [32m269838b9[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:20.188 INFO  club.kwcoder.server.config.LogAspect              :119  [32m269838b9[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 09:09:43.913 INFO  club.kwcoder.server.config.LogAspect              :85   [32meb3848e0[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:43.913 INFO  club.kwcoder.server.config.LogAspect              :86   [32meb3848e0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :87   [32meb3848e0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :88   [32meb3848e0[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:43.914 INFO  club.kwcoder.server.config.LogAspect              :106  [32meb3848e0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:43.917 INFO  club.kwcoder.server.config.LogAspect              :118  [32meb3848e0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:43.918 INFO  club.kwcoder.server.config.LogAspect              :119  [32meb3848e0[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 09:09:46.902 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9ccc450e[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:09:46.903 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9ccc450e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:09:46.903 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9ccc450e[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:09:46.904 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9ccc450e[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:09:46.904 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9ccc450e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:09:46.908 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9ccc450e[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:09:46.908 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9ccc450e[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-17 09:11:09.225 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:12:56.826 INFO  club.kwcoder.server.config.LogAspect              :85   [32m5cb58d91[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:12:56.826 INFO  club.kwcoder.server.config.LogAspect              :86   [32m5cb58d91[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :87   [32m5cb58d91[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :88   [32m5cb58d91[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :106  [32m5cb58d91[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :118  [32m5cb58d91[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:12:56.842 INFO  club.kwcoder.server.config.LogAspect              :119  [32m5cb58d91[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3ff4517c[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3ff4517c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3ff4517c[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3ff4517c[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3ff4517c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:15:18.033 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3ff4517c[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:15:18.048 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3ff4517c[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :85   [32m34271dfd[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :86   [32m34271dfd[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :87   [32m34271dfd[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :88   [32m34271dfd[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :106  [32m34271dfd[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :118  [32m34271dfd[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:15:28.548 INFO  club.kwcoder.server.config.LogAspect              :119  [32m34271dfd[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :85   [32mab2e8a3d[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :86   [32mab2e8a3d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :87   [32mab2e8a3d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :88   [32mab2e8a3d[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :106  [32mab2e8a3d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :118  [32mab2e8a3d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:15:30.032 INFO  club.kwcoder.server.config.LogAspect              :119  [32mab2e8a3d[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:16:09.235 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:17:17.369 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8e345ecc[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:17:17.369 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8e345ecc[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8e345ecc[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8e345ecc[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8e345ecc[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8e345ecc[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:17:17.384 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8e345ecc[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-17 09:17:25.133 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf00eab7d[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:17:25.133 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf00eab7d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf00eab7d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf00eab7d[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf00eab7d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf00eab7d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:17:25.149 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf00eab7d[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :85   [32m1e48cd40[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :86   [32m1e48cd40[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :87   [32m1e48cd40[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :88   [32m1e48cd40[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :106  [32m1e48cd40[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :118  [32m1e48cd40[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:17:43.133 INFO  club.kwcoder.server.config.LogAspect              :119  [32m1e48cd40[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :85   [32mc9a9f5d9[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :86   [32mc9a9f5d9[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :87   [32mc9a9f5d9[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :88   [32mc9a9f5d9[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:18:07.964 INFO  club.kwcoder.server.config.LogAspect              :106  [32mc9a9f5d9[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:18:07.979 INFO  club.kwcoder.server.config.LogAspect              :118  [32mc9a9f5d9[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:18:07.979 INFO  club.kwcoder.server.config.LogAspect              :119  [32mc9a9f5d9[0;39m ------------- 结束 耗时：15 ms -------------
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :85   [32mcf48792f[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :86   [32mcf48792f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :87   [32mcf48792f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :88   [32mcf48792f[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :106  [32mcf48792f[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :118  [32mcf48792f[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:18:35.272 INFO  club.kwcoder.server.config.LogAspect              :119  [32mcf48792f[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :85   [32m3e4cd08e[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :86   [32m3e4cd08e[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :87   [32m3e4cd08e[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :88   [32m3e4cd08e[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :106  [32m3e4cd08e[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :118  [32m3e4cd08e[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:18:37.115 INFO  club.kwcoder.server.config.LogAspect              :119  [32m3e4cd08e[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:21:09.250 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:26:09.260 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:29:52.456 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8667f06b[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:29:52.456 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8667f06b[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:29:52.457 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8667f06b[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:29:52.457 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8667f06b[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:29:52.457 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8667f06b[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:29:52.463 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8667f06b[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:29:52.464 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8667f06b[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-17 09:30:40.358 INFO  club.kwcoder.server.config.LogAspect              :85   [32m257f7112[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:30:40.358 INFO  club.kwcoder.server.config.LogAspect              :86   [32m257f7112[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:30:40.358 INFO  club.kwcoder.server.config.LogAspect              :87   [32m257f7112[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:30:40.359 INFO  club.kwcoder.server.config.LogAspect              :88   [32m257f7112[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:30:40.359 INFO  club.kwcoder.server.config.LogAspect              :106  [32m257f7112[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:30:40.362 INFO  club.kwcoder.server.config.LogAspect              :118  [32m257f7112[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:30:40.363 INFO  club.kwcoder.server.config.LogAspect              :119  [32m257f7112[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :85   [32m4ed7162c[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :86   [32m4ed7162c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :87   [32m4ed7162c[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :88   [32m4ed7162c[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4ed7162c[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4ed7162c[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:31:00.905 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4ed7162c[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:31:09.265 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:31:27.890 INFO  club.kwcoder.server.config.LogAspect              :85   [32md7570dec[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:31:27.890 INFO  club.kwcoder.server.config.LogAspect              :86   [32md7570dec[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:31:27.890 INFO  club.kwcoder.server.config.LogAspect              :87   [32md7570dec[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:31:27.891 INFO  club.kwcoder.server.config.LogAspect              :88   [32md7570dec[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:31:27.891 INFO  club.kwcoder.server.config.LogAspect              :106  [32md7570dec[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:31:27.894 INFO  club.kwcoder.server.config.LogAspect              :118  [32md7570dec[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:31:27.895 INFO  club.kwcoder.server.config.LogAspect              :119  [32md7570dec[0;39m ------------- 结束 耗时：5 ms -------------
+2021-12-17 09:34:54.599 INFO  club.kwcoder.server.config.LogAspect              :85   [32mb76005b4[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:34:54.600 INFO  club.kwcoder.server.config.LogAspect              :86   [32mb76005b4[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:34:54.601 INFO  club.kwcoder.server.config.LogAspect              :87   [32mb76005b4[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:34:54.601 INFO  club.kwcoder.server.config.LogAspect              :88   [32mb76005b4[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:34:54.602 INFO  club.kwcoder.server.config.LogAspect              :106  [32mb76005b4[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:34:54.607 INFO  club.kwcoder.server.config.LogAspect              :118  [32mb76005b4[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:34:54.607 INFO  club.kwcoder.server.config.LogAspect              :119  [32mb76005b4[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-17 09:35:00.450 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma4263cdb[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:35:00.450 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma4263cdb[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:35:00.450 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma4263cdb[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:35:00.451 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma4263cdb[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:35:00.451 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma4263cdb[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:35:00.454 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma4263cdb[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:35:00.454 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma4263cdb[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:36:00.577 INFO  club.kwcoder.server.config.LogAspect              :85   [32m77a4427c[0;39m ------------- 【分类】操作开始 -------------
+2021-12-17 09:36:00.578 INFO  club.kwcoder.server.config.LogAspect              :86   [32m77a4427c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/category/all POST
+2021-12-17 09:36:00.580 INFO  club.kwcoder.server.config.LogAspect              :87   [32m77a4427c[0;39m 类名方法: club.kwcoder.business.controller.admin.CategoryController.all
+2021-12-17 09:36:00.581 INFO  club.kwcoder.server.config.LogAspect              :88   [32m77a4427c[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:36:00.582 INFO  club.kwcoder.server.config.LogAspect              :106  [32m77a4427c[0;39m 请求参数: []
+2021-12-17 09:36:00.583 INFO  club.kwcoder.server.config.LogAspect              :85   [32mfdb0858f[0;39m ------------- 【讲师】操作开始 -------------
+2021-12-17 09:36:00.583 INFO  club.kwcoder.server.config.LogAspect              :86   [32mfdb0858f[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/all POST
+2021-12-17 09:36:00.584 INFO  club.kwcoder.server.config.LogAspect              :87   [32mfdb0858f[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.all
+2021-12-17 09:36:00.585 INFO  club.kwcoder.server.config.LogAspect              :88   [32mfdb0858f[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:36:00.586 INFO  club.kwcoder.server.config.LogAspect              :106  [32mfdb0858f[0;39m 请求参数: []
+2021-12-17 09:36:00.594 INFO  club.kwcoder.server.config.LogAspect              :118  [32mfdb0858f[0;39m 返回结果: {"code":"200","data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"message":"查询成功","success":true}
+2021-12-17 09:36:00.594 INFO  club.kwcoder.server.config.LogAspect              :119  [32mfdb0858f[0;39m ------------- 结束 耗时：11 ms -------------
+2021-12-17 09:36:00.599 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf7e1a25a[0;39m ------------- 【课程】查询开始 -------------
+2021-12-17 09:36:00.599 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf7e1a25a[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/course/list POST
+2021-12-17 09:36:00.600 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf7e1a25a[0;39m 类名方法: club.kwcoder.business.controller.admin.CourseController.list
+2021-12-17 09:36:00.600 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf7e1a25a[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:36:00.600 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf7e1a25a[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:36:00.618 INFO  club.kwcoder.server.config.LogAspect              :118  [32m77a4427c[0;39m 返回结果: {"code":"200","data":[{"id":"00000100","name":"前端技术","parent":"00000000","sort":100},{"id":"00000101","name":"html/css","parent":"00000100","sort":101},{"id":"00000102","name":"javascript","parent":"00000100","sort":102},{"id":"00000103","name":"vue.js","parent":"00000100","sort":103},{"id":"00000104","name":"react.js","parent":"00000100","sort":104},{"id":"00000105","name":"angular","parent":"00000100","sort":105},{"id":"00000106","name":"node.js","parent":"00000100","sort":106},{"id":"00000107","name":"jquery","parent":"00000100","sort":107},{"id":"00000108","name":"小程序","parent":"00000100","sort":108},{"id":"00000200","name":"后端技术","parent":"00000000","sort":200},{"id":"00000201","name":"java","parent":"00000200","sort":201},{"id":"00000202","name":"springboot","parent":"00000200","sort":202},{"id":"00000203","name":"spring cloud","parent":"00000200","sort":203},{"id":"00000204","name":"ssm","parent":"00000200","sort":204},{"id":"00000205","name":"python","parent":"00000200","sort":205},{"id":"00000206","name":"爬虫","parent":"00000200","sort":206},{"id":"00000300","name":"移动开发","parent":"00000000","sort":300},{"id":"00000301","name":"android","parent":"00000300","sort":301},{"id":"00000302","name":"ios","parent":"00000300","sort":302},{"id":"00000303","name":"react native","parent":"00000300","sort":303},{"id":"00000304","name":"ionic","parent":"00000300","sort":304},{"id":"00000400","name":"前沿技术","parent":"00000000","sort":400},{"id":"00000401","name":"微服务","parent":"00000400","sort":401},{"id":"00000402","name":"区块链","parent":"00000400","sort":402},{"id":"00000403","name":"机器学习","parent":"00000400","sort":403},{"id":"00000404","name":"深度学习","parent":"00000400","sort":404},{"id":"00000405","name":"数据分析&挖掘","parent":"00000400","sort":405},{"id":"00000500","name":"云计算&大数据","parent":"00000000","sort":500},{"id":"00000501","name":"大数据","parent":"00000500","sort":501},{"id":"00000502","name":"hadoop","parent":"00000500","sort":502},{"id":"00000503","name":"spark","parent":"00000500","sort":503},{"id":"00000504","name":"hbase","parent":"00000500","sort":504},{"id":"00000505","name":"阿里云","parent":"00000500","sort":505},{"id":"00000506","name":"docker","parent":"00000500","sort":506},{"id":"00000507","name":"kubernetes","parent":"00000500","sort":507},{"id":"00000600","name":"运维&测试","parent":"00000000","sort":600},{"id":"00000601","name":"运维","parent":"00000600","sort":601},{"id":"00000602","name":"自动化运维","parent":"00000600","sort":602},{"id":"00000603","name":"中间件","parent":"00000600","sort":603},{"id":"00000604","name":"linux","parent":"00000600","sort":604},{"id":"00000605","name":"测试","parent":"00000600","sort":605},{"id":"00000606","name":"自动化测试","parent":"00000600","sort":606},{"id":"00000700","name":"数据库","parent":"00000000","sort":700},{"id":"00000701","name":"mysql","parent":"00000700","sort":701},{"id":"00000702","name":"redis","parent":"00000700","sort":702},{"id":"00000703","name":"mongodb","parent":"00000700","sort":703}],"message":"查询成功","success":true}
+2021-12-17 09:36:00.618 INFO  club.kwcoder.server.config.LogAspect              :119  [32m77a4427c[0;39m ------------- 结束 耗时：41 ms -------------
+2021-12-17 09:36:00.630 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf7e1a25a[0;39m 返回结果: {"code":"200","data":{"data":[{"charge":"C","createdAt":1639460716000,"enroll":100,"id":"00000001","image":"","level":"1","name":"测试课程01","price":19.90,"sort":0,"status":"P","summary":"这是一门测试课程","teacherId":"7NU88xR9","time":100500,"updatedAt":1639622741378}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-17 09:36:00.630 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf7e1a25a[0;39m ------------- 结束 耗时：31 ms -------------
+2021-12-17 09:36:09.280 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:41:09.286 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :85   [32m78f17159[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :86   [32m78f17159[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :87   [32m78f17159[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:43:36.960 INFO  club.kwcoder.server.config.LogAspect              :88   [32m78f17159[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:43:36.961 INFO  club.kwcoder.server.config.LogAspect              :106  [32m78f17159[0;39m 请求参数: [{"page":1,"size":10,"total":0}]
+2021-12-17 09:43:36.966 INFO  club.kwcoder.server.config.LogAspect              :118  [32m78f17159[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":10,"total":1},"success":true}
+2021-12-17 09:43:36.966 INFO  club.kwcoder.server.config.LogAspect              :119  [32m78f17159[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-17 09:45:38.857 INFO  club.kwcoder.server.config.LogAspect              :85   [32m4a31400d[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:45:38.857 INFO  club.kwcoder.server.config.LogAspect              :86   [32m4a31400d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:45:38.858 INFO  club.kwcoder.server.config.LogAspect              :87   [32m4a31400d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:45:38.858 INFO  club.kwcoder.server.config.LogAspect              :88   [32m4a31400d[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:45:38.858 INFO  club.kwcoder.server.config.LogAspect              :106  [32m4a31400d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:45:38.863 INFO  club.kwcoder.server.config.LogAspect              :118  [32m4a31400d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:45:38.864 INFO  club.kwcoder.server.config.LogAspect              :119  [32m4a31400d[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-17 09:46:09.291 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :85   [32mccae40e5[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :86   [32mccae40e5[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :87   [32mccae40e5[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :88   [32mccae40e5[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :106  [32mccae40e5[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :118  [32mccae40e5[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:47:14.799 INFO  club.kwcoder.server.config.LogAspect              :119  [32mccae40e5[0;39m ------------- 结束 耗时：0 ms -------------
+2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :85   [32m850728e0[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :86   [32m850728e0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :87   [32m850728e0[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :88   [32m850728e0[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:47:27.688 INFO  club.kwcoder.server.config.LogAspect              :106  [32m850728e0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:47:27.704 INFO  club.kwcoder.server.config.LogAspect              :118  [32m850728e0[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:47:27.704 INFO  club.kwcoder.server.config.LogAspect              :119  [32m850728e0[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-17 09:47:30.244 INFO  club.kwcoder.server.config.LogAspect              :85   [32m24b87771[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :86   [32m24b87771[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :87   [32m24b87771[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :88   [32m24b87771[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:47:30.245 INFO  club.kwcoder.server.config.LogAspect              :106  [32m24b87771[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:47:30.250 INFO  club.kwcoder.server.config.LogAspect              :118  [32m24b87771[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:47:30.251 INFO  club.kwcoder.server.config.LogAspect              :119  [32m24b87771[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-17 09:47:51.657 INFO  club.kwcoder.server.config.LogAspect              :85   [32m24efe43d[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:47:51.657 INFO  club.kwcoder.server.config.LogAspect              :86   [32m24efe43d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:47:51.658 INFO  club.kwcoder.server.config.LogAspect              :87   [32m24efe43d[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:47:51.658 INFO  club.kwcoder.server.config.LogAspect              :88   [32m24efe43d[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:47:51.659 INFO  club.kwcoder.server.config.LogAspect              :106  [32m24efe43d[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:47:51.661 INFO  club.kwcoder.server.config.LogAspect              :118  [32m24efe43d[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:47:51.661 INFO  club.kwcoder.server.config.LogAspect              :119  [32m24efe43d[0;39m ------------- 结束 耗时：4 ms -------------
+2021-12-17 09:49:31.587 INFO  club.kwcoder.server.config.LogAspect              :85   [32mad0a1215[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:49:31.587 INFO  club.kwcoder.server.config.LogAspect              :86   [32mad0a1215[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:49:31.588 INFO  club.kwcoder.server.config.LogAspect              :87   [32mad0a1215[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:49:31.589 INFO  club.kwcoder.server.config.LogAspect              :88   [32mad0a1215[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:49:31.589 INFO  club.kwcoder.server.config.LogAspect              :106  [32mad0a1215[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:49:31.595 INFO  club.kwcoder.server.config.LogAspect              :118  [32mad0a1215[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:49:31.595 INFO  club.kwcoder.server.config.LogAspect              :119  [32mad0a1215[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-17 09:51:09.293 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 09:53:23.225 INFO  club.kwcoder.server.config.LogAspect              :85   [32m82046163[0;39m ------------- 【讲师】查询开始 -------------
+2021-12-17 09:53:23.226 INFO  club.kwcoder.server.config.LogAspect              :86   [32m82046163[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/teacher/list POST
+2021-12-17 09:53:23.226 INFO  club.kwcoder.server.config.LogAspect              :87   [32m82046163[0;39m 类名方法: club.kwcoder.business.controller.admin.TeacherController.list
+2021-12-17 09:53:23.226 INFO  club.kwcoder.server.config.LogAspect              :88   [32m82046163[0;39m 远程地址: 192.168.245.1
+2021-12-17 09:53:23.227 INFO  club.kwcoder.server.config.LogAspect              :106  [32m82046163[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-17 09:53:23.232 INFO  club.kwcoder.server.config.LogAspect              :118  [32m82046163[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://127.0.0.1:9000/file/f/teacher/VffexNKN-2_BigPic.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
+2021-12-17 09:53:23.233 INFO  club.kwcoder.server.config.LogAspect              :119  [32m82046163[0;39m ------------- 结束 耗时：8 ms -------------
+2021-12-17 09:56:09.297 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:01:09.298 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:06:09.313 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:11:09.316 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:16:09.326 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:21:09.341 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 10:26:09.352 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 11:57:47.379 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h31m5s34ms840µs900ns).
+2021-12-17 12:01:27.219 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:06:27.233 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:11:27.236 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:16:27.239 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:21:27.252 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:26:27.268 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:31:27.269 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:36:27.274 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:41:27.283 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:46:27.299 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:51:27.309 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 12:56:27.322 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:01:27.333 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:06:27.339 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:11:27.347 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:16:27.349 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:21:27.358 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:26:27.366 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:31:27.372 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:36:27.379 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:41:27.384 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:46:27.385 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:51:27.391 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 13:56:27.402 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:01:27.414 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:06:27.423 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:11:27.434 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:16:27.437 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:21:27.442 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:26:27.451 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:31:27.458 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:36:27.459 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:41:27.467 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:46:27.472 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:51:27.477 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 14:56:27.490 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:01:27.495 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:06:27.510 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:11:27.511 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:16:27.520 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:21:27.527 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:26:27.534 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:31:27.540 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:36:27.544 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:41:27.549 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:46:27.556 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:51:27.572 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 15:56:27.584 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:01:27.587 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:06:27.595 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:11:27.602 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:16:27.606 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:21:27.615 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:26:27.617 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:31:27.632 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:36:27.647 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:41:27.652 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:46:27.664 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:51:27.674 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 16:56:27.676 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:01:27.680 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:06:27.694 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:11:27.695 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:16:27.707 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:21:27.714 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:26:27.721 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:31:27.734 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:36:27.738 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:41:27.747 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:46:27.759 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:51:27.768 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 17:56:27.783 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:01:27.797 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:06:27.801 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:11:27.814 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:16:27.818 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:21:27.829 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:26:27.841 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:31:27.856 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:36:27.870 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:41:27.882 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:46:27.888 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:51:27.894 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 18:56:27.898 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:01:27.913 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:06:27.928 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:11:27.936 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:16:27.951 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:21:27.960 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:26:27.965 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:31:27.972 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:36:27.980 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:41:27.989 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:46:27.996 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:51:28.000 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 19:56:28.016 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:01:28.024 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:06:28.034 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:11:28.047 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:16:28.059 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:21:28.062 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:26:28.071 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:31:28.082 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:36:28.091 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:41:28.104 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:46:28.116 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:51:28.131 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 20:56:28.146 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:01:28.146 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:06:28.157 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:11:28.168 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:16:28.177 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:21:28.185 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:26:28.189 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 21:31:28.203 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:01:19.675 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m23s190ms718µs400ns).
+2021-12-17 22:28:36.420 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m26s909ms493µs200ns).
+2021-12-17 22:31:08.122 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:36:08.126 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:41:08.131 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:46:08.135 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-17 22:50:41.601 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application BUSINESS with eureka with status DOWN
+2021-12-17 22:50:41.602 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639752641602, current=DOWN, previous=UP]
+2021-12-17 22:50:41.605 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002: registering service...
+2021-12-17 22:50:41.618 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_BUSINESS/DESKTOP-IIUD3CS:business:9002 - registration status: 204
+2021-12-17 22:50:42.050 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 22:50:42.057 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-12-17 22:50:42.064 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-12-17 22:50:42.065 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-17 22:50:45.078 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
