@@ -282,3 +282,4 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.ser
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 86 common frames omitted
+2021-12-18 15:39:07.823 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639813147823, current=DOWN, previous=UP]

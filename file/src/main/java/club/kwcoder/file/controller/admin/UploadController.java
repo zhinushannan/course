@@ -1,9 +1,13 @@
 package club.kwcoder.file.controller.admin;
 
+import club.kwcoder.server.dto.FileDTO;
 import club.kwcoder.server.dto.ResultBean;
+import club.kwcoder.server.service.FileService;
 import club.kwcoder.server.util.UuidUtil;
+import org.checkerframework.checker.units.qual.A;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,6 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Locale;
 
 /**
  * @author: zhinushannan
@@ -28,6 +33,9 @@ public class UploadController {
     @Value("${file.path}")
     private String FILE_PATH;
 
+    @Autowired
+    private FileService fileService;
+
     public static final String BUSINESS_NAME = "文件上传";
 
     private static final Logger LOG = LoggerFactory.getLogger(UploadController.class);
@@ -38,14 +46,28 @@ public class UploadController {
         LOG.info(file.getOriginalFilename());
         LOG.info(String.valueOf(file.getSize()));
 
-        String fileName = file.getOriginalFilename();
         String key = UuidUtil.getShortUuid();
-        String fullPath = FILE_PATH + "teacher/" + key + "-" + fileName;
+        String fileName = file.getOriginalFilename();
+
+        assert fileName != null;
+        String suffix = fileName.substring(fileName.lastIndexOf(".") + 1).toLowerCase();
+        String path = "teacher/" + key + "." + suffix;
+
+        String fullPath = FILE_PATH + path;
         File dest = new File(fullPath);
         file.transferTo(dest);
         LOG.info(dest.getAbsolutePath());
 
-        return ResultBean.getSuccess("上传成功", FILE_DOMAIN + "teacher/" + key + "-" + fileName);
+        LOG.info("保存文件记录开始");
+        FileDTO fileDTO = new FileDTO();
+        fileDTO.setPath(path);
+        fileDTO.setName(fileName);
+        fileDTO.setSize(Math.toIntExact(file.getSize()));
+        fileDTO.setSuffix(suffix);
+        fileDTO.setUse("");
+        fileService.save(fileDTO);
+
+        return ResultBean.getSuccess("上传成功", FILE_DOMAIN + path);
     }
 
 }

@@ -521,17 +521,26 @@ export default {
   name: "admin",
   methods: {
     activeSideBar(id) {
-      // 兄弟菜单去掉active样式，自身增加active样式
-      $("#" + id).siblings().removeClass("active")
-      $("#" + id).siblings().find("li").removeClass("active")
+      console.log(id)
+
+      $("li.active").removeClass("active")
+      $("li.open").removeClass("open")
+
+      $("#" + id).parents("li").addClass("open active")
       $("#" + id).addClass("active")
 
-      // 如果有父级菜单，父级菜单的兄弟菜单要去掉open active，父级菜单增加open active
-      let parentLi = $("#" + id).parents("li")
-      if (parentLi) {
-        parentLi.siblings().removeClass("open active")
-        parentLi.addClass("open active")
-      }
+
+      // // 兄弟菜单去掉active样式，自身增加active样式
+      // $("#" + id).siblings().removeClass("active")
+      // $("#" + id).siblings().find("li").removeClass("active")
+      // $("#" + id).addClass("active")
+      //
+      // // 如果有父级菜单，父级菜单的兄弟菜单要去掉open active，父级菜单增加open active
+      // let parentLi = $("#" + id).parents("li")
+      // if (parentLi) {
+      //   parentLi.siblings().removeClass("open active")
+      //   parentLi.addClass("open active")
+      // }
     }
   },
   mounted() {

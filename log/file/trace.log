@@ -165,3 +165,137 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: club.kwcoder.ser
 2021-12-18 15:24:19.222 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-12-18 15:24:19.232 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 10 ms
 2021-12-18 15:28:07.236 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:33:07.238 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:38:07.246 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:39:07.821 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-12-18 15:39:07.821 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639813147821, current=DOWN, previous=UP]
+2021-12-18 15:39:07.822 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-18 15:39:07.832 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-18 15:39:08.350 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-18 15:39:08.354 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-12-18 15:39:11.370 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-12-18 15:39:11.400 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - deregister  status: 200
+2021-12-18 15:39:11.414 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-12-18 15:39:12.980 INFO  club.kwcoder.file.FileApplication                 :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-12-18 15:39:13.293 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=82e793d4-4658-3336-92c8-a8f71852709b
+2021-12-18 15:39:13.449 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-12-18 15:39:13.449 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-12-18 15:39:13.449 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-12-18 15:39:13.449 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-18 15:39:13.465 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-18 15:39:13.465 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m        [0;39m Root WebApplicationContext: initialization completed in 481 ms
+2021-12-18 15:39:13.652 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-12-18 15:39:13.652 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-18 15:39:13.762 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-18 15:39:13.965 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-12-18 15:39:14.470 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m        [0;39m Eureka HTTP Client uses Jersey
+2021-12-18 15:39:15.001 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-12-18 15:39:15.064 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-12-18 15:39:15.064 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-12-18 15:39:15.064 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-12-18 15:39:15.064 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-12-18 15:39:15.064 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-12-18 15:39:15.064 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-12-18 15:39:15.126 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-12-18 15:39:15.126 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-12-18 15:39:15.142 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-12-18 15:39:15.142 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-12-18 15:39:15.142 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-12-18 15:39:15.142 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1639813155142 with initial instances count: 3
+2021-12-18 15:39:15.142 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-12-18 15:39:15.142 INFO  com.netflix.discovery.DiscoveryClient             :1355 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1639813155142, current=UP, previous=STARTING]
+2021-12-18 15:39:15.142 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003: registering service...
+2021-12-18 15:39:15.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-12-18 15:39:15.157 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-12-18 15:39:15.157 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_FILE/DESKTOP-IIUD3CS:file:9003 - registration status: 204
+2021-12-18 15:39:15.157 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-12-18 15:39:15.673 INFO  club.kwcoder.file.FileApplication                 :61   [32m        [0;39m Started FileApplication in 4.023 seconds (JVM running for 976.995)
+2021-12-18 15:39:15.673 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-12-18 15:39:15.689 INFO  club.kwcoder.file.FileApplication                 :25   [32m        [0;39m 启动成功！！！
+2021-12-18 15:39:15.689 INFO  club.kwcoder.file.FileApplication                 :26   [32m        [0;39m File地址：	http://127.0.0.1:9003
+2021-12-18 15:41:31.839 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-18 15:41:31.839 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-18 15:41:31.846 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 7 ms
+2021-12-18 15:44:15.142 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:49:15.152 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:54:15.157 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 15:59:15.172 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:04:15.181 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:09:15.185 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:14:15.193 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:19:15.203 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:24:15.210 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:29:15.224 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:34:15.236 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:39:15.247 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:44:15.256 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:48:43.430 INFO  club.kwcoder.server.config.LogAspect              :85   [32m29265e5c[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-18 16:48:43.430 INFO  club.kwcoder.server.config.LogAspect              :86   [32m29265e5c[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-18 16:48:43.431 INFO  club.kwcoder.server.config.LogAspect              :87   [32m29265e5c[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-18 16:48:43.431 INFO  club.kwcoder.server.config.LogAspect              :88   [32m29265e5c[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:48:43.436 INFO  club.kwcoder.server.config.LogAspect              :106  [32m29265e5c[0;39m 请求参数: [null]
+2021-12-18 16:48:43.439 INFO  c.kwcoder.file.controller.admin.UploadController  :44   [32m29265e5c[0;39m 上传文件开始：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@31d80e26
+2021-12-18 16:48:43.440 INFO  c.kwcoder.file.controller.admin.UploadController  :45   [32m29265e5c[0;39m 1_BigPic.png
+2021-12-18 16:48:43.440 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m29265e5c[0;39m 191565
+2021-12-18 16:48:43.443 INFO  c.kwcoder.file.controller.admin.UploadController  :58   [32m29265e5c[0;39m C:\CODE\course\file_dir\teacher\59tYMd6q.png
+2021-12-18 16:48:43.443 INFO  c.kwcoder.file.controller.admin.UploadController  :60   [32m29265e5c[0;39m 保存文件记录开始
+2021-12-18 16:48:43.477 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m29265e5c[0;39m HikariPool-1 - Starting...
+2021-12-18 16:48:43.727 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m29265e5c[0;39m HikariPool-1 - Start completed.
+2021-12-18 16:48:43.766 INFO  club.kwcoder.server.config.LogAspect              :118  [32m29265e5c[0;39m 返回结果: {"code":"200","data":"http://127.0.0.1:9000/file/f/teacher/59tYMd6q.png","message":"上传成功","success":true}
+2021-12-18 16:48:43.767 INFO  club.kwcoder.server.config.LogAspect              :119  [32m29265e5c[0;39m ------------- 结束 耗时：341 ms -------------
+2021-12-18 16:49:15.270 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-18 16:49:56.995 INFO  club.kwcoder.server.config.LogAspect              :85   [32m89a94806[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:49:56.995 INFO  club.kwcoder.server.config.LogAspect              :86   [32m89a94806[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:49:56.995 INFO  club.kwcoder.server.config.LogAspect              :87   [32m89a94806[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:49:56.995 INFO  club.kwcoder.server.config.LogAspect              :88   [32m89a94806[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:49:56.996 INFO  club.kwcoder.server.config.LogAspect              :106  [32m89a94806[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:49:57.093 INFO  club.kwcoder.server.config.LogAspect              :118  [32m89a94806[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:49:57.093 INFO  club.kwcoder.server.config.LogAspect              :119  [32m89a94806[0;39m ------------- 结束 耗时：99 ms -------------
+2021-12-18 16:49:59.726 INFO  club.kwcoder.server.config.LogAspect              :85   [32me7fd4af0[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:49:59.726 INFO  club.kwcoder.server.config.LogAspect              :86   [32me7fd4af0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:49:59.726 INFO  club.kwcoder.server.config.LogAspect              :87   [32me7fd4af0[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:49:59.727 INFO  club.kwcoder.server.config.LogAspect              :88   [32me7fd4af0[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:49:59.727 INFO  club.kwcoder.server.config.LogAspect              :106  [32me7fd4af0[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:49:59.732 INFO  club.kwcoder.server.config.LogAspect              :118  [32me7fd4af0[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:49:59.732 INFO  club.kwcoder.server.config.LogAspect              :119  [32me7fd4af0[0;39m ------------- 结束 耗时：7 ms -------------
+2021-12-18 16:50:02.908 INFO  club.kwcoder.server.config.LogAspect              :85   [32m68f8de16[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:50:02.909 INFO  club.kwcoder.server.config.LogAspect              :86   [32m68f8de16[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:50:02.909 INFO  club.kwcoder.server.config.LogAspect              :87   [32m68f8de16[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:50:02.909 INFO  club.kwcoder.server.config.LogAspect              :88   [32m68f8de16[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:50:02.910 INFO  club.kwcoder.server.config.LogAspect              :106  [32m68f8de16[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:50:02.914 INFO  club.kwcoder.server.config.LogAspect              :118  [32m68f8de16[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:50:02.914 INFO  club.kwcoder.server.config.LogAspect              :119  [32m68f8de16[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-18 16:50:03.932 INFO  club.kwcoder.server.config.LogAspect              :85   [32m8aa5eb13[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:50:03.932 INFO  club.kwcoder.server.config.LogAspect              :86   [32m8aa5eb13[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:50:03.933 INFO  club.kwcoder.server.config.LogAspect              :87   [32m8aa5eb13[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:50:03.933 INFO  club.kwcoder.server.config.LogAspect              :88   [32m8aa5eb13[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:50:03.933 INFO  club.kwcoder.server.config.LogAspect              :106  [32m8aa5eb13[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:50:03.937 INFO  club.kwcoder.server.config.LogAspect              :118  [32m8aa5eb13[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:50:03.938 INFO  club.kwcoder.server.config.LogAspect              :119  [32m8aa5eb13[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-18 16:50:04.970 INFO  club.kwcoder.server.config.LogAspect              :85   [32m88fb7477[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:50:04.970 INFO  club.kwcoder.server.config.LogAspect              :86   [32m88fb7477[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:50:04.970 INFO  club.kwcoder.server.config.LogAspect              :87   [32m88fb7477[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:50:04.970 INFO  club.kwcoder.server.config.LogAspect              :88   [32m88fb7477[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:50:04.971 INFO  club.kwcoder.server.config.LogAspect              :106  [32m88fb7477[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:50:04.975 INFO  club.kwcoder.server.config.LogAspect              :118  [32m88fb7477[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:50:04.976 INFO  club.kwcoder.server.config.LogAspect              :119  [32m88fb7477[0;39m ------------- 结束 耗时：6 ms -------------
+2021-12-18 16:50:21.975 INFO  club.kwcoder.server.config.LogAspect              :85   [32ma48e7d55[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:50:21.976 INFO  club.kwcoder.server.config.LogAspect              :86   [32ma48e7d55[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:50:21.976 INFO  club.kwcoder.server.config.LogAspect              :87   [32ma48e7d55[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:50:21.977 INFO  club.kwcoder.server.config.LogAspect              :88   [32ma48e7d55[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:50:21.978 INFO  club.kwcoder.server.config.LogAspect              :106  [32ma48e7d55[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:50:21.986 INFO  club.kwcoder.server.config.LogAspect              :118  [32ma48e7d55[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:50:21.986 INFO  club.kwcoder.server.config.LogAspect              :119  [32ma48e7d55[0;39m ------------- 结束 耗时：11 ms -------------
+2021-12-18 16:50:37.846 INFO  club.kwcoder.server.config.LogAspect              :85   [32mf0f44357[0;39m ------------- 【文件】查询开始 -------------
+2021-12-18 16:50:37.846 INFO  club.kwcoder.server.config.LogAspect              :86   [32mf0f44357[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/file/list POST
+2021-12-18 16:50:37.846 INFO  club.kwcoder.server.config.LogAspect              :87   [32mf0f44357[0;39m 类名方法: club.kwcoder.file.controller.admin.FileController.list
+2021-12-18 16:50:37.846 INFO  club.kwcoder.server.config.LogAspect              :88   [32mf0f44357[0;39m 远程地址: 192.168.245.1
+2021-12-18 16:50:37.847 INFO  club.kwcoder.server.config.LogAspect              :106  [32mf0f44357[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-12-18 16:50:37.851 INFO  club.kwcoder.server.config.LogAspect              :118  [32mf0f44357[0;39m 返回结果: {"code":"200","data":{"data":[{"createdAt":1639817323449,"id":"0qk25LQB","name":"1_BigPic.png","path":"teacher/59tYMd6q.png","size":191565,"suffix":"png","updatedAt":1639817323449,"use":""}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-18 16:50:37.851 INFO  club.kwcoder.server.config.LogAspect              :119  [32mf0f44357[0;39m ------------- 结束 耗时：6 ms -------------
