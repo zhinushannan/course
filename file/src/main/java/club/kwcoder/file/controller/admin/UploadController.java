@@ -42,7 +42,7 @@ public class UploadController {
     private static final Logger LOG = LoggerFactory.getLogger(UploadController.class);
 
     @RequestMapping("/upload")
-    public ResultBean<String> upload(@RequestParam MultipartFile file, String use) throws IOException {
+    public ResultBean<FileDTO> upload(@RequestParam MultipartFile file, String use) throws IOException {
         LOG.info(file.getOriginalFilename());
         LOG.info(String.valueOf(file.getSize()));
 
@@ -77,7 +77,8 @@ public class UploadController {
         fileDTO.setUse(use);
         fileService.save(fileDTO);
 
-        return ResultBean.getSuccess("上传成功", FILE_DOMAIN + path);
+        fileDTO.setPath(FILE_DOMAIN + path);
+        return ResultBean.getSuccess("上传成功", fileDTO);
     }
 
 }

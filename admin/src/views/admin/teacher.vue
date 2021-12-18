@@ -240,8 +240,8 @@
       afterUpload(resp) {
         let _this = this
         let image = resp.data
-        console.log("头像地址：", image)
-        _this.teacher.image = image
+        console.log("头像地址：", image.path)
+        _this.teacher.image = image.path
       }
 
     }
