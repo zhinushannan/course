@@ -2,6 +2,7 @@ package club.kwcoder.file.controller.admin;
 
 import club.kwcoder.server.dto.FileDTO;
 import club.kwcoder.server.dto.ResultBean;
+import club.kwcoder.server.enums.FileUseEnum;
 import club.kwcoder.server.service.FileService;
 import club.kwcoder.server.util.UuidUtil;
 import org.checkerframework.checker.units.qual.A;
@@ -41,17 +42,26 @@ public class UploadController {
     private static final Logger LOG = LoggerFactory.getLogger(UploadController.class);
 
     @RequestMapping("/upload")
-    public ResultBean<String> upload(@RequestParam MultipartFile file) throws IOException {
-        LOG.info("上传文件开始：{}", file);
+    public ResultBean<String> upload(@RequestParam MultipartFile file, String use) throws IOException {
         LOG.info(file.getOriginalFilename());
         LOG.info(String.valueOf(file.getSize()));
 
+        // 保存文件到本地
+        FileUseEnum useEnum = FileUseEnum.getByCode(use);
         String key = UuidUtil.getShortUuid();
         String fileName = file.getOriginalFilename();
 
         assert fileName != null;
         String suffix = fileName.substring(fileName.lastIndexOf(".") + 1).toLowerCase();
-        String path = "teacher/" + key + "." + suffix;
+
+        assert useEnum != null;
+        String dir = useEnum.name().toLowerCase();
+        File fullDir = new File(FILE_PATH + dir);
+        if (!fullDir.exists()) {
+            fullDir.mkdir();
+        }
+
+        String path = dir + "/" + key + "." + suffix;
 
         String fullPath = FILE_PATH + path;
         File dest = new File(fullPath);
@@ -64,7 +74,7 @@ public class UploadController {
         fileDTO.setName(fileName);
         fileDTO.setSize(Math.toIntExact(file.getSize()));
         fileDTO.setSuffix(suffix);
-        fileDTO.setUse("");
+        fileDTO.setUse(use);
         fileService.save(fileDTO);
 
         return ResultBean.getSuccess("上传成功", FILE_DOMAIN + path);
