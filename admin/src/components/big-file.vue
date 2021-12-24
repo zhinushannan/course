@@ -66,8 +66,18 @@
         let end = Math.min(start + shardSize, file.size); // 当前分片结束位置
         let fileShard = file.slice(start, end)
 
-        formData.append("file", fileShard)
+        let size = file.size;
+        let shardTotal = Math.ceil(size / shardSize);
+
+        formData.append("shard", fileShard)
+        formData.append("shardIndex", shardIndex)
+        formData.append("shardSize", shardSize)
+        formData.append("shardTotal", shardTotal)
         formData.append("use", _this.use)
+        formData.append("name", file.name)
+        formData.append("suffix", suffix)
+        formData.append("size", size)
+
         Loading.show()
         _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/upload", formData).then((response) => {
           Loading.hide()

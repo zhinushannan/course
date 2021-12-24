@@ -5,7 +5,6 @@ import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.enums.FileUseEnum;
 import club.kwcoder.server.service.FileService;
 import club.kwcoder.server.util.UuidUtil;
-import org.checkerframework.checker.units.qual.A;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Locale;
 
 /**
  * @author: zhinushannan
@@ -42,18 +40,21 @@ public class UploadController {
     private static final Logger LOG = LoggerFactory.getLogger(UploadController.class);
 
     @RequestMapping("/upload")
-    public ResultBean<FileDTO> upload(@RequestParam MultipartFile file, String use) throws IOException {
-        LOG.info(file.getOriginalFilename());
-        LOG.info(String.valueOf(file.getSize()));
+    public ResultBean<FileDTO> upload(@RequestParam MultipartFile shard,
+                                      String use,
+                                      String name,
+                                      String suffix,
+                                      Integer size,
+                                      Integer shardIndex,
+                                      Integer shardSize,
+                                      Integer shardTotal) throws IOException {
+        LOG.info("上传文件开始");
 
         // 保存文件到本地
         FileUseEnum useEnum = FileUseEnum.getByCode(use);
         String key = UuidUtil.getShortUuid();
-        String fileName = file.getOriginalFilename();
 
-        assert fileName != null;
-        String suffix = fileName.substring(fileName.lastIndexOf(".") + 1).toLowerCase();
-
+        // 如果文件夹不存在则创建
         assert useEnum != null;
         String dir = useEnum.name().toLowerCase();
         File fullDir = new File(FILE_PATH + dir);
@@ -62,23 +63,30 @@ public class UploadController {
         }
 
         String path = dir + "/" + key + "." + suffix;
-
         String fullPath = FILE_PATH + path;
         File dest = new File(fullPath);
-        file.transferTo(dest);
+        shard.transferTo(dest);
         LOG.info(dest.getAbsolutePath());
 
         LOG.info("保存文件记录开始");
         FileDTO fileDTO = new FileDTO();
-        fileDTO.setPath(path);
-        fileDTO.setName(fileName);
-        fileDTO.setSize(Math.toIntExact(file.getSize()));
-        fileDTO.setSuffix(suffix);
-        fileDTO.setUse(use);
+        fileDTO.setPath(path)
+                .setName(name)
+                .setSize(size)
+                .setSuffix(suffix)
+                .setUse(use)
+                .setShardIndex(shardIndex)
+                .setShardSize(shardSize)
+                .setShardTotal(shardTotal)
+                .setKey(key);
         fileService.save(fileDTO);
 
         fileDTO.setPath(FILE_DOMAIN + path);
         return ResultBean.getSuccess("上传成功", fileDTO);
+    }
+
+    public void merge() {
+        File newFile = new File(FILE_PATH + "/course/test123.mp4");
     }
 
 }

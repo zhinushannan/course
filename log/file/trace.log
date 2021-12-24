@@ -250,3 +250,9 @@
 2021-12-24 16:51:36.777 INFO  club.kwcoder.server.config.LogAspect              :118  [32m31dc904d[0;39m 返回结果: {"code":"200","data":{"name":"blob","path":"http://127.0.0.1:9000/file/f/course/uqul3FgD.blob","size":1232896,"suffix":"blob","use":"C"},"message":"上传成功","success":true}
 2021-12-24 16:51:36.778 INFO  club.kwcoder.server.config.LogAspect              :119  [32m31dc904d[0;39m ------------- 结束 耗时：16 ms -------------
 2021-12-24 16:54:31.809 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:59:31.824 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:04:31.827 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:09:31.830 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:14:31.838 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:19:31.854 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:24:31.858 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
