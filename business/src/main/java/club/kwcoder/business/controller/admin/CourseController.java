@@ -56,7 +56,7 @@ public class CourseController {
         return ResultBean.getSuccess("查询成功", courseCategoryDTOS);
     }
 
-    @PostMapping("/find-content/{id}")
+    @GetMapping("/find-content/{id}")
     public ResultBean<CourseContentDTO> findContent(@PathVariable String id) {
         CourseContentDTO content = courseService.findContent(id);
         return ResultBean.getSuccess("查询成功", content);
