@@ -66,7 +66,7 @@
         // 文件分片
         let shardSize = 1 * 1204 * 1024; // 以2MB为一个分片
         let shardIndex = 0; // 分片索引
-        let start = shardIndex * shardSize; // 当前分片起始位置
+        let start = (shardIndex - 1) * shardSize; // 当前分片起始位置
         let end = Math.min(start + shardSize, file.size); // 当前分片结束位置
         let fileShard = file.slice(start, end)
 

@@ -40,9 +40,11 @@ public class FileService {
      */
     public void save(FileDTO fileDto) {
         FileDO file = CopyUtil.copy(fileDto, FileDO.class);
-        if (StringUtils.isEmpty(fileDto.getId())) {
+        FileDO fileDO = fileMapper.selectByPrimaryKey(fileDto.getId());
+        if (null == fileDO) {
             this.insert(file);
         } else {
+            fileDO.setShardIndex(fileDO.getShardIndex());
             this.update(file);
         }
     }
@@ -72,4 +74,5 @@ public class FileService {
     public void delete(String id) {
         fileMapper.deleteByPrimaryKey(id);
     }
+
 }
