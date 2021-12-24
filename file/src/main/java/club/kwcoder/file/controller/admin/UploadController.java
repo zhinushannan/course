@@ -4,11 +4,13 @@ import club.kwcoder.server.dto.FileDTO;
 import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.enums.FileUseEnum;
 import club.kwcoder.server.service.FileService;
+import club.kwcoder.server.util.Base64ToMultipartFile;
 import club.kwcoder.server.util.UuidUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -40,16 +42,14 @@ public class UploadController {
     private static final Logger LOG = LoggerFactory.getLogger(UploadController.class);
 
     @RequestMapping("/upload")
-    public ResultBean<FileDTO> upload(@RequestParam MultipartFile shard,
-                                      String use,
-                                      String name,
-                                      String suffix,
-                                      Integer size,
-                                      Integer shardIndex,
-                                      Integer shardSize,
-                                      Integer shardTotal,
-                                      String key) throws IOException {
+    public ResultBean<FileDTO> upload(@RequestBody FileDTO fileDTO) throws IOException {
         LOG.info("上传文件开始");
+
+        String key = fileDTO.getKey();
+        String suffix = fileDTO.getSuffix();
+        String use = fileDTO.getUse();
+        String shardBase64 = fileDTO.getShard();
+        MultipartFile shard = Base64ToMultipartFile.base64ToMultipart(shardBase64);
 
         // 保存文件到本地
         FileUseEnum useEnum = FileUseEnum.getByCode(use);
@@ -65,20 +65,14 @@ public class UploadController {
         String path = dir + "/" + key + "." + suffix;
         String fullPath = FILE_PATH + path;
         File dest = new File(fullPath);
+
+
+        assert shard != null;
         shard.transferTo(dest);
         LOG.info(dest.getAbsolutePath());
 
         LOG.info("保存文件记录开始");
-        FileDTO fileDTO = new FileDTO();
-        fileDTO.setPath(path)
-                .setName(name)
-                .setSize(size)
-                .setSuffix(suffix)
-                .setUse(use)
-                .setShardIndex(shardIndex)
-                .setShardSize(shardSize)
-                .setShardTotal(shardTotal)
-                .setKey(key);
+        fileDTO.setPath(path);
         fileService.save(fileDTO);
 
         fileDTO.setPath(FILE_DOMAIN + path);

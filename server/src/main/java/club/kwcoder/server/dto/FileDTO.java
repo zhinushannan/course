@@ -52,6 +52,11 @@ public class FileDTO {
     private Date updatedAt;
 
     /**
+     * base64
+     */
+    private String shard;
+
+    /**
      * 已上传分片
      */
     private Integer shardIndex;
