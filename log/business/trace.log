@@ -4471,3 +4471,28 @@
 2021-12-24 19:05:44.685 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
 2021-12-24 19:05:44.685 INFO  club.kwcoder.business.BusinessApplication         :26   [32m        [0;39m 启动成功！！！
 2021-12-24 19:05:44.686 INFO  club.kwcoder.business.BusinessApplication         :27   [32m        [0;39m Business地址：	http://127.0.0.1:9002
+2021-12-24 19:10:44.205 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:15:44.209 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:20:44.223 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:25:44.237 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:27:29.418 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-24 19:27:29.419 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-24 19:27:29.430 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 11 ms
+2021-12-24 19:27:29.438 INFO  club.kwcoder.server.config.LogAspect              :85   [32m9cadf3b0[0;39m ------------- 【小节】查询开始 -------------
+2021-12-24 19:27:29.438 INFO  club.kwcoder.server.config.LogAspect              :86   [32m9cadf3b0[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-24 19:27:29.439 INFO  club.kwcoder.server.config.LogAspect              :87   [32m9cadf3b0[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-24 19:27:29.439 INFO  club.kwcoder.server.config.LogAspect              :88   [32m9cadf3b0[0;39m 远程地址: 192.168.245.1
+2021-12-24 19:27:29.441 INFO  club.kwcoder.server.config.LogAspect              :106  [32m9cadf3b0[0;39m 请求参数: [{"chapterId":"00000001","courseId":"00000001","page":1,"size":5,"total":0}]
+2021-12-24 19:27:29.456 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m9cadf3b0[0;39m HikariPool-4 - Starting...
+2021-12-24 19:27:29.479 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m9cadf3b0[0;39m HikariPool-4 - Start completed.
+2021-12-24 19:27:29.493 INFO  club.kwcoder.server.config.LogAspect              :118  [32m9cadf3b0[0;39m 返回结果: {"code":"200","data":{"chapterId":"00000001","courseId":"00000001","data":[{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639460717000,"id":"00000001","sort":1,"time":9,"title":"测试小节01","updatedAt":1639829178526,"video":"http://127.0.0.1:9000/file/f/course/K1pqyJnL.mp4"}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-24 19:27:29.494 INFO  club.kwcoder.server.config.LogAspect              :119  [32m9cadf3b0[0;39m ------------- 结束 耗时：58 ms -------------
+2021-12-24 19:30:44.251 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:32:19.245 INFO  club.kwcoder.server.config.LogAspect              :85   [32me4e54bf1[0;39m ------------- 【小节】查询开始 -------------
+2021-12-24 19:32:19.246 INFO  club.kwcoder.server.config.LogAspect              :86   [32me4e54bf1[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-24 19:32:19.247 INFO  club.kwcoder.server.config.LogAspect              :87   [32me4e54bf1[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-24 19:32:19.248 INFO  club.kwcoder.server.config.LogAspect              :88   [32me4e54bf1[0;39m 远程地址: 192.168.245.1
+2021-12-24 19:32:19.248 INFO  club.kwcoder.server.config.LogAspect              :106  [32me4e54bf1[0;39m 请求参数: [{"chapterId":"00000001","courseId":"00000001","page":1,"size":5,"total":0}]
+2021-12-24 19:32:19.256 INFO  club.kwcoder.server.config.LogAspect              :118  [32me4e54bf1[0;39m 返回结果: {"code":"200","data":{"chapterId":"00000001","courseId":"00000001","data":[{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639460717000,"id":"00000001","sort":1,"time":9,"title":"测试小节01","updatedAt":1639829178526,"video":"http://127.0.0.1:9000/file/f/course/K1pqyJnL.mp4"}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-24 19:32:19.257 INFO  club.kwcoder.server.config.LogAspect              :119  [32me4e54bf1[0;39m ------------- 结束 耗时：12 ms -------------
+2021-12-24 19:35:44.266 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

@@ -249,3 +249,9 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2021-12-24 18:58:07.111 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-24 19:03:07.116 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-24 19:08:07.125 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:13:07.126 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:18:07.137 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:23:07.151 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:28:07.160 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:33:07.176 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 19:36:13.616 WARN  reactor.netty.channel.FluxReceive                 :294  [32m        [0;39m [id: 0xc76649c7, L:/127.0.0.1:9000 - R:/127.0.0.1:7645] An exception has been observed post termination, use DEBUG level to see the full stack: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
