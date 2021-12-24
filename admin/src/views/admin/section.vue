@@ -96,12 +96,12 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label">视频</label>
                 <div class="col-sm-10">
-                  <File
+                  <BigFile
                       v-bind:input-id="'video-upload'"
                       v-bind:after-upload="afterUpload"
                       v-bind:suffixs="['mp4']"
                       v-bind:text="'上传视频'"
-                      v-bind:use="FILE_USE.COURSE.key"></File>
+                      v-bind:use="FILE_USE.COURSE.key"></BigFile>
                   <div v-show="section.video" class="row">
                     <div class="col-md-9">
                       <video v-show="section.video" id="video" controls="controls" v-bind:src="section.video"/>
@@ -149,10 +149,10 @@
 
 <script>
 import Pagination from "../../components/pagination";
-import File from "../../components/file";
+import BigFile from "../../components/big-file";
 
 export default {
-  components: {Pagination, File},
+  components: {Pagination, BigFile},
   name: "business-section",
   data: function () {
     return {
@@ -233,6 +233,9 @@ export default {
       ) {
         return;
       }
+
+      _this.section["courseId"] = _this.course.id
+      _this.section["chapterId"] = _this.chapter.id
 
       Loading.show();
       _this.$ajax.post(process.env.VUE_APP_SERVER + '/business/admin/section/save', _this.section).then((response) => {

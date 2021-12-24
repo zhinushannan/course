@@ -209,3 +209,44 @@
 2021-12-24 16:04:31.718 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-24 16:09:31.727 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-24 16:14:31.735 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:19:31.743 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:24:31.754 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:29:31.765 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:34:31.770 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:39:31.785 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:44:31.795 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:48:27.310 INFO  club.kwcoder.server.config.LogAspect              :85   [32m11add3ca[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-24 16:48:27.311 INFO  club.kwcoder.server.config.LogAspect              :86   [32m11add3ca[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-24 16:48:27.312 INFO  club.kwcoder.server.config.LogAspect              :87   [32m11add3ca[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-24 16:48:27.313 INFO  club.kwcoder.server.config.LogAspect              :88   [32m11add3ca[0;39m 远程地址: 192.168.245.1
+2021-12-24 16:48:27.314 INFO  club.kwcoder.server.config.LogAspect              :106  [32m11add3ca[0;39m 请求参数: [null,"C"]
+2021-12-24 16:48:27.315 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m11add3ca[0;39m blob
+2021-12-24 16:48:27.315 INFO  c.kwcoder.file.controller.admin.UploadController  :47   [32m11add3ca[0;39m 1232896
+2021-12-24 16:48:27.319 INFO  c.kwcoder.file.controller.admin.UploadController  :69   [32m11add3ca[0;39m C:\CODE\course\file_dir\course\3ehBXmtq.blob
+2021-12-24 16:48:27.320 INFO  c.kwcoder.file.controller.admin.UploadController  :71   [32m11add3ca[0;39m 保存文件记录开始
+2021-12-24 16:48:27.348 INFO  club.kwcoder.server.config.LogAspect              :118  [32m11add3ca[0;39m 返回结果: {"code":"200","data":{"name":"blob","path":"http://127.0.0.1:9000/file/f/course/3ehBXmtq.blob","size":1232896,"suffix":"blob","use":"C"},"message":"上传成功","success":true}
+2021-12-24 16:48:27.350 INFO  club.kwcoder.server.config.LogAspect              :119  [32m11add3ca[0;39m ------------- 结束 耗时：41 ms -------------
+2021-12-24 16:49:24.592 INFO  club.kwcoder.server.config.LogAspect              :85   [32m07c45d69[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-24 16:49:24.593 INFO  club.kwcoder.server.config.LogAspect              :86   [32m07c45d69[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-24 16:49:24.593 INFO  club.kwcoder.server.config.LogAspect              :87   [32m07c45d69[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-24 16:49:24.593 INFO  club.kwcoder.server.config.LogAspect              :88   [32m07c45d69[0;39m 远程地址: 192.168.245.1
+2021-12-24 16:49:24.593 INFO  club.kwcoder.server.config.LogAspect              :106  [32m07c45d69[0;39m 请求参数: [null,"C"]
+2021-12-24 16:49:24.593 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m07c45d69[0;39m blob
+2021-12-24 16:49:24.594 INFO  c.kwcoder.file.controller.admin.UploadController  :47   [32m07c45d69[0;39m 1232896
+2021-12-24 16:49:24.594 INFO  c.kwcoder.file.controller.admin.UploadController  :69   [32m07c45d69[0;39m C:\CODE\course\file_dir\course\QqL9sWNr.blob
+2021-12-24 16:49:24.595 INFO  c.kwcoder.file.controller.admin.UploadController  :71   [32m07c45d69[0;39m 保存文件记录开始
+2021-12-24 16:49:24.605 INFO  club.kwcoder.server.config.LogAspect              :118  [32m07c45d69[0;39m 返回结果: {"code":"200","data":{"name":"blob","path":"http://127.0.0.1:9000/file/f/course/QqL9sWNr.blob","size":1232896,"suffix":"blob","use":"C"},"message":"上传成功","success":true}
+2021-12-24 16:49:24.606 INFO  club.kwcoder.server.config.LogAspect              :119  [32m07c45d69[0;39m ------------- 结束 耗时：14 ms -------------
+2021-12-24 16:49:31.804 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 16:51:36.763 INFO  club.kwcoder.server.config.LogAspect              :85   [32m31dc904d[0;39m ------------- 【文件上传】操作开始 -------------
+2021-12-24 16:51:36.763 INFO  club.kwcoder.server.config.LogAspect              :86   [32m31dc904d[0;39m 请求地址: http://DESKTOP-IIUD3CS:9003/file/admin/upload POST
+2021-12-24 16:51:36.764 INFO  club.kwcoder.server.config.LogAspect              :87   [32m31dc904d[0;39m 类名方法: club.kwcoder.file.controller.admin.UploadController.upload
+2021-12-24 16:51:36.764 INFO  club.kwcoder.server.config.LogAspect              :88   [32m31dc904d[0;39m 远程地址: 192.168.245.1
+2021-12-24 16:51:36.764 INFO  club.kwcoder.server.config.LogAspect              :106  [32m31dc904d[0;39m 请求参数: [null,"C"]
+2021-12-24 16:51:36.765 INFO  c.kwcoder.file.controller.admin.UploadController  :46   [32m31dc904d[0;39m blob
+2021-12-24 16:51:36.765 INFO  c.kwcoder.file.controller.admin.UploadController  :47   [32m31dc904d[0;39m 1232896
+2021-12-24 16:51:36.767 INFO  c.kwcoder.file.controller.admin.UploadController  :69   [32m31dc904d[0;39m C:\CODE\course\file_dir\course\uqul3FgD.blob
+2021-12-24 16:51:36.767 INFO  c.kwcoder.file.controller.admin.UploadController  :71   [32m31dc904d[0;39m 保存文件记录开始
+2021-12-24 16:51:36.777 INFO  club.kwcoder.server.config.LogAspect              :118  [32m31dc904d[0;39m 返回结果: {"code":"200","data":{"name":"blob","path":"http://127.0.0.1:9000/file/f/course/uqul3FgD.blob","size":1232896,"suffix":"blob","use":"C"},"message":"上传成功","success":true}
+2021-12-24 16:51:36.778 INFO  club.kwcoder.server.config.LogAspect              :119  [32m31dc904d[0;39m ------------- 结束 耗时：16 ms -------------
+2021-12-24 16:54:31.809 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
