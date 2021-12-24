@@ -41,6 +41,10 @@
         // key: "file" 必须和后端controller参数名保持一致
         let file = _this.$refs.file.files[0]
 
+        let key = hex_md5(file)
+        let key10 = parseInt(key, 16) // 十六进制转十进制
+        let key62 = Tool._10to62(key10) // 十进制转六十二进制（26个大写字母、26个小写字母、10数字）
+
         // 判断文件格式
         let suffixs = _this.suffixs
         let fileName = file.name
@@ -69,6 +73,7 @@
         let size = file.size;
         let shardTotal = Math.ceil(size / shardSize);
 
+
         formData.append("shard", fileShard)
         formData.append("shardIndex", shardIndex)
         formData.append("shardSize", shardSize)
@@ -77,6 +82,7 @@
         formData.append("name", file.name)
         formData.append("suffix", suffix)
         formData.append("size", size)
+        formData.append("key", key62)
 
         Loading.show()
         _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/upload", formData).then((response) => {

@@ -4390,3 +4390,25 @@
 2021-12-24 17:14:38.687 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-24 17:19:38.688 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-12-24 17:24:38.693 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:29:38.707 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:34:38.718 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:39:38.722 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:44:38.729 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:49:38.730 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:54:38.741 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 17:59:38.748 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:04:38.751 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:09:38.752 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:14:38.763 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:19:38.778 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:24:38.787 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:29:38.792 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:34:38.801 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-24 18:36:26.719 INFO  club.kwcoder.server.config.LogAspect              :85   [32mddd15722[0;39m ------------- 【小节】查询开始 -------------
+2021-12-24 18:36:26.722 INFO  club.kwcoder.server.config.LogAspect              :86   [32mddd15722[0;39m 请求地址: http://DESKTOP-IIUD3CS:9002/business/admin/section/list POST
+2021-12-24 18:36:26.723 INFO  club.kwcoder.server.config.LogAspect              :87   [32mddd15722[0;39m 类名方法: club.kwcoder.business.controller.admin.SectionController.list
+2021-12-24 18:36:26.723 INFO  club.kwcoder.server.config.LogAspect              :88   [32mddd15722[0;39m 远程地址: 192.168.245.1
+2021-12-24 18:36:26.724 INFO  club.kwcoder.server.config.LogAspect              :106  [32mddd15722[0;39m 请求参数: [{"chapterId":"00000001","courseId":"00000001","page":1,"size":5,"total":0}]
+2021-12-24 18:36:26.741 INFO  club.kwcoder.server.config.LogAspect              :118  [32mddd15722[0;39m 返回结果: {"code":"200","data":{"chapterId":"00000001","courseId":"00000001","data":[{"chapterId":"00000000","charge":"f","courseId":"00000001","createdAt":1639460717000,"id":"00000001","sort":1,"time":9,"title":"测试小节01","updatedAt":1639829178526,"video":"http://127.0.0.1:9000/file/f/course/K1pqyJnL.mp4"}],"page":1,"size":5,"total":1},"message":"查询成功","success":true}
+2021-12-24 18:36:26.742 INFO  club.kwcoder.server.config.LogAspect              :119  [32mddd15722[0;39m ------------- 结束 耗时：24 ms -------------
+2021-12-24 18:39:38.804 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
