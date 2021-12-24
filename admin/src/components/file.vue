@@ -72,7 +72,8 @@
       },
 
       selectFile() {
-        $("#file-upload-input").trigger("click")
+        let _this = this
+        $("#" + _this.inputId + "-input").trigger("click")
       }
     }
   }
