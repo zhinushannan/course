@@ -1,1 +1,2 @@
 2021-12-24 12:44:23.763 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1640321063763, current=DOWN, previous=UP]
+2021-12-24 19:05:35.844 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1640343935844, current=DOWN, previous=UP]
