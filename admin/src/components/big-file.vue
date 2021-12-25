@@ -32,20 +32,21 @@
     },
     data: function () {
       return {
+        file: '',
       }
     },
     methods: {
       uploadFile() {
         let _this = this
-        let file = _this.$refs.file.files[0]
+        _this.file = _this.$refs.file.files[0]
 
-        let key = hex_md5(file)
+        let key = hex_md5(_this.file)
         let key10 = parseInt(key, 16) // 十六进制转十进制
         let key62 = Tool._10to62(key10) // 十进制转六十二进制（26个大写字母、26个小写字母、10数字）
 
         // 判断文件格式
         let suffixs = _this.suffixs
-        let fileName = file.name
+        let fileName = _this.file.name
 
         let suffix = fileName.substr(fileName.lastIndexOf(".") + 1, fileName.length).toLowerCase()
         let validateSuffix = false
@@ -63,9 +64,8 @@
 
         // 文件分片
         let shardSize = 1 * 1204 * 1024; // 以2MB为一个分片
-        let shardIndex = 0; // 分片索引
-        let fileShard = this.getFileShard(shardIndex, shardSize);
-        let size = file.size;
+        let shardIndex = 1; // 分片索引
+        let size = _this.file.size;
         let shardTotal = Math.ceil(size / shardSize);
 
         let param = {
@@ -73,7 +73,7 @@
           "shardSize": shardSize,
           "shardTotal": shardTotal,
           "use": _this.use,
-          "name": file.name,
+          "name": _this.file.name,
           "suffix": suffix,
           "size": size,
           "key": key62,
@@ -81,10 +81,6 @@
         _this.upload(param);
       },
 
-      selectFile() {
-        let _this = this
-        $("#" + _this.inputId + "-input").trigger("click")
-      },
 
       upload(param) {
         let _this = this
@@ -115,10 +111,15 @@
       },
       getFileShard(shardIndex, shardSize) {
         let _this = this
-        let file = _this.$refs.file.files[0]
         let start = (shardIndex - 1) * shardSize; // 当前分片起始位置
-        let end = Math.min(start + shardSize, file.size); // 当前分片结束位置
-        return file.slice(start, end);
+
+        let end = Math.min(start + shardSize, _this.file.size); // 当前分片结束位置
+
+        return _this.file.slice(start, end);
+      },
+      selectFile() {
+        let _this = this
+        $("#" + _this.inputId + "-input").trigger("click")
       },
     }
   }

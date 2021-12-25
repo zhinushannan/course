@@ -40,7 +40,7 @@ public class FileService {
      */
     public void save(FileDTO fileDto) {
         FileDO file = CopyUtil.copy(fileDto, FileDO.class);
-        FileDO fileDO = fileMapper.selectByPrimaryKey(fileDto.getId());
+        FileDO fileDO = this.getByKey(fileDto.getKey());
         if (null == fileDO) {
             this.insert(file);
         } else {
@@ -73,6 +73,16 @@ public class FileService {
      */
     public void delete(String id) {
         fileMapper.deleteByPrimaryKey(id);
+    }
+
+    public FileDO getByKey(String key) {
+        FileDOExample example = new FileDOExample();
+        example.createCriteria().andKeyEqualTo(key);
+        List<FileDO> fileDOS = fileMapper.selectByExample(example);
+        if (fileDOS.size() > 0) {
+            return fileDOS.get(0);
+        }
+        return null;
     }
 
 }
