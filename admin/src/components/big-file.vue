@@ -40,7 +40,7 @@
         let _this = this
         _this.file = _this.$refs.file.files[0]
 
-        let key = hex_md5(_this.file)
+        let key = hex_md5(_this.file.name + _this.file.size + _this.file.type)
         let key10 = parseInt(key, 16) // 十六进制转十进制
         let key62 = Tool._10to62(key10) // 十进制转六十二进制（26个大写字母、26个小写字母、10数字）
 

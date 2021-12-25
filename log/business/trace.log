@@ -684,3 +684,10 @@
 2021-12-25 13:57:53.191 INFO  club.kwcoder.server.config.LogAspect              :118  [32mfcd45e5f[0;39m 返回结果: {"code":"200","data":{"chapterId":"00000001","courseId":"00000001","data":[{"chapterId":"00000001","charge":"C","courseId":"00000001","createdAt":1640409589000,"id":"0g0mBzuH","time":1296,"title":"分片测试","updatedAt":1640411867463,"video":"http://127.0.0.1:9000/file/f/course/6sfSqfOwzmik4A4icMYuUe.mp4"},{"chapterId":"00000001","charge":"f","courseId":"00000001","createdAt":1639460717000,"id":"00000001","sort":1,"time":1296,"title":"测试小节01","updatedAt":1640411873150,"video":"http://127.0.0.1:9000/file/f/course/6sfSqfOwzmik4A4icMYuUe.mp4"}],"page":1,"size":5,"total":2},"message":"查询成功","success":true}
 2021-12-25 13:57:53.191 INFO  club.kwcoder.server.config.LogAspect              :119  [32mfcd45e5f[0;39m ------------- 结束 耗时：8 ms -------------
 2021-12-25 13:58:02.070 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:03:02.082 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:08:02.097 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:13:02.105 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:18:02.108 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:23:02.116 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:28:02.126 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-12-25 14:33:02.132 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
