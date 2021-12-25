@@ -114,6 +114,9 @@
         let shardTotal = param["shardTotal"]
         let shardSize = param["shardSize"]
         let fileReader = new FileReader()
+
+        Progress.show(parseInt((shardIndex - 1) * 100 / shardTotal))
+
         fileReader.onload = function (e) {
           param["shard"] = e.target.result
 
@@ -123,9 +126,11 @@
             let resp = response.data
             if (shardIndex < shardTotal) {
               // 上传下一个分片
+              Progress.show(parseInt(shardIndex * 100 / shardTotal))
               param["shardIndex"] = param["shardIndex"] + 1
               _this.upload(param)
             } else {
+              Progress.hide()
               _this.afterUpload(resp)
             }
             $("#" + _this.inputId + "-input").val("")
