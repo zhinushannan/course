@@ -45,7 +45,6 @@ public class FileService {
             this.insert(file);
         } else {
             fileDO.setShardIndex(file.getShardIndex());
-            System.out.println("====================================\n" + fileDO);
             this.update(fileDO);
         }
     }

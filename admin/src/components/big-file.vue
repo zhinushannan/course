@@ -91,6 +91,10 @@
               param["shardIndex"] = 1
               console.log("没有找到文件记录，从分片1开始上传")
               _this.upload(param)
+            } else if (obj["shardIndex"] === obj["shardTotal"]) {
+              Toast.success("文件极速秒传成功！")
+              _this.afterUpload(resp)
+              $("#" + _this.inputId + "-input").val("")
             } else {
               param["shardIndex"] = obj["shardIndex"] + 1
               console.log("找到文件记录，从分片" + param["shardIndex"] + "开始上传")
@@ -104,7 +108,6 @@
       },
 
       upload(param) {
-        console.log("param", param)
         let _this = this
         // 将文件转为base64进行传输
         let shardIndex = param["shardIndex"]

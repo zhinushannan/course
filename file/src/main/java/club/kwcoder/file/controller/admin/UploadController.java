@@ -149,6 +149,9 @@ public class UploadController {
     public ResultBean<FileDTO> check(@PathVariable String key) {
         LOG.info("检查上传分片开始：{}", key);
         FileDTO fileDTO = fileService.findByKey(key);
+        if (fileDTO != null) {
+            fileDTO.setPath(FILE_DOMAIN + fileDTO.getPath());
+        }
         return ResultBean.getSuccess("检查成功！", fileDTO);
     }
 
