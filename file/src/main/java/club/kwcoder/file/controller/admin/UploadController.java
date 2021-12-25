@@ -1,5 +1,6 @@
 package club.kwcoder.file.controller.admin;
 
+import club.kwcoder.server.dataobject.FileDO;
 import club.kwcoder.server.dto.FileDTO;
 import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.enums.FileUseEnum;
@@ -10,10 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -145,6 +143,13 @@ public class UploadController {
             LOG.info("删除{}，{}", filePath, result ? "成功" : "失败");
         }
         LOG.info("删除分片结束");
+    }
+
+    @GetMapping("/check/{key}")
+    public ResultBean<FileDTO> check(@PathVariable String key) {
+        LOG.info("检查上传分片开始：{}", key);
+        FileDTO fileDTO = fileService.findByKey(key);
+        return ResultBean.getSuccess("检查成功！", fileDTO);
     }
 
 }

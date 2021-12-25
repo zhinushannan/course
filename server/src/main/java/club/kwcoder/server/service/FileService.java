@@ -44,8 +44,9 @@ public class FileService {
         if (null == fileDO) {
             this.insert(file);
         } else {
-            fileDO.setShardIndex(fileDO.getShardIndex());
-            this.update(file);
+            fileDO.setShardIndex(file.getShardIndex());
+            System.out.println("====================================\n" + fileDO);
+            this.update(fileDO);
         }
     }
 
@@ -83,6 +84,10 @@ public class FileService {
             return fileDOS.get(0);
         }
         return null;
+    }
+
+    public FileDTO findByKey(String key) {
+        return CopyUtil.copy(getByKey(key), FileDTO.class);
     }
 
 }

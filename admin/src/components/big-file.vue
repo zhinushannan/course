@@ -78,11 +78,33 @@
           "size": size,
           "key": key62,
         }
-        _this.upload(param);
+        _this.check(param);
       },
 
+      check(param) {
+        let _this = this
+        _this.$ajax.get(process.env.VUE_APP_SERVER + "/file/admin/check/" + param["key"]).then((response) => {
+          let resp = response.data
+          if (resp.success) {
+            let obj = resp.data
+            if (!obj) {
+              param["shardIndex"] = 1
+              console.log("没有找到文件记录，从分片1开始上传")
+              _this.upload(param)
+            } else {
+              param["shardIndex"] = obj["shardIndex"] + 1
+              console.log("找到文件记录，从分片" + param["shardIndex"] + "开始上传")
+              _this.upload(param)
+            }
+          } else {
+            Toast.warning("文件上传失败")
+            $("#" + _this.inputId + "-input").val("")
+          }
+        })
+      },
 
       upload(param) {
+        console.log("param", param)
         let _this = this
         // 将文件转为base64进行传输
         let shardIndex = param["shardIndex"]
