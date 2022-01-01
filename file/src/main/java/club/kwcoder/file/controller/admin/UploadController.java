@@ -5,6 +5,12 @@ import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.enums.FileUseEnum;
 import club.kwcoder.server.service.FileService;
 import club.kwcoder.server.util.Base64ToMultipartFile;
+import club.kwcoder.server.util.VodUtil;
+import com.alibaba.fastjson.JSON;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.vod.model.v20170321.GetMezzanineInfoResponse;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +41,12 @@ public class UploadController {
 
     @Value("${file.path}")
     private String FILE_PATH;
+
+    @Value("${vod.accessKeyId}")
+    private String accessKeyId;
+
+    @Value("${vod.accessKeySecret}")
+    private String accessKeySecret;
 
     @Autowired
     private FileService fileService;
@@ -147,11 +159,19 @@ public class UploadController {
     }
 
     @GetMapping("/check/{key}")
-    public ResultBean<FileDTO> check(@PathVariable String key) {
+    public ResultBean<FileDTO> check(@PathVariable String key) throws Exception {
         LOG.info("检查上传分片开始：{}", key);
         FileDTO fileDTO = fileService.findByKey(key);
         if (fileDTO != null) {
-            fileDTO.setPath(OSS_DOMAIN + fileDTO.getPath());
+            if (StringUtils.isEmpty(fileDTO.getVod())) {
+                fileDTO.setPath(FILE_DOMAIN + fileDTO.getPath());
+            } else {
+                DefaultAcsClient vodClient = VodUtil.initVodClient(accessKeyId, accessKeySecret);
+                GetMezzanineInfoResponse response = VodUtil.getMezzanineInfo(vodClient, fileDTO.getVod());
+                System.out.println("获取视频信息, response : " + JSON.toJSONString(response));
+                String fileUrl = response.getMezzanine().getFileURL();
+                fileDTO.setPath(fileUrl);
+            }
         }
         return ResultBean.getSuccess("检查成功！", fileDTO);
     }
