@@ -104,7 +104,8 @@
                       v-bind:use="FILE_USE.COURSE.key"></Vod>
                   <div v-show="section.video" class="row">
                     <div class="col-md-9">
-                      <video v-show="section.video" id="video" controls="controls" v-bind:src="section.video"/>
+                      <player ref="player"></player>
+                      <video v-show="section.video" id="video" controls="controls" v-bind:src="section.video" class="hidden"/>
                     </div>
                   </div>
                 </div>
@@ -163,9 +164,10 @@
 import Pagination from "../../components/pagination";
 import BigFile from "../../components/big-file";
 import Vod from "@/components/vod";
+import Player from "@/components/player";
 
 export default {
-  components: {Vod, Pagination, BigFile},
+  components: {Player, Vod, Pagination, BigFile},
   name: "business-section",
   data: function () {
     return {
@@ -291,6 +293,7 @@ export default {
       _this.section["video"] = video.path
       _this.section["vod"] = vod
       _this.getTime()
+      _this.$refs["player"].playUrl(video.path)
     },
 
     /**
