@@ -1047,3 +1047,12 @@ java.lang.RuntimeException: Value for key cannot be null
 2022-01-01 12:53:40.980 DEBUG c.kwcoder.server.mapper.FileMapper.selectByExample:137  [32m7d9f6513[0;39m <==      Total: 1
 2022-01-01 12:53:40.991 INFO  club.kwcoder.server.config.LogAspect              :118  [32m7d9f6513[0;39m 返回结果: {"code":"200","data":{"createdAt":1641012404357,"id":"sUbSULpU","key":"6fi1EKz73OwSiMEA8yI4IY","name":"168AEAC40196359896F780F2E1104D99.png","path":"http://kwcoder-course.oss-cn-qingdao.aliyuncs.com/teacher/6fi1EKz73OwSiMEA8yI4IY.png","shardIndex":1,"shardSize":1232896,"shardTotal":1,"size":54774,"suffix":"png","updatedAt":1641012404357,"use":"T"},"message":"检查成功！","success":true}
 2022-01-01 12:53:40.991 INFO  club.kwcoder.server.config.LogAspect              :119  [32m7d9f6513[0;39m ------------- 结束 耗时：45 ms -------------
+2022-01-01 12:58:33.818 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:03:33.822 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:08:33.832 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:13:33.843 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:18:33.856 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:23:33.871 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:28:33.883 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:33:33.893 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:38:33.903 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

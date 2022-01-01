@@ -432,3 +432,12 @@
 2022-01-01 12:53:53.552 INFO  club.kwcoder.server.config.LogAspect              :106  [32m46678f61[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
 2022-01-01 12:53:53.557 INFO  club.kwcoder.server.config.LogAspect              :118  [32m46678f61[0;39m 返回结果: {"data":{"data":[{"id":"7NU88xR9","image":"http://kwcoder-course.oss-cn-qingdao.aliyuncs.com/teacher/6fi1EKz73OwSiMEA8yI4IY.png","intro":"王建文，江苏师范大学科文学院","motto":"不积跬步无以至千里","name":"王建文","nickname":"治怒善男","position":"讲师"}],"page":1,"size":5,"total":1},"success":true}
 2022-01-01 12:53:53.558 INFO  club.kwcoder.server.config.LogAspect              :119  [32m46678f61[0;39m ------------- 结束 耗时：8 ms -------------
+2022-01-01 12:57:32.823 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:02:32.837 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:07:32.848 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:12:32.856 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:17:32.859 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:22:32.862 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:27:32.878 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:32:32.891 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-01-01 13:37:32.904 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
