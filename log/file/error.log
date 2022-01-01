@@ -424,3 +424,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.lang.Thread.run(Thread.java:748)
 2022-01-01 14:39:34.783 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1641019174783, current=DOWN, previous=UP]
 2022-01-01 14:49:04.793 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1641019744793, current=DOWN, previous=UP]
+2022-01-01 15:32:42.596 ERROR com.netflix.discovery.DiscoveryClient             :1353 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1641022362596, current=DOWN, previous=UP]
