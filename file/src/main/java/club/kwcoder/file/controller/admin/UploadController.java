@@ -1,12 +1,10 @@
 package club.kwcoder.file.controller.admin;
 
-import club.kwcoder.server.dataobject.FileDO;
 import club.kwcoder.server.dto.FileDTO;
 import club.kwcoder.server.dto.ResultBean;
 import club.kwcoder.server.enums.FileUseEnum;
 import club.kwcoder.server.service.FileService;
 import club.kwcoder.server.util.Base64ToMultipartFile;
-import club.kwcoder.server.util.UuidUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +29,9 @@ public class UploadController {
 
     @Value("${file.domain}")
     private String FILE_DOMAIN;
+
+    @Value("${oss.domain}")
+    private String OSS_DOMAIN;
 
     @Value("${file.path}")
     private String FILE_PATH;
@@ -150,7 +151,7 @@ public class UploadController {
         LOG.info("检查上传分片开始：{}", key);
         FileDTO fileDTO = fileService.findByKey(key);
         if (fileDTO != null) {
-            fileDTO.setPath(FILE_DOMAIN + fileDTO.getPath());
+            fileDTO.setPath(OSS_DOMAIN + fileDTO.getPath());
         }
         return ResultBean.getSuccess("检查成功！", fileDTO);
     }
