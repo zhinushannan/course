@@ -27,8 +27,7 @@ public class VodUtil {
         // 点播服务接入区域，国内请填cn-shanghai，其他区域请参考文档[点播中心](~~98194~~)
         String regionId = "cn-shanghai";
         DefaultProfile profile = DefaultProfile.getProfile(regionId, accessKeyId, accessKeySecret);
-        DefaultAcsClient client = new DefaultAcsClient(profile);
-        return client;
+        return new DefaultAcsClient(profile);
     }
 
     /**
@@ -44,8 +43,8 @@ public class VodUtil {
         //request.setDescription("this is desc");
         //request.setTags("tag1,tag2");
 //        request.setCoverURL("http://vod.aliyun.com/test_cover_url.jpg");
-        request.setCateId(1000115308L);
-        request.setTemplateGroupId("78fffb8c0c2426efd5baaaafed76fe36");
+        request.setCateId(1000368957L);
+        request.setTemplateGroupId("115d7a4718cec247dce04a0667f8a771");
         //request.setWorkflowId("");
         //request.setStorageLocation("");
         //request.setAppId("app-1000000");
@@ -178,8 +177,7 @@ public class VodUtil {
             uploadLocalFile(ossClient, uploadAddress, localFile);
             System.out.println("上传视频成功, VideoId : " + videoId); // 7d6b8c07ab48456e932187080f42e88f
 
-            GetMezzanineInfoResponse response = new GetMezzanineInfoResponse();
-            response = getMezzanineInfo(vodClient, videoId);
+            GetMezzanineInfoResponse response = getMezzanineInfo(vodClient, videoId);
             System.out.println("获取视频信息, response : " + JSON.toJSONString(response));
         } catch (Exception e) {
             System.out.println("上传视频失败, ErrorMessage : " + e.getLocalizedMessage());

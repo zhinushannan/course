@@ -237,6 +237,7 @@ export default {
      */
     save() {
       let _this = this;
+      _this.section["video"] = ""
 
       // 保存校验
       if (1 !== 1
@@ -285,8 +286,10 @@ export default {
     afterUpload(resp) {
       let _this = this
       let video = resp.data
+      let vod = video.vod
       console.log("视频地址：", video.path)
-      _this.section.video = video.path
+      _this.section["video"] = video.path
+      _this.section["vod"] = vod
       _this.getTime()
     },
 
@@ -296,7 +299,7 @@ export default {
     getTime() {
       let _this = this;
       let ele = document.getElementById("video")
-      _this.section.time = parseInt(ele.duration, 100)
+      _this.section.time = parseInt(ele.duration, 1000)
     }
 
   }
