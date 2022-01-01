@@ -25,6 +25,12 @@
       use: {
         default: ""
       },
+      shardSize: {
+        default: 1024 * 1024
+      },
+      url: {
+        default: "oss-append"
+      },
       afterUpload: {
         type: Function,
         default: null
@@ -63,7 +69,7 @@
         }
 
         // 文件分片
-        let shardSize = 1 * 1204 * 1024; // 以2MB为一个分片
+        let shardSize = _this.shardSize; // 以2MB为一个分片
         let shardIndex = 1; // 分片索引
         let size = _this.file.size;
         let shardTotal = Math.ceil(size / shardSize);
@@ -122,7 +128,7 @@
 
           Loading.show()
           // _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/upload", param).then((response) => {
-          _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/oss-append", param).then((response) => {
+          _this.$ajax.post(process.env.VUE_APP_SERVER + "/file/admin/" + _this.url, param).then((response) => {
             Loading.hide()
             let resp = response.data
             if (shardIndex < shardTotal) {
